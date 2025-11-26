@@ -1,0 +1,4 @@
+// ------------- Faction tech dummy - DO NOT MODIFY! -----------------
+  Name "S_FACTION_ID_TECH_NAME"
+  Description "S_FACTION_TECH_ID_DESC"
+  Points 1000

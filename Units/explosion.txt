@@ -1,0 +1,12 @@
+PollutionMultiplier 0.35
+  
+[EXPLOSION] "No_Explosion"
+  Movie "Images/Explosion/small_1.midx"
+  Damage 0
+  Range 0.00
+  FullEffectRange 0.00
+  DrawSize 0
+  TimeGrowing 0.0
+  TimeTotal 0.0
+
+[END]

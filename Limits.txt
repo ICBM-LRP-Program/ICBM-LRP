@@ -1,0 +1,24 @@
+MinEfficiencyTime 0
+MaxEfficiencyTime 720000 // 10*12*100*60
+StepEfficiencyTime 360
+
+MinPeaceTimer 0
+MaxPeaceTimer 144000 // 2*12*100*60
+StepPeaceTimer 360
+
+MaxNoNukesTimer 216000 // 3*12*100*60
+StepNoNukesTimer 360
+
+MaxConfigurableTimer 288000 // 4*12*100*60
+StepConfigurableTimer 360
+
+MinPollution 0.1
+MaxPollution 2.0
+
+MinCountdown 0.5
+MaxCountdown 0.85
+
+MinCountdownTime 0
+MaxCountdownTime 216000 // 3*12*100*60
+StepCountdownTime 120
+

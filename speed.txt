@@ -1,0 +1,5 @@
+Speed   1 2 4 16
+Divider 1 1 1 1 // ignored if the speed is > 1
+
+ReplaySpeed 1 5 20 2000
+Divider     1 1 1  1 // ignored if the ReplaySpeed is > 1

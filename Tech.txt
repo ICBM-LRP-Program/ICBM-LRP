@@ -1,10 +1,60 @@
-USE PREVIOUS "tech.txt"
+[LEVEL] "L_1"
+  Name "L_1_NAME"
+  Description "L_1_DESC"
+  Image "Images/Science/Levels/L1.png"
 
-[TECHNOLOGY] ""
-Name "_NAME"
-Description "_DESC"  
+[LEVEL] "L_2"
+  Name "L_2_NAME"
+  Description "L_2_DESC"
+  Image "Images/Science/Levels/L2.png"
 
+[LEVEL] "L_3"
+  Name "L_3_NAME"
+  Description "L_3_DESC"
+  Image "Images/Science/Levels/L3.png"
 
+[LEVEL] "L_4"
+  Name "L_4_NAME"
+  Description "L_4_DESC"
+  Image "Images/Science/Levels/L4.png"
+
+[LEVEL] "L_5"
+  Name "L_5_NAME"
+  Description "L_5_DESC"
+  Image "Images/Science/Levels/L5.png"
+
+[LEVEL] "L_6"
+  Name "L_6_NAME"
+  Description "L_6_DESC"
+  Image "Images/Science/Levels/L6.png"  
+
+[LEVEL] "L_7"
+  Name "L_7_NAME"
+  Description "L_7_DESC"
+  Image "Images/Science/Levels/L7.png"
+
+[LEVEL] "L_8"
+  Name "L_8_NAME"
+  Description "L_8_DESC"
+  Image "Images/Science/Levels/L8.png"
+
+[LEVEL] "L_9"
+  Name "L_9_NAME"
+  Description "L_9_DESC"
+  Image "Images/Science/Levels/L9.png"
+
+[LEVEL] "L_10"
+  Name "L_10_NAME"
+  Description "L_10_DESC"
+  Image "Images/Science/Levels/L10.png"
+
+[TECHNOLOGY] "a"
+Name "a_NAME"
+Description "a_DESC"  
+
+[TECHNOLOGY] "U_City"
+  Name "U_CITY_NAME"
+  Description "U_CITY_DESC"
 
 
 

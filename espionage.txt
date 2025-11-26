@@ -1,0 +1,9 @@
+EventProbability 6750.0 // how often the intelligence event is tried - Higher number = more attempts
+////Testing with 10x the tries, 10x less probable. Should reduce variance. Equal try weights.
+
+Action RevealUnit weight 100 success_rate 5           //  1. Reveal unit
+Action RevealConstruction weight 100 success_rate 10 //  2. Reveal construction
+Action RevealProject weight 100 success_rate 5      //  3. Reveal current scientific project
+Action StealTechnology weight 100 success_rate 1     //  4. Steal technology
+Action RevealUnitInReserve weight 100 success_rate 10 //  5. Reveal unit in reserve
+Action RevealTechnology weight 100 success_rate 15   //  6. Reveal known tech
