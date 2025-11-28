@@ -1,0 +1,27 @@
+Strategy "Test"
+  PreferNuclear 50
+  Probability 100
+//  
+//  InvasionTechList  
+//	
+//  NuclearTechList
+//
+//  InvasionGroups
+//    Minimal
+//      "TestUnitGroup" x 3
+//
+//    ComplementPer 10 Efdfort Over 100
+//      "TestUnitGroup" x 8
+//     
+//  DefenseGroups
+//    Minimal
+//      "TestUnitGroup" x 1
+//
+//    Optional ComplementPer 5 RegionGDP Max 2
+//      "TestUnitGroup" x 2  
+//
+//  NuclearGroups
+
+
+
+END

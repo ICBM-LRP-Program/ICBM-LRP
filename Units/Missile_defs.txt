@@ -1,0 +1,40 @@
+[MISSILE] "TestWeapon"
+  Tech "M_TestWeapon"
+  Type "Army"
+  Icon "Testing Images/Missing 256x192A.png"
+  Sound 202 or 203 or 204 or 205 Volume 0.5
+  Explosion "Gunfire_Army"
+  Range 125
+  Speed 2000
+  Precision 0.25
+  CanBeLimited false
+  Ballistic
+  Movie "Units/Images/Projectiles/Tracer.midx"
+  HideNumberOfMissiles true
+  CanBeLimited false
+  
+  ImprovedBy "TestTech1" Movie Image "Testing Images/Missing 256x192A.png"
+  ImprovedBy "TestTech2" Movie Image "Testing Images/Missing 256x192A.png"
+  ImprovedBy "TestTech3" Movie Image "Testing Images/Missing 256x192A.png"
+  ImprovedBy "TestTech4" Movie Image "Testing Images/Missing 256x192A.png"
+
+  AIHint CounterValue 0
+  AIHint CounterForce 1
+
+[MISSILE] "Massacre Civilians"
+  Tech "M_Massacre"
+  Type "Massacre"
+  Icon "Units/Images/Missiles/MASSACRE.png"
+  Sound 202 or 203 or 204 or 205 Volume 0.35
+  Explosion "Gunfire_Massacre"
+  Range 75
+  Speed 2000
+  Precision 20
+  Ballistic
+  Movie "Units/Images/Projectiles/none.midx"
+  HideNumberOfMissiles true          
+  Switchable ON
+  
+  AIHint CounterValue 10
+
+[END]

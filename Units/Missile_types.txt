@@ -1,0 +1,266 @@
+/*
+Modifier options:
+  Range,
+  MinRange,
+  SafeRange,
+  Damage,
+  Speed,
+  Precision,
+  CanBeIntercepted,
+  ProductionCost,
+  MaxElevation
+*/
+
+/*
+
+ Trajectory options:
+ 
+  Disabled
+  StandardBlend
+  MaxPoints
+  MaxLength
+  WidthMult
+  StartColor
+  EndColor
+  BlendR
+  BlendG
+  BlendB
+  BlendA
+  
+*/
+
+////Warhead Categories MAX 32 !!!
+[GENEVA_CATEGORY] "Chemical" Name 3260
+[GENEVA_CATEGORY] "Biological" Name 3261
+[GENEVA_CATEGORY] "Salted Weapons" Name 3262
+[GENEVA_CATEGORY] "Nuclear MIRV" Name 3263
+[GENEVA_CATEGORY] "EMP Weapons" Name 3264
+[GENEVA_CATEGORY] "Anti-Satellite" Name 3265
+[GENEVA_CATEGORY] "High-Yield Nukes" Name 3279
+[GENEVA_CATEGORY] "Offensive Tactical Nukes" Name 3266
+[GENEVA_CATEGORY] "Defencive Tactical Nukes" Name 3267
+
+///Added for countervalue purposes, i.e. campaign
+[GENEVA_CATEGORY] "Basic Fission Weapons" Name 3280
+
+
+////Delivery Categories
+[GENEVA_CATEGORY] "SLBM MIRV" Name 3268
+[GENEVA_CATEGORY] "MRBM MIRV" Name 3269
+[GENEVA_CATEGORY] "Light ICBM MIRV" Name 3270
+[GENEVA_CATEGORY] "Heavy ICBM MIRV" Name 3271
+[GENEVA_CATEGORY] "Light Gravity Bombs" Name 3272
+[GENEVA_CATEGORY] "Heavy Gravity Bombs" Name 3273
+[GENEVA_CATEGORY] "Air-Launched MRBMs" Name 3274
+[GENEVA_CATEGORY] "Unitary Heavy Nuclear ICBM" Name 3275
+[GENEVA_CATEGORY] "Unitary Light Nuclear ICBM" Name 3276
+[GENEVA_CATEGORY] "Unitary Nuclear MRBM" Name 3277
+[GENEVA_CATEGORY] "Unitary Nuclear SLBM" Name 3278
+
+////AI Categories MAX 32 !!!
+[AI_CATEGORY] "Tactical Nuclear" 
+[AI_CATEGORY] "Basic Nuclear" 
+[AI_CATEGORY] "Strategic Nuclear"
+[AI_CATEGORY] "Chemical"
+[AI_CATEGORY] "Biological"
+
+[TYPE] "Default"
+  RequiresPreciseTargeting No       // Means can be used without the precise location info
+  CanBeUsedAgainst Ground // can attack this unit type
+  CanBeUsedAgainst Naval
+  CanBeUsedAgainst City
+  CanBeUsedAgainst AbstractPosition
+
+[TYPE] "SemiGuided" ///Like Default but can't be used against abstract position. i.e. units only
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Ground
+  CanBeUsedAgainst Naval 
+  Affects City
+
+[TYPE] "No Attack"
+  RequiresPreciseTargeting Yes
+  
+[TYPE] "LandAttack"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Ground
+  Affects City
+
+[TYPE] "Nuke"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Ground
+  CanBeUsedAgainst Naval
+  CanBeUsedAgainst City
+  CanBeUsedAgainst AbstractPosition
+  Affects Airborne // CanBeUsedAgainst automatically triggers Affects
+  Affects Subwater
+  DrawNuke
+//  Affects Missile
+
+[TYPE] "Torpedo"
+  RequiresPreciseTargeting No
+  Subwater Yes
+  CanBeUsedAgainst Naval
+  CanBeUsedAgainst Subwater
+  
+[TYPE] "TorpedoNuke"
+  RequiresPreciseTargeting No
+  Subwater Yes
+  CanBeUsedAgainst Naval
+  CanBeUsedAgainst AbstractPosition
+  CanBeUsedAgainst Subwater
+  CanBeUsedAgainst City
+  Affects Airborne
+  Affects Ground  
+  
+
+[TYPE] "AntiShip"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Naval
+
+[TYPE] "AntiAir"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst Airborne
+  
+[TYPE] "AntiAirNuke"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Airborne  
+
+[TYPE] "AntiMissile"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst Missile
+  //CanBeUsedAgainst HighMissile
+  
+[TYPE] "AntiMissileMidcourse"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst HighMissile  
+  Affects City
+  
+[TYPE] "AntiMissileTerminal"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst Missile
+  CanBeUsedAgainst HighMissile 
+  
+[TYPE] "AntiRadiation"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst "Fixed_LW_radar"
+  CanBeUsedAgainst "Mobile_SW_Radar"
+  CanBeUsedAgainst "AA_Site_Old"
+  CanBeUsedAgainst "Over_Horizon_radar"
+  CanBeUsedAgainst "Naval_Monitoring_Station"
+  CanBeUsedAgainst "Space_radar"
+  CanBeUsedAgainst "SAM_site"
+  CanBeUsedAgainst "ABM_Site"
+  CanBeUsedAgainst "MOBILE_SAM"
+  CanBeUsedAgainst "EW_MOBILE"
+  CanBeUsedAgainst "Terminal_ABM"
+ 
+
+[TYPE] "Laser_Weapon"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst HighMissile
+  CanBeUsedAgainst Missile
+
+[TYPE] "AntiSat"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Satellite
+  CanBeUsedAgainst "Space_Shuttle"
+  GenevaCategory "Anti-Satellite"
+
+[TYPE] "DepthCharge"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Subwater
+  
+[TYPE] "Chemical"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst City
+  CanBeUsedAgainst AbstractPosition
+  CanBeUsedAgainst "Army_Base"
+  CanBeUsedAgainst "Army_Division"
+  CanBeUsedAgainst "Army_Mobile_Mode"
+  CanBeUsedAgainst "Army_Entrenched"
+  CanBeUsedAgainst "Combat_Engineers"
+  CanBeUsedAgainst "Forward_Operating_Base"  
+  GenevaCategory "Chemical"
+  AICategory "Chemical"
+
+[TYPE] "ChemicalArtillery" ///Avoids spam against cities
+  RequiresPreciseTargeting No
+  //CanBeUsedAgainst City
+  //CanBeUsedAgainst AbstractPosition
+  CanBeUsedAgainst "Army_Base"
+  CanBeUsedAgainst "Army_Division"
+  CanBeUsedAgainst "Army_Mobile_Mode"
+  CanBeUsedAgainst "Army_Entrenched"
+  CanBeUsedAgainst "Combat_Engineers"
+  CanBeUsedAgainst "Forward_Operating_Base"
+  Affects City
+  GenevaCategory "Chemical"  
+  AICategory "Chemical"
+
+[TYPE] "NukeArtillery" ///Avoids spam against cities
+  RequiresPreciseTargeting No
+  //CanBeUsedAgainst City
+  //CanBeUsedAgainst AbstractPosition
+  CanBeUsedAgainst Ground
+  CanBeUsedAgainst Naval
+  Affects City
+
+[TYPE] "Biological"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst City
+  CanBeUsedAgainst AbstractPosition
+  CanBeUsedAgainst "Army_Base"
+  CanBeUsedAgainst "Army_Division"
+  CanBeUsedAgainst "Army_Mobile_Mode"
+  CanBeUsedAgainst "Army_Entrenched"
+  CanBeUsedAgainst "Combat_Engineers"  
+  CanBeUsedAgainst "Forward_Operating_Base"  
+  GenevaCategory "Biological"
+  AICategory "Biological"
+
+[TYPE] "Army"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Ground 
+  //CanBeUsedAgainst Naval
+  Affects City
+  
+[TYPE] "Small Arms"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst "Bomb_Truck"
+  CanBeUsedAgainst "Heavy_Bomb_Truck"
+  CanBeUsedAgainst "Spec_Ops_Team"
+  CanBeUsedAgainst "Security_Checkpoint"
+  CanBeUsedAgainst "Spec_Ops_Helicopter"
+  CanBeUsedAgainst "Navy_Helicopter"
+  //CanBeUsedAgainst "Attack_Helicopter"  
+
+[TYPE] "Massacre"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst City
+  CanBeUsedAgainst AbstractPosition
+  
+[TYPE] "AntiMissileAA"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst Airborne
+  CanBeUsedAgainst Missile
+
+[TYPE] "AntiAirAll"
+  RequiresPreciseTargeting Yes
+  CanBeUsedAgainst Airborne
+  CanBeUsedAgainst Missile
+  CanBeUsedAgainst HighMissile   
+
+[TYPE] "CFLaser"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst Ground 
+  CanBeUsedAgainst Naval
+  //CanBeUsedAgainst AbstractPosition
+  Affects City
+
+[TYPE] "CyberAttack"
+  RequiresPreciseTargeting No
+  CanBeUsedAgainst City
+  CanBeUsedAgainst "Intelligence_Center" 
+  CanBeUsedAgainst "Research_Center"
+  CanBeUsedAgainst "Cyber_Warfare_Center"
+  //CanBeUsedAgainst AbstractPosition

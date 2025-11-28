@@ -1,0 +1,106 @@
+Locale "Chinese"
+
+BasicFont "Deng.ttf"
+ItalicFont "Deng.ttf"
+BoldFont "Deng.ttf"
+CondensedFont "Deng.ttf" //"Dengb.ttf"
+AltFont "Deng.ttf"
+FontSizes 6.00 7.50 8.00 9.00 10.00 11.00 12.00 14.00 15.00 20.00 23.00 54.00 //7.00 8.00 9.00 10.00 11.00 12.00 14.00 16.00 18.00 22.00 25.00 57.00
+ItalicFontSizes 6.00 7.50 8.00 9.00 10.00 11.00 12.00 14.00 15.00 20.00 23.00 54.00 //8.00 9.00 10.00 11.00 12.00 14.00 16.00 18.00 21.00 25.00 29.00 62.00
+AltFontSizes 6.00 7.50 8.00 9.00 10.00 11.00 12.00 14.00 15.00 20.00 23.00 54.00
+
+Uppercase
+
+"а" High "А"
+"б" High "Б"
+"в" High "В"
+"г" High "Г"
+"д" High "Д"
+"е" High "Е"
+"ё" High "Ё"
+"ж" High "Ж"
+"з" High "З"
+"и" High "И"
+"й" High "Й"
+"к" High "К"
+"л" High "Л"
+"м" High "М"
+"н" High "Н"
+"о" High "О"
+"п" High "П"
+"р" High "Р"
+"с" High "С"
+"т" High "Т"
+"у" High "У"
+"ф" High "Ф"
+"х" High "Х"
+"ц" High "Ц"
+"ч" High "Ч"
+"ш" High "Ш"
+"щ" High "Щ"
+"ъ" High "Ъ"
+"ы" High "Ы"
+"ь" High "Ь"
+"э" High "Э"
+"ю" High "Ю"
+"я" High "Я"
+
+"á" High "Á"
+"à" High "À"
+"â" High "Â"
+"ã" High "Ã"
+"å" High "Å"
+"ā" High "Ā"
+"ä" High "Ä"
+"æ" High "Æ"
+
+"é" High "É"
+"è" High "È"
+"ê" High "Ê"
+"ë" High "Ë"
+"ē" High "Ē"
+"ė" High "Ė"
+"ę" High "Ę"
+
+"í" High "Í"
+"î" High "Î"
+"ï" High "Ï"
+"ī" High "Ī"
+"į" High "Į"
+"ì" High "Ì"
+
+"ó" High "Ó"
+"ô" High "Ô"
+"ö" High "Ö"
+"ò" High "Ò"
+"œ" High "Œ"
+"ø" High "Ø"
+"ō" High "Ō"
+"õ" High "Õ"
+
+"ú" High "Ú"
+"ü" High "Ü"
+"û" High "Û"
+"ù" High "Ù"
+"ū" High "Ū"
+
+"ñ" High "Ñ"
+"ń" High "Ń"
+
+"ÿ" High "Ÿ"
+
+"ś" High "Ś"
+"š" High "Š"
+
+"ł" High "Ł"
+
+"ž" High "Ž"
+"ź" High "Ź"
+"ż" High "Ż"
+
+"ç" High "Ç"
+"ć" High "Ć"
+"č" High "Č"
+
+END
+

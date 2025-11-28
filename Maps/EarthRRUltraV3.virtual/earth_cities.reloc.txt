@@ -1,0 +1,57 @@
+reloc "Virginia Beach" 0.288773 0.295201
+reloc "Acapulco" 0.222761 0.406163
+reloc "Cumana" 0.321925 0.442225
+reloc "Port of Spain" 0.329283 0.440726
+reloc "Port-au-prince" 0.299164 0.397084
+reloc "Santo Domingo" 0.305775 0.397231
+reloc "Trujillo" 0.280539 0.544948
+reloc "Veracruz" 0.232738 0.393348
+reloc "Antofagasta" 0.304613 0.631384
+reloc "Ceara" 0.392858 0.521082
+reloc "Concepcion" 0.297239 0.704467
+reloc "Mar Del Plata" 0.339818 0.710607
+reloc "Florianopolis" 0.364685 0.653259
+reloc "Dublin" 0.482617 0.203855
+reloc "Helsinki" 0.569201 0.165300
+reloc "Napoli" 0.539576 0.272949
+reloc "Odesa" 0.585180 0.241735
+reloc "Vladivostok" 0.866484 0.260288
+reloc "Dalian" 0.838343 0.282873
+reloc "Hong Kong" 0.816808 0.375402
+reloc "Qingdao" 0.834418 0.299328
+reloc "Xiamen" 0.827917 0.363439
+reloc "Davao City" 0.848730 0.460363
+reloc "Kota Kinabalu" 0.822535 0.466883
+reloc "Makasar" 0.832076 0.528651
+reloc "Manado" 0.846949 0.491908
+reloc "Manila" 0.836207 0.418615
+reloc "Padang" 0.778956 0.505041
+reloc "Singapore" 0.788534 0.492318
+reloc "Zamboanga City" 0.839198 0.461462
+reloc "Kupang" 0.843592 0.556849
+reloc "Sorong" 0.864771 0.505213
+reloc "Seberang Perai" 0.779103 0.470009
+reloc "Bandar Seri Begawan" 0.819189 0.472743
+reloc "Kuwait City" 0.633262 0.337402
+reloc "Algiers" 0.508570 0.296351
+reloc "Dubai" 0.653712 0.359828
+reloc "Mogadishu" 0.625890 0.488073
+reloc "Beirut" 0.598780 0.311976
+reloc "Bahir Dar" 0.604090 0.435877
+reloc "Port Sudan" 0.603213 0.391064
+reloc "Colombo" 0.722022 0.461562
+reloc "Cape Town" 0.551356 0.688685
+reloc "Dakar" 0.452174 0.417882
+reloc "Durban" 0.586094 0.665667
+reloc "Libreville" 0.526881 0.497350
+reloc "Luanda" 0.536952 0.549403
+reloc "Maputo" 0.590355 0.644181
+reloc "Monrovia" 0.470362 0.464513
+reloc "Freetown" 0.463860 0.453738
+reloc "Bujumbura" 0.581812 0.518468
+reloc "Bissau" 0.456579 0.433874
+reloc "Beira" 0.596471 0.610265
+reloc "Comodoro" 0.312210 0.754969
+reloc "Magadan" 0.918984 0.168458
+reloc "Dili" 0.848812 0.547961
+reloc "Bandar Abbas" 0.656228 0.348417

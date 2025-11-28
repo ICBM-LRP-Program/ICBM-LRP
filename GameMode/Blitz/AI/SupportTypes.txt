@@ -1,0 +1,4 @@
+MainForce // occupies cities
+  default "TestArmy"  
+  
+END

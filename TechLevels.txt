@@ -15,18 +15,5 @@ Level "L_8" 8
 Level "L_9" 9
 Level "L_10" 10
 
-/*Total points per tech l   evel:
-TechLevel 1 - 635
-TechLevel 2 - 855
-TechLevel 3 - 965
-TechLevel 4 - 690
-TechLevel 5 - 1090
-TechLevel 6 - 830
-TechLevel 7 - 1180
-TechLevel 8 - 1445
-TechLevel 9 - 1385
-TechLevel 10 - 320
-
 
 AutoGrowth 0.003333333
-//Default AutoGrowth 0.003333333 // 0.000277778 // per game second = 1/3600, meaning 1 game hour to reach 100%

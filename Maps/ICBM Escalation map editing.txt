@@ -1,0 +1,104 @@
+There are several types of map vector files
+1) Watermaps.
+You most likely do not want to touch them. These are the maps that allow you to define where the land is, where the water and icecaps are. These are vector images in svg format. You can edit in-game them by uncommenting the EditSVG lines. Then you need to generate a png from them in any 3rd-party editor. Then you take the generated png file and uncomment the Generate from part of the WaterMap definition to generate VEC and CMAP watermap files. If you touch watermaps, you then need to re-generate everything - ownership map, conditional maps, AI maps, etc.
+2) Ownership/regions map.
+To work with these you need to uncomment something from the ProcessBorders section. Note you usually want to uncomment only one section, moving step by step.
+ReadSVG line is for the initial generation of the intermediate files from some existing svg vector image. You can actually skip this if you don't have the vector image and want to start from zero.
+EditPoints starts the actual border editing in-game.
+GenerateSplit - here you need to bind the region names with the region on the map. The game itself has no idea what region is where
+GenerateOwnership - this then generates the actual in-game vec and cmap files taking your split
+GenerateDefaults - this finally generates the initial default region assignment.
+
+
+Step-by-step
+
+Uncomment the ProcessBorders line, then uncomment EditPoints line, so it would look like this:
+
+
+ProcessBorders
+
+//  ReadSVG "V7.svg" Generate "V7_split.txt" SaveEdited "V7_split_mod.txt"
+
+  EditPoints "V7_split.txt" SaveEdited "V7_split_mod.txt"
+
+//  GenerateSplit Load "V7_split.txt" Generate "V7_split.bin" Names "V7_segment_names.txt"
+
+//  GenerateOwnership LoadBin "V7_split.bin" LoadNames "V7_segment_names.txt" SaveDefaults "V7_default" Generate "V7_split.vec" 
+then you need to provide the "V7_split.txt" file to start editing. Usually it is generated from some svg in the first pass, but it is easy to make it manually. note the path - as it is, it takes the files from the root directory, add your path to take it from your map directory
+
+here it is: V7_split_def.txt
+—----------------------------------
+
+P 0.5 0.5
+P 0.6 0.5
+P 0.6 0.6
+P 0.5 0.6
+FOR 0
+  E 1 0.1
+FOR 1
+  E 2 0.1
+FOR 2
+  E 3 0.1
+FOR 3
+  E 0 0.1
+—----------------------------------
+
+This file just makes a big rectangle in the center of the map. now you can load the map and start editing. You should use WIP or icbm_mod.exe with -process_map switch, otherwise the whole ProcessBorders section will be ignored
+Left click - create a point and start a line. Right click - delete the line. Finish a segment by clicking on some vertex or line - it will be marked by a green circle.
+Every time you do something, it is saved to the "V7_split_mod.txt" you marked as SaveEdited name, so you can from time to time back it up.
+Best is NOT to leave open segments. Also, there should be no line crosses and no segments inside segments.
+When you are done, comment EditPoints line and uncomment GenerateSplit line. it will load the segments and now you need to manually select each to assign it the name and ID. This will also generate the "V7_segment_names.txt" file. but you can make it beforehand, to simplify the naming process.
+It looks like this: V7_segment_names.txt
+—---------------------------------------------------------
+"Alaska" GDP 1.000000 0
+"Canada" GDP 1.000000 1
+"Greenland" GDP 1.000000 2
+"Iceland" GDP 1.000000 3
+"USA" GDP 1.000000 4
+"Mexico" GDP 1.000000 5
+"Segment 6" GDP 1.000000 6
+"Segment 7" GDP 1.000000 7
+"Segment 8" GDP 1.000000 8
+"Segment 9" GDP 1.000000 9
+"Segment 10" GDP 1.000000 10
+"Segment 11" GDP 1.000000 11
+"Segment 12" GDP 1.000000 12
+"Segment 13" GDP 1.000000 13
+"Segment 14" GDP 1.000000 14
+"Segment 15" GDP 1.000000 15
+"Segment 16" GDP 1.000000 16
+"Segment 17" GDP 1.000000 17
+"Segment 18" GDP 1.000000 18
+"Segment 19" GDP 1.000000 19
+"Segment 20" GDP 1.000000 20
+"Segment 21" GDP 1.000000 21
+"Segment 22" GDP 1.000000 22
+"Segment 23" GDP 1.000000 23
+"Segment 24" GDP 1.000000 24
+"Segment 25" GDP 1.000000 25
+"Segment 26" GDP 1.000000 26
+"Segment 27" GDP 1.000000 27
+"Segment 28" GDP 1.000000 28
+"Segment 29" GDP 1.000000 29
+"Segment 30" GDP 1.000000 30
+"Segment 31" GDP 1.000000 31
+"Segment 32" GDP 1.000000 32
+"Segment 33" GDP 1.000000 33
+"Segment 34" GDP 1.000000 34
+"Segment 35" GDP 1.000000 35
+"Segment 36" GDP 1.000000 36
+"Segment 37" GDP 1.000000 37
+"Segment 38" GDP 1.000000 38
+"Segment 39" GDP 1.000000 39
+"Segment 40" GDP 1.000000 40
+"Segment 41" GDP 1.000000 41
+"Segment 42" GDP 1.000000 42
+"Segment 43" GDP 1.000000 43
+END
+—---------------------------------------------------------
+
+When you finish with naming, comment GenerateSplit and uncomment GenerateOwnership. Run the game to generate the ownership files.
+Then comment GenerateOwnership and ProcessBorders and generate the AI cache.
+Later you will also need the default region assignments
+
+To do this, uncomment the GenerateDefaults section, then insert your names for defaults, open the new game dialog, tune regions to what should be default and start a game. It will save the defaults you can then use

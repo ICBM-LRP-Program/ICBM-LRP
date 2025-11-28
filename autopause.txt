@@ -1,3 +1,51 @@
-
+2101 true // Pause when the target technology becomes available
+2102 true // Pause when some technology is invented on the way to the target technology
+2105 true // Pause when there are no more units in the construction queue
+2108 false // Pause when the enemy city is nuked
+2150 true // Pause when our city is nuked for the first time
+2106 false // Pause when our city is nuked one more time
+2107 false // Pause when the allied city is nuked
+2120 true // Pause when our ground unit is destroyed
+2121 true // Pause when our ship is destroyed
+2122 true // Pause when our submarine is destroyed
+2123 false // Pause when our aircraft unit is shot down
+2124 false // Pause when our aircraft is crashed
+2125 ignore // Pause when our missile is intercepted
+2126 true // Pause when our satellite is destroyed
+2128 false // Pause when the enemy ground unit is destroyed
+2129 false // Pause when the enemy ship is destroyed
+2130 false // Pause when the enemy submarine is destroyed
+2131 ignore // Pause when the enemy aircraft is shot down
+2132 ignore // Pause when the enemy missile is intercepted
+2133 false // Pause when enemy satellite is destroyed
+2110 false // Pause when the unit reaches the set destination
+2111 true // Pause when the unit completes executing the sequence of orders
+2112 false // Pause when the new unit is built
+2154 ignore // Pause when the new airborne unit is built
+2140 ignore // Pause when the new nuclear bomb/missile is built
+2113 ignore // Pause when the enemy missile is detected
+2114 ignore // Pause when more enemy missiles from the same source are detected
+2151 ignore // Pause when the missile is detected by satellite
+2115 false // Pause when the enemy unit is detected
+2116 ignore // Pause when the enemy unit re-appears on the radars
+2152 false // Pause when the enemy unit is detected by satellite
+2155 false // Pause when satellite detects a moving target (airborne or naval)
+2117 false // Pause when the enemy unit position is not confirmed
+2153 false // Pause when the enemy unit position is not confirmed by satellite
+2149 true // Pause when our ally is attacked
+2103 true // Pause when our spies stole some technology
+2142 false // Pause when our intelligence gains the information on the enemy construction
+2143 false // Pause when our intelligence gains the information on the enemy research activity
+2164 false // Pause when our intelligence gains the information on the enemy technologies
+2138 false // Pause when our intelligence discovers the position of the enemy unit
+2161 false // Pause when the enemy mobile ground unit is destroyed
+2160 true // Pause when our mobile ground unit is destroyed
+2163 true // Pause when the enemy nuclear warhead is detected
+2170 true // Pause when enemy building/unit is captured
+2169 true // Pause when our building/unit is captured
+2168 false // Pause when enemy city is occupied
+2167 false // Pause when some allied city is occupied
+2166 true // Pause when our city is occupied
+2165 true // Pause when our city is besieged
 END
 

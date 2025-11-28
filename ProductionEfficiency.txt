@@ -2,4 +2,3 @@ MinLevel 0.2
 MaxLevel 1.2
 
 AutoGrowth 0.00020
-//Default AutoGrowth 0.003333333 // 0.000277778 // per game second = 1/3600, meaning 1 game hour to reach 100%

@@ -1,0 +1,144 @@
+reloc "Chicago" 0.256169 0.267533
+reloc "Halifax" 0.323278 0.251623
+reloc "Miami" 0.276560 0.356363
+reloc "New Orleans" 0.248188 0.333652
+reloc "San Diego" 0.175135 0.317541
+reloc "Toronto" 0.279150 0.257116
+reloc "Vancouver" 0.158167 0.226110
+reloc "Virginia Beach" 0.288793 0.295496
+reloc "Yellowknife" 0.182337 0.152624
+reloc "Acapulco" 0.222865 0.405553
+reloc "Barranquilla" 0.292323 0.439417
+reloc "Cancun" 0.258547 0.382496
+reloc "Caracas" 0.314110 0.442138
+reloc "Cumana" 0.321925 0.443079
+reloc "Havana" 0.271388 0.372157
+reloc "Lima" 0.286219 0.566442
+reloc "Maracaibo" 0.300499 0.441006
+reloc "Panama" 0.279150 0.449743
+reloc "Port of Spain" 0.329283 0.440726
+reloc "Port-au-prince" 0.299159 0.397303
+reloc "San Juan" 0.316259 0.398158
+reloc "Santiago De Cuba" 0.289453 0.387972
+reloc "Santo Domingo" 0.305775 0.396987
+reloc "Trujillo" 0.280665 0.544836
+reloc "Veracruz" 0.232336 0.393885
+reloc "Antofagasta" 0.304735 0.631384
+reloc "Ceara" 0.392614 0.521937
+reloc "Concepcion" 0.297816 0.705164
+reloc "La Serena" 0.302344 0.666213
+reloc "Maceio" 0.400487 0.553014
+reloc "Mar Del Plata" 0.339818 0.710607
+reloc "Montevideo" 0.344080 0.693151
+reloc "Natal" 0.401685 0.532433
+reloc "Recife" 0.402502 0.544591
+reloc "Rio De Janeiro" 0.379552 0.625646
+reloc "Salvador" 0.392919 0.571691
+reloc "Sao Luis" 0.377589 0.515833
+reloc "Vitoria" 0.386816 0.611730
+reloc "Florianopolis" 0.364197 0.653259
+reloc "Amsterdam" 0.513758 0.209803
+reloc "Athens" 0.565998 0.288842
+reloc "Barcelona" 0.505468 0.269567
+reloc "Copenhagen" 0.534704 0.190343
+reloc "Dublin" 0.482617 0.203855
+reloc "Gdansk" 0.551628 0.198108
+reloc "Helsinki" 0.569201 0.165055
+reloc "Marseille" 0.515129 0.259402
+reloc "Napoli" 0.539576 0.272705
+reloc "Odesa" 0.585058 0.241369
+reloc "Palermo" 0.537023 0.288416
+reloc "Makhachkala" 0.630834 0.254969
+reloc "Petropavlovsk" 0.940588 0.204748
+reloc "Saint Petersburg" 0.584254 0.167028
+reloc "Vladivostok" 0.866311 0.258817
+reloc "Petrozavodsk" 0.594973 0.156616
+reloc "Kaliningrad" 0.556788 0.196742
+reloc "Busan" 0.858252 0.304233
+reloc "Dalian" 0.837977 0.281408
+reloc "Haikou" 0.806529 0.389390
+reloc "Hong Kong" 0.817161 0.373319
+reloc "Kaohsiung" 0.834803 0.373815
+reloc "Qingdao" 0.833776 0.298498
+reloc "Sendai" 0.891210 0.287145
+reloc "Shantou" 0.823827 0.369543
+reloc "Xiamen" 0.827734 0.363073
+reloc "Yantai" 0.836772 0.292092
+reloc "Adelaide" 0.885096 0.694178
+reloc "Brisbane" 0.924866 0.652764
+reloc "Cebu City" 0.842077 0.441686
+reloc "Da Nang" 0.800085 0.411829
+reloc "Davao City" 0.848547 0.460241
+reloc "Jakarta" 0.796839 0.534388
+reloc "Kota Kinabalu" 0.822962 0.468226
+reloc "Kuching" 0.806310 0.491786
+reloc "Makasar" 0.832057 0.528773
+reloc "Manado" 0.846949 0.491908
+reloc "Manila" 0.836268 0.418615
+reloc "Melbourne" 0.902796 0.709875
+reloc "Padang" 0.778956 0.505041
+reloc "Perth" 0.822596 0.676549
+reloc "Port Moresby" 0.909388 0.551794
+reloc "Semarang" 0.806688 0.539046
+reloc "Singapore" 0.788844 0.491247
+reloc "Surabaya" 0.813085 0.540370
+reloc "Wellington" 0.985621 0.729040
+reloc "Zamboanga City" 0.839046 0.460215
+reloc "Darwin" 0.863534 0.569324
+reloc "Denpasar" 0.820092 0.548126
+reloc "Palu" 0.832863 0.505341
+reloc "Kendari" 0.840185 0.522303
+reloc "Jayapura" 0.890661 0.514613
+reloc "Kupang" 0.843592 0.556849
+reloc "Sorong" 0.864893 0.505213
+reloc "Townsville" 0.907506 0.607508
+reloc "Seberang Perai" 0.779627 0.469518
+reloc "Bandar Seri Begawan" 0.819972 0.473841
+reloc "Kuwait City" 0.632331 0.336794
+reloc "Algiers" 0.508570 0.296351
+reloc "Baku" 0.638625 0.275408
+reloc "Casablanca" 0.479151 0.314295
+reloc "Doha" 0.642840 0.360219
+reloc "Dubai" 0.653712 0.359950
+reloc "Izmir" 0.575526 0.286829
+reloc "Jiddah" 0.609583 0.380041
+reloc "Mogadishu" 0.625707 0.487463
+reloc "Muscat" 0.662028 0.369499
+reloc "Nouakchott" 0.456019 0.399989
+reloc "Tripoli" 0.536708 0.317716
+reloc "Abu Dhabi" 0.651085 0.364228
+reloc "El Aaiun" 0.463709 0.349574
+reloc "Beirut" 0.598902 0.312098
+reloc "Aden" 0.624364 0.427282
+reloc "Bahir Dar" 0.604090 0.435877
+reloc "Port Sudan" 0.602908 0.391064
+reloc "Salalah" 0.650442 0.405033
+reloc "Bombay" 0.703028 0.394201
+reloc "Chennai" 0.722477 0.427537
+reloc "Chittagong" 0.755213 0.375524
+reloc "Colombo" 0.722132 0.461339
+reloc "Karachi" 0.686610 0.361364
+reloc "Thiruvananthapuram" 0.714015 0.452306
+reloc "Visakhapatnam" 0.730993 0.401159
+reloc "Surat" 0.702621 0.382211
+reloc "Abidjan" 0.488622 0.469884
+reloc "Accra" 0.499364 0.468297
+reloc "Camayenne" 0.462550 0.446447
+reloc "Cape Town" 0.552271 0.686315
+reloc "Dakar" 0.452906 0.417638
+reloc "Dar Es Salaam" 0.608678 0.538416
+reloc "Douala" 0.527308 0.477209
+reloc "Durban" 0.585607 0.665075
+reloc "Kampala" 0.590612 0.498449
+reloc "Lagos" 0.509421 0.463135
+reloc "Libreville" 0.527735 0.496862
+reloc "Luanda" 0.537135 0.549647
+reloc "Maputo" 0.590063 0.643835
+reloc "Monrovia" 0.470606 0.463903
+reloc "Pointe-noire" 0.533350 0.526037
+reloc "Port Elizabeth" 0.570958 0.686679
+reloc "Freetown" 0.464137 0.453405
+reloc "Mombasa" 0.609411 0.521886
+reloc "Bujumbura" 0.581812 0.518468
+reloc "Beira" 0.596349 0.610021
+reloc "Toamasina" 0.636938 0.600500

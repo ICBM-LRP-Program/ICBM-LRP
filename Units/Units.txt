@@ -1,3 +1,112 @@
+  MinTimeToOccupyCity 30
+  MinTimeToOccupyUnit 15  
+
+
+ 
+[UNIT] "TestBuiding"
+  Tech "U_TestBuiding"
+  Movie "Units/Images/Icons/Ground/Command_Bunker.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Command_Bunker.midx"
+  Model "Units/Images/Ground/Central Command Bunker.midx"
+  Icon "Testing Images/Missing 256x192A.png"
+  RoundIcon "Testing Images/Missing 256x192A.png"  
+  DrawSize 26
+  AbstractDrawSize 32
+  FixedRotationAngle true
+  Size 0.25
+  Type Ground
+  Class "UC_Page1"
+  CanSetDEFCON Yes
+
+  Power 50000
+  SelfDestructTime 15
+  HiddenFromAllies
+  AttackIfDestroyed
+  
+  Radar "TestRadar"
+  
+  ProductionCost 0.1
+  AutoRepair 0.5
+  MaxNumberOnMap 1
+  MaxNumberToOrder 1
+
+ 
+
+[UNIT] "TestArmy"
+  Tech "U_TestArmy"
+  Movie "Units/Images/Ground/Topdown/Army_Division_1.midx"  
+  AbstractMovie "Units/Images/Ground/Abstract/Army_Division.midx"
+  Model "Units/Images/Ground/Army Division 1.midx"
+  Icon "Testing Images/Missing 256x192A.png"  
+  IconIDX 10
+  
+  DrawSize 28
+  AbstractDrawSize 35
+  
+  FollowRadius 28
+  Size 1.0
+  Sound 138 Volume 0.2
+  Type Ground
+  Class "UC_Page2"
+  AutoRepair 0.35
+  OccupationRadius 75
+  AlwaysVisibleOnEnemyTerritory Yes
+  Speed 30
+  TurnSpeed 4
+  Power 150
+  SelfDestructTime 15
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+  
+	TargetInPlanner Yes
+	AttackerInPlanner
+  
+  MoveToTargetInWarPlan Yes
+ 
+	ImprovedBy "TestTech1"
+	{
+	  Movie "Units/Images/Ground/Topdown/Army_Division_2.midx"  
+    Icon "Testing Images/Missing 256x192A.png"  
+    Movie Model "Units/Images/Ground/Army Division 2.midx" 
+	}
+	
+	ImprovedBy "TestTech2"
+	{
+	  Movie "Units/Images/Ground/Topdown/Army_Division_3.midx"  
+    Icon "Testing Images/Missing 256x192A.png"  
+    Movie Model "Units/Images/Ground/Army Division 3.midx" 
+	}
+	
+	ImprovedBy "TestTech3"
+	{
+	  Movie "Units/Images/Ground/Topdown/Army_Division_4.midx"  
+    Icon "Testing Images/Missing 256x192A.png"  
+    Movie Model "Units/Images/Ground/Army Division 4.midx" 
+	}	
+
+	ImprovedBy "TestTech4"
+	{
+	  Movie "Units/Images/Ground/Topdown/Army_Division_5.midx"  
+    Icon "Testing Images/Missing 256x192A.png"  
+    Movie Model "Units/Images/Ground/Army Division 5.midx" 
+	} 
+ 
+  Config "Army Weapons"
+    Weapon "TestWeapon" 20000 Launch 1 Time 10 AutoEngage Principal
+    Weapon "Massacre Civilians" 20000 Launch 1 Time 100 LaunchPoint -1
+ 
+  ImprovedBy "DEFCON_4" ProductionCost 0.90 
+  ImprovedBy "DEFCON_3" ProductionCost 0.85 
+  ImprovedBy "DEFCON_2" ProductionCost 0.825
+  ImprovedBy "DEFCON_1" ProductionCost 0.80 
+ 
+  Radar "TestRadar"
+  ProductionCost 0.1
+
+  MoveToTarget "VirtualCity"
+
+	SensorsActivationDelay 5.0
+	WeaponsActivationDelay 5.0
 
 
 [END]

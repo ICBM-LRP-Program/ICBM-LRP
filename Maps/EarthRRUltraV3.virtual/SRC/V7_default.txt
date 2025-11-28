@@ -1,0 +1,151 @@
+"Alaska" 2
+"Hawaii" 4
+"Canadian Arctic" 2
+"Western Canada" 8
+"Ontario" 7
+"Quebec" 8
+"Atlantic Canada" 0
+"American Pacific" 9
+"Rocky Mountains" 3
+"The Great Plains" 0
+"The Great Lakes" 3
+"American Northeast" 8
+"South Central States" 7
+"American Southeast" 3
+"American Mideast" 7
+"Northwest Mexico" 5
+"West Mexico" 7
+"Northeast Mexico" 7
+"Central Mexico" 5
+"Yucatan Peninsula" 3
+"South Isthmo-Colombia" 1
+"North Isthmo-Colombia" 2
+"West Caribbean" 7
+"East Caribbean" 6
+"Colombia" 3
+"The Guianas" 8
+"Venezuela" 2
+"Ecuador" 9
+"North Peru" 7
+"South Peru" 5
+"Amazonas" 8
+"Para and Amapa" 9
+"North Brazil" 0
+"Northeast Brazil" 8
+"Mato Grosso" 5
+"Goias" 7
+"Southeast Brazil" 6
+"South Brazil" 2
+"Bolivia" 0
+"Paraguay" 3
+"Chile" 5
+"North Argentina" 1
+"Central Argentina" 6
+"South Argentina" 5
+"Uruguay" 2
+"Greenland and Iceland" 7
+"British Isles" 1
+"Iberian Peninsula" 7
+"France" 8
+"Germany" 6
+"Italy" 8
+"Poland" 4
+"Ukraine" 9
+"North Balkans" 3
+"South Balkans" 2
+"Central Europe" 7
+"Southeast Europe" 4
+"Baltic States" 9
+"West Scandinavia" 2
+"East Scandinavia" 6
+"Kaliningrad" 6
+"Northwest Russia" 7
+"Central Russia" 5
+"South Russia" 9
+"Lower Volga" 2
+"Upper Volga" 9
+"North Urals" 4
+"South Urals" 7
+"Southwest Siberia" 4
+"Tyumen Oblast" 9
+"Krasnoyarsk Krai" 4
+"Southeast Siberia" 4
+"Sakha Republic" 5
+"Amur Oblasts" 9
+"Russian Far East Arctic" 3
+"Morocco/West Sahara" 9
+"Algeria" 3
+"Mauritania" 9
+"Libya" 2
+"Egypt" 5
+"Sudan" 6
+"Ethiopia/Eritrea" 4
+"Somalia/Djibouti" 6
+"The Levant" 9
+"Turkey" 8
+"South Caucasus" 5
+"Iraq" 1
+"Saudi Arabia" 1
+"Yemen/Oman" 1
+"Arab Gulf States" 1
+"Far West Africa" 1
+"West Africa" 9
+"The Sahel" 2
+"Nigeria" 2
+"Cameroon/Gabon" 0
+"South Sudan" 6
+"The Congo" 0
+"North Lake Victoria" 1
+"Angola" 7
+"Tanzania" 6
+"Zambia/Zimbabwe" 4
+"Mozambique" 9
+"Namibia" 3
+"South Africa" 4
+"Madagascar" 6
+"West Iran" 5
+"Central Iran" 6
+"Afghanistan" 4
+"Pakistan" 3
+"East Iran" 5
+"Central Asia" 5
+"West Kazakhstan" 2
+"East Kazakhstan" 8
+"North India" 9
+"West India" 5
+"East India" 6
+"South India" 7
+"Sri Lanka" 9
+"Bangladesh/NE India" 5
+"Himalayas" 1
+"Xinjiang" 5
+"Tibet" 9
+"Xibei" 5
+"Xinan" 2
+"Liangguang" 6
+"Huabei" 5
+"Zhongnan" 9
+"South Huadong" 4
+"North Huadong" 6
+"Dongbei" 4
+"Mongolia" 8
+"Korea" 0
+"North Japan" 2
+"South Japan" 9
+"Taiwan" 7
+"Burma" 3
+"Thailand" 5
+"Cambodia/Laos" 3
+"Vietnam" 3
+"Malay Peninsula" 1
+"Sumatra" 3
+"Java" 2
+"Borneo" 7
+"The Philippines" 6
+"Sulawesi" 1
+"New Guinea" 5
+"West Australia" 3
+"Queensland/NT" 2
+"Southeast Australia" 9
+"New Zealand" 9
+END

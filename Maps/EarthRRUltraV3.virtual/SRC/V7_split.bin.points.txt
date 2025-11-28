@@ -1,0 +1,152 @@
+Point 0.096186 0.132258 // segment Alaska 
+Point 0.067260 0.387693 // segment Hawaii 
+Point 0.212501 0.154522 // segment Canadian Arctic 
+Point 0.225800 0.207941 // segment Western Canada 
+Point 0.271572 0.220332 // segment Ontario 
+Point 0.314440 0.214847 // segment Quebec 
+Point 0.358852 0.226426 // segment Atlantic Canada 
+Point 0.143324 0.271911 // segment American Pacific 
+Point 0.202833 0.261552 // segment Rocky Mountains 
+Point 0.242514 0.260435 // segment The Great Plains 
+Point 0.268268 0.289191 // segment The Great Lakes 
+Point 0.285686 0.274261 // segment American Northeast 
+Point 0.238441 0.339745 // segment South Central States 
+Point 0.284865 0.331128 // segment American Southeast 
+Point 0.298672 0.308196 // segment American Mideast 
+Point 0.166201 0.350199 // segment Northwest Mexico 
+Point 0.197081 0.398402 // segment West Mexico 
+Point 0.223421 0.359552 // segment Northeast Mexico 
+Point 0.225621 0.393666 // segment Central Mexico 
+Point 0.250899 0.382916 // segment Yucatan Peninsula 
+Point 0.266391 0.444625 // segment South Isthmo-Colombia 
+Point 0.255542 0.413664 // segment North Isthmo-Colombia 
+Point 0.283479 0.381536 // segment West Caribbean 
+Point 0.305693 0.397110 // segment East Caribbean 
+Point 0.294044 0.474385 // segment Colombia 
+Point 0.338319 0.462517 // segment The Guianas 
+Point 0.314048 0.442096 // segment Venezuela 
+Point 0.278031 0.511270 // segment Ecuador 
+Point 0.246265 0.504576 // segment Ecuador 
+Point 0.280546 0.544865 // segment North Peru 
+Point 0.286369 0.567293 // segment South Peru 
+Point 0.333336 0.517806 // segment Amazonas 
+Point 0.365290 0.507987 // segment Para and Amapa 
+Point 0.381494 0.528054 // segment North Brazil 
+Point 0.402730 0.544496 // segment Northeast Brazil 
+Point 0.344207 0.586610 // segment Mato Grosso 
+Point 0.362917 0.593080 // segment Goias 
+Point 0.379638 0.626847 // segment Southeast Brazil 
+Point 0.357770 0.666425 // segment South Brazil 
+Point 0.316200 0.596943 // segment Bolivia 
+Point 0.342372 0.638041 // segment Paraguay 
+Point 0.303394 0.685621 // segment Chile 
+Point 0.318325 0.637674 // segment North Argentina 
+Point 0.329957 0.698405 // segment Central Argentina 
+Point 0.309042 0.740619 // segment South Argentina 
+Point 0.345224 0.689035 // segment Uruguay 
+Point 0.399597 0.095674 // segment Greenland and Iceland 
+Point 0.499618 0.213656 // segment British Isles 
+Point 0.489843 0.275052 // segment Iberian Peninsula 
+Point 0.506807 0.228690 // segment France 
+Point 0.527781 0.213044 // segment Germany 
+Point 0.534746 0.267205 // segment Italy 
+Point 0.558452 0.209514 // segment Poland 
+Point 0.584786 0.220265 // segment Ukraine 
+Point 0.550981 0.256757 // segment North Balkans 
+Point 0.560441 0.278107 // segment South Balkans 
+Point 0.545318 0.232069 // segment Central Europe 
+Point 0.572442 0.252907 // segment Southeast Europe 
+Point 0.570165 0.196220 // segment Baltic States 
+Point 0.529756 0.166699 // segment West Scandinavia 
+Point 0.549798 0.061630 // segment West Scandinavia 
+Point 0.570252 0.148101 // segment East Scandinavia 
+Point 0.556746 0.196465 // segment Kaliningrad 
+Point 0.595225 0.156786 // segment Northwest Russia 
+Point 0.604563 0.190336 // segment Central Russia 
+Point 0.608124 0.249479 // segment South Russia 
+Point 0.627857 0.213946 // segment Lower Volga 
+Point 0.636392 0.190081 // segment Upper Volga 
+Point 0.668173 0.183192 // segment North Urals 
+Point 0.656004 0.195985 // segment South Urals 
+Point 0.730339 0.193574 // segment Southwest Siberia 
+Point 0.682083 0.182612 // segment Tyumen Oblast 
+Point 0.758146 0.188999 // segment Krasnoyarsk Krai 
+Point 0.789747 0.209218 // segment Southeast Siberia 
+Point 0.860295 0.155534 // segment Sakha Republic 
+Point 0.873791 0.213972 // segment Amur Oblasts 
+Point 0.940661 0.205009 // segment Russian Far East Arctic 
+Point 0.463377 0.349390 // segment Morocco/West Sahara 
+Point 0.508355 0.296753 // segment Algeria 
+Point 0.455736 0.399371 // segment Mauritania 
+Point 0.536594 0.318182 // segment Libya 
+Point 0.586641 0.332276 // segment Egypt 
+Point 0.590616 0.412599 // segment Sudan 
+Point 0.607399 0.449389 // segment Ethiopia/Eritrea 
+Point 0.627190 0.481595 // segment Somalia/Djibouti 
+Point 0.601162 0.313889 // segment The Levant 
+Point 0.591343 0.278021 // segment Turkey 
+Point 0.626218 0.273553 // segment South Caucasus 
+Point 0.623343 0.314490 // segment Iraq 
+Point 0.629926 0.362488 // segment Saudi Arabia 
+Point 0.622843 0.414519 // segment Yemen/Oman 
+Point 0.651119 0.364237 // segment Arab Gulf States 
+Point 0.462095 0.446324 // segment Far West Africa 
+Point 0.488617 0.469737 // segment West Africa 
+Point 0.541979 0.432215 // segment The Sahel 
+Point 0.509891 0.463638 // segment Nigeria 
+Point 0.527114 0.477451 // segment Cameroon/Gabon 
+Point 0.587856 0.472637 // segment South Sudan 
+Point 0.542553 0.523529 // segment The Congo 
+Point 0.590779 0.498543 // segment North Lake Victoria 
+Point 0.537473 0.582399 // segment Angola 
+Point 0.608971 0.537629 // segment Tanzania 
+Point 0.586331 0.599181 // segment Zambia/Zimbabwe 
+Point 0.596515 0.610025 // segment Mozambique 
+Point 0.547378 0.625325 // segment Namibia 
+Point 0.578050 0.645708 // segment South Africa 
+Point 0.637148 0.600625 // segment Madagascar 
+Point 0.642956 0.301772 // segment West Iran 
+Point 0.643547 0.318458 // segment Central Iran 
+Point 0.692431 0.307851 // segment Afghanistan 
+Point 0.706309 0.324456 // segment Pakistan 
+Point 0.658344 0.331471 // segment East Iran 
+Point 0.676140 0.270618 // segment Central Asia 
+Point 0.672006 0.231653 // segment West Kazakhstan 
+Point 0.725863 0.240091 // segment East Kazakhstan 
+Point 0.714357 0.340838 // segment North India 
+Point 0.702547 0.394430 // segment West India 
+Point 0.745250 0.374626 // segment East India 
+Point 0.715316 0.427983 // segment South India 
+Point 0.722138 0.461159 // segment Sri Lanka 
+Point 0.751426 0.368026 // segment Bangladesh/NE India 
+Point 0.749175 0.348161 // segment Himalayas 
+Point 0.743340 0.256671 // segment Xinjiang 
+Point 0.752860 0.335263 // segment Tibet 
+Point 0.782281 0.296544 // segment Xibei 
+Point 0.795788 0.335752 // segment Xinan 
+Point 0.813968 0.371529 // segment Liangguang 
+Point 0.823348 0.277825 // segment Huabei 
+Point 0.817492 0.329766 // segment Zhongnan 
+Point 0.831370 0.355025 // segment South Huadong 
+Point 0.834550 0.299087 // segment North Huadong 
+Point 0.842789 0.267712 // segment Dongbei 
+Point 0.796925 0.233884 // segment Mongolia 
+Point 0.852816 0.291100 // segment Korea 
+Point 0.891496 0.287566 // segment North Japan 
+Point 0.876474 0.306996 // segment South Japan 
+Point 0.837847 0.360633 // segment Taiwan 
+Point 0.766883 0.390451 // segment Burma 
+Point 0.779117 0.423281 // segment Thailand 
+Point 0.785504 0.394274 // segment Cambodia/Laos 
+Point 0.794054 0.383438 // segment Vietnam 
+Point 0.782293 0.482447 // segment Malay Peninsula 
+Point 0.778959 0.504685 // segment Sumatra 
+Point 0.796653 0.534298 // segment Java 
+Point 0.803861 0.499746 // segment Borneo 
+Point 0.836048 0.419107 // segment The Philippines 
+Point 0.839915 0.522781 // segment Sulawesi 
+Point 0.891434 0.514786 // segment New Guinea 
+Point 0.821712 0.676301 // segment West Australia 
+Point 0.907516 0.607019 // segment Queensland/NT 
+Point 0.919760 0.687513 // segment Southeast Australia 
+Point 0.979468 0.740475 // segment New Zealand 

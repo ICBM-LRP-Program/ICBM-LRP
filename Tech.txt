@@ -1,61 +1,170 @@
+DRAWING DISTANCE 0.75
+
+// TP = Technology Page
+[TYPE] "TP_Page1"
+  Name "TP_Page1_NAME"
+  Description "TP_Page1_DESC"
+ 
+
+
+
 [LEVEL] "L_1"
   Name "L_1_NAME"
   Description "L_1_DESC"
-  Image "Images/Science/Levels/L1.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_2"
   Name "L_2_NAME"
   Description "L_2_DESC"
-  Image "Images/Science/Levels/L2.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_3"
   Name "L_3_NAME"
   Description "L_3_DESC"
-  Image "Images/Science/Levels/L3.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_4"
   Name "L_4_NAME"
   Description "L_4_DESC"
-  Image "Images/Science/Levels/L4.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_5"
   Name "L_5_NAME"
   Description "L_5_DESC"
-  Image "Images/Science/Levels/L5.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_6"
   Name "L_6_NAME"
   Description "L_6_DESC"
-  Image "Images/Science/Levels/L6.png"  
+  Image "Testing Images/Missing 468x468.png"  
 
 [LEVEL] "L_7"
   Name "L_7_NAME"
   Description "L_7_DESC"
-  Image "Images/Science/Levels/L7.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_8"
   Name "L_8_NAME"
   Description "L_8_DESC"
-  Image "Images/Science/Levels/L8.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_9"
   Name "L_9_NAME"
   Description "L_9_DESC"
-  Image "Images/Science/Levels/L9.png"
+  Image "Testing Images/Missing 468x468.png"
 
 [LEVEL] "L_10"
   Name "L_10_NAME"
   Description "L_10_DESC"
-  Image "Images/Science/Levels/L10.png"
+  Image "Testing Images/Missing 468x468.png"
 
-[TECHNOLOGY] "a"
-Name "a_NAME"
-Description "a_DESC"  
+
+[UNIT_CLASS] "UC_Page1"
+  Name "UC_Page1_NAME"
+  Description "UC_Page1_DESC"
+  
+[UNIT_CLASS] "UC_Page2"
+  Name "UC_Page2_NAME"
+  Description "UC_Page2_DESC"
+  //AutoAssignTo Ground
+
+
+[DEFCON] "DEFCON_5"
+  Name "M_DEFCON_5_NAME"
+  Description "M_DEFCON_5_DESC"
+  Image "Units/Images/Missiles/DEFCON5.png"
+  
+[DEFCON] "DEFCON_4"
+  Name "M_DEFCON_4_NAME"
+  Description "M_DEFCON_4_DESC"
+  Image "Units/Images/Missiles/DEFCON4.png"
+
+[DEFCON] "DEFCON_3"
+  Name "M_DEFCON_3_NAME"
+  Description "M_DEFCON_3_DESC"
+  Image "Units/Images/Missiles/DEFCON3.png"
+  
+[DEFCON] "DEFCON_2"
+  Name "M_DEFCON_2_NAME"
+  Description "M_DEFCON_2_DESC"
+  Image "Units/Images/Missiles/DEFCON2.png"
+  
+[DEFCON] "DEFCON_1"
+  Name "M_DEFCON_1_NAME"
+  Description "M_DEFCON_1_DESC"
+  Image "Units/Images/Missiles/DEFCON1.png"
+
+
+
+
+[TECHNOLOGY] "TestTech1" 
+  Name "TestTech1_NAME"
+  Description "TestTech1_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "TestTech2"  
+  TechLevel 2
+  Type "TP_Page1"
+ 
+[TECHNOLOGY] "TestTech2"
+  Name "TestTech2_NAME"
+  Description "TestTech2_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.5
+  LeadsTo "TestTech3"
+  TechLevel 4
+  Type "TP_Page1"
+
+[TECHNOLOGY] "TestTech3"
+  Name "TestTech3_NAME"
+  Description "TestTech3_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.75
+  LeadsTo "TestTech4"
+  TechLevel 6
+  Type "TP_Page1"
+
+[TECHNOLOGY] "TestTech4"
+  Name "TestTech4_NAME"
+  Description "TestTech4_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 1
+  TechLevel 8
+  Type "TP_Page1"
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "U_City"
   Name "U_CITY_NAME"
   Description "U_CITY_DESC"
 
+[TECHNOLOGY] "U_TestBuiding"
+  Name "U_TestBuiding_NAME"
+  Description "U_TestBuiding_DESC"
 
+[TECHNOLOGY] "U_TestArmy"
+ Name "U_TestArmy_NAME"
+ Description "U_TestArmy_DESC"  
+
+[TECHNOLOGY] "R_TestRadar"
+  Name "R_TestRadar_NAME"
+  Description "R_TestRadar_DESC"
+
+[TECHNOLOGY] "M_TestWeapon"
+ Name "M_TestWeapon_NAME"
+ Description "M_TestWeapon_DESC"
+ 
+[TECHNOLOGY] "M_Massacre" 
+ Name "M_Massacre_NAME"
+ Description "M_Massacre_DESC"
 
 [END]

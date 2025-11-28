@@ -9,4 +9,31 @@ PollutionMultiplier 0.35
   TimeGrowing 0.0
   TimeTotal 0.0
 
+[EXPLOSION] "Gunfire_Army"
+  Movie "Images/Explosion/big_1.midx"
+  Damage 0.50
+  Range 4
+  FullEffectRange 2
+  DrawSize 1
+  TimeGrowing 0.5
+  TimeTotal 0.5 
+  RandomAngle true
+  
+
+[EXPLOSION] "Gunfire_Massacre"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 209 or 210 or 211 or 212
+    Volume 0.20
+    MuteLength 0
+  Damage 4000
+  Range 5
+  FullEffectRange 5
+  DrawSize 4
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  TriggerResponse Yes 
+  MinCasualties 100
+  RandomAngle true
+  AchievementProperty "ACH_THE_EVIL_THAT_MEN_DO"
+  
 [END]

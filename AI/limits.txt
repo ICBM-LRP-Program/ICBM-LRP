@@ -1,0 +1,45 @@
+// Pollution thresholds depending on the game complexity settings
+//  StartWar - allowed to start global attack, honors alliances, prefers to attack existing or default enemies, ignores production efficiency
+//  KillAllButAllies - attacks anyone who is not ally
+//  KillAllButAlliesWithLessScore - can attack allies that have bigger score, to improve the winning chances
+//  KillAll - attack anyone
+
+
+[VeryEasy]
+  StartWar 0.15
+  KillAllButAllies 0.4
+  KillAllButAlliesWithLessScore 1.5 // disabled
+  KillAll 1.5 // disabled
+
+
+[Easy]
+  StartWar 0.125
+  KillAllButAllies 0.35
+  KillAllButAlliesWithLessScore 0.75
+  KillAll 1.5 // disabled
+
+[Normal]
+  StartWar 0.10
+  KillAllButAllies 0.3
+  KillAllButAlliesWithLessScore 0.65
+  KillAll 0.85
+
+[Hard]
+  StartWar 0.075
+  KillAllButAllies 0.25
+  KillAllButAlliesWithLessScore 0.55
+  KillAll 0.75
+
+[VeryHard]
+  StartWar 0.075
+  KillAllButAllies 0.25
+  KillAllButAlliesWithLessScore 0.55
+  KillAll 0.75
+
+[Insane]
+  StartWar 0.075
+  KillAllButAllies 0.25
+  KillAllButAlliesWithLessScore 0.55
+  KillAll 0.75
+
+END

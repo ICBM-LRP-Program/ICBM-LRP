@@ -1,0 +1,82 @@
+// default textures are:
+//   Basement: Images/Explosion/Emulation_black_combined_512.midx
+//   BasementWhite: Images/Explosion/Emulation_White.midx
+//   Hat: Images/Explosion/Emulation_combined_512.midx
+//   Water: Images/Explosion/Emulation_water.midx
+//   WaterWhite: Images/Explosion/Emulation_solid_white.midx
+
+[BASE]
+  Draw false
+  Size 0 	    // how big it is compared to the Hat
+
+  LOD 16
+  MaxHeightMult 0 // how tall it grows. Influenced also by the [Hat]/GoUpSpeed parameter
+  RotationSpeed 1.0 // how fast the smoke elements rotate
+  GrowthSpeed 1.0   // how fast the smoke elements grow
+   
+[WATER_RING]
+  Draw true
+
+  LOD 12
+  FrameWidth 0.25
+  ElementSizeMult 1.0
+  CrownHeight 0.5
+  CrownSize 1.2
+
+[HAT]
+  Draw false
+
+  LOD 12
+  ScalingFrame 0.25 	 // defines when the lower elements start to disappear
+  XYRatio 1 	 	 // how "flat" is the explosion hat
+  GoUpSpeed 0 	 // how fast the hat goes upwards. should be supported by the [BASE]/MaxHeightMult parameter
+  FalloutScale 0.0 	 // how big is the fallout element. Setting it to 0 means no fallout
+  FalloutZSpeed 1.0 	 // how quick the fallout elements fall
+  FalloutLengthSpeed 1.0 // how quick the fallout elements spread sideways
+
+
+[RING] // first ring
+  Draw true
+  Size 0.15		 // how big is the ring initially compared to the hat
+  ShiftY 0.15		 // how much the ring is shifted upwards comparing to the basement. 1.0 means the center of the Hat
+  
+  LOD 48
+  FirstAppearFrame 0.0   // when the ring first appears (0 - 2)
+  FadeInFrame 0.2	 // when the ring is fully visible (0-2)
+  StartDecolorFrame -0.25  // when it starts going from the "yellowish" to the neutral grey color (0-2)
+  SpeedMult 2.5		 // how fast it grows
+  ElementMult 2.0	 // how "fat" is the ring
+  Intensity 0.25	 // how transparent is the ring
+  ShrinkSpeed 0.1
+//  BothPositive true
+	
+[RING] // second ring
+  Draw true
+  Size 0.25		 // how big is the ring initially compared to the hat
+  ShiftY 0.25		 // how much the ring is shifted upwards comparing to the basement. 1.0 means the center of the Hat
+  
+  LOD 48
+  FirstAppearFrame 0.0   // when the ring first appears (0 - 2)
+  FadeInFrame 0.2	 // when the ring is fully visible (0-2)
+  StartDecolorFrame -0.25  // when it starts going from the "yellowish" to the neutral grey color (0-2)
+  SpeedMult 2.25		 // how fast it grows
+  ElementMult 0.4	 // how "fat" is the ring
+  Intensity 0.5	 // how transparent is the ring
+  ShrinkSpeed 0.5
+//  BothPositive true
+	
+[RING] // third ring
+  Draw true
+  Size 0.15		 // how big is the ring initially compared to the hat
+  ShiftY 0.35		 // how much the ring is shifted upwards comparing to the basement. 1.0 means the center of the Hat
+  
+  LOD 48
+  FirstAppearFrame 0.0   // when the ring first appears (0 - 2)
+  FadeInFrame 0.2	 // when the ring is fully visible (0-2)
+  StartDecolorFrame -0.25  // when it starts going from the "yellowish" to the neutral grey color (0-2)
+  SpeedMult 1.0		 // how fast it grows
+  ElementMult 2.0	 // how "fat" is the ring
+  Intensity 0.25	 // how transparent is the ring
+  ShrinkSpeed 0.0
+//  BothPositive true
+	

@@ -1,0 +1,13 @@
+//Group TestUnitGroup
+//  PlacementType BorderDefence
+//  WaitType BorderDefence 
+//  CanOccupy true
+//  
+//  "TestArmy" leader
+//  Target "TestArmy" Defence Priority 1000 MaxDist 3000 Max 4 Conventional Nuclear Special
+
+
+
+
+END
+

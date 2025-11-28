@@ -1,0 +1,58 @@
+// default textures are:
+//   Basement: Images/Explosion/Emulation_black_combined_512.midx
+//   BasementWhite: Images/Explosion/Emulation_White.midx
+//   Hat: Images/Explosion/Emulation_combined_512.midx
+//   Water: Images/Explosion/Emulation_water.midx
+//   WaterWhite: Images/Explosion/Emulation_solid_white.midx
+
+[BASE]
+  Size 2.0
+  
+  LOD 10
+  MaxHeightMult 2.0
+  StemWidthMult 1.5
+
+[HAT]
+  LOD 8
+
+  ScalingFrame 0.25
+  XYRatio 0.85
+  GoUpSpeed 1.0
+
+  FalloutScale 1.5
+  FalloutZSpeed 1.5
+  FalloutLengthSpeed 1.5
+
+[RING] // first ring
+  Draw false
+  Size 1.5
+  ShiftY 1.4
+  
+  FadeInFrame 0.4
+  StartDecolorFrame 0.5
+  SpeedMult 0.8
+  ElementMult 0.55
+  Intensity 0.65
+	
+[RING] // second ring
+  Draw false
+  Size 1.25
+  ShiftY 1.56
+  
+  FadeInFrame 0.44
+  StartDecolorFrame 0.55
+  SpeedMult 0.7
+  ElementMult 0.65
+  Intensity 0.65
+	
+[RING] // third ring
+  Draw false
+  Size 1.0
+  ShiftY 2.35
+  
+  FadeInFrame 0.6
+  StartDecolorFrame 0.5
+  SpeedMult 0.0
+  ElementMult 0.65
+  Intensity 0.35
+	

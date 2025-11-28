@@ -1,0 +1,3 @@
+MainMenu "https://discord.gg/5QhX3s7"
+END
+

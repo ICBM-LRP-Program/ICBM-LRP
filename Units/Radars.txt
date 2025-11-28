@@ -1,3 +1,21 @@
+[TYPE] "TestType"
+  PreciseTargeting Yes
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne
+  CanDetect Missile
+  CanDetect HighMissile
+  RadarColor 0.06 0.18 0.10 0.35
+  GlobalShowType OPTICAL_RANGES
 
+
+[RADAR] "TestRadar"
+  Tech "R_TestRadar"
+  Type "TestType"
+  Range 50
+  Sector 360
+  Precision 0.25
+  DoNotShow
 
 [END]
+

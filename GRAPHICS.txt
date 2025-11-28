@@ -1,0 +1,9 @@
+DrawTraces true
+DrawShadows true
+DrawExhaust true
+DrawPollution true
+DrawScorchMarks true
+DrawNameplates true
+DrawWater true
+DrawExplosions true
+KeepFPS true

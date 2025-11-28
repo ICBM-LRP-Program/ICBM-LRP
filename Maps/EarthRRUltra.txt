@@ -1,0 +1,339 @@
+MAP
+
+Name idx "Atomic Earth, 10 Players"
+Name CHN "原子地球, 10 名玩家"
+Name Esp "Tierra Atómica, 10 Jugadores"
+Name FRA "Terre Atomique, 10 Joueurs"
+Name Ger "Atomare Erde, 10 Spieler"
+Name ITA "Terra Atomica, 10 Giocatori"
+Name RUS "Атомная Земля, 10 игроков"
+
+Description ENG "Ten massive regional factions vie for global supremacy at the dawn of the atomic age, and find themselves locked in an unstoppable arms race with implacable enemies. What will ensue next will either be a bloody campaign of carnage that only one faction will survive, or a nuclear deathmatch that spells doom for the entire world..."
+
+Description CHN "在原子時代之初，十個巨大的地區派系爭奪全球霸權，卻發現自己陷入了與頑固敵人的不可阻擋的軍備競賽中。接下來發生的要不是一場只有一個派別能夠倖存的血腥屠殺，就是一場為整個世界帶來厄運的核死競賽…"
+
+Description ESP "Diez facciones regionales masivas compiten por la supremacía global en los albores de la era atómica y se encuentran atrapadas en una carrera armamentista imparable con enemigos implacables. Lo que seguirá a continuación será una sangrienta campaña de matanza en la que sólo una facción sobrevivirá, o un combate a muerte nuclear que significa la perdición para el mundo entero..."
+
+Description FRA "Dix factions régionales massives se disputent la suprématie mondiale à l’aube de l’ère atomique et se retrouvent engagées dans une course aux armements imparable avec des ennemis implacables. Ce qui s'ensuivra ensuite sera soit une campagne de carnage sanglante à laquelle une seule faction survivra, soit un match à mort nucléaire qui sonnera le glas du monde entier..."
+
+Description GER "Zehn riesige regionale Fraktionen wetteifern zu Beginn des Atomzeitalters um die globale Vorherrschaft und finden sich in einem unaufhaltsamen Wettrüsten mit unerbittlichen Feinden wieder. Was als Nächstes folgt, wird entweder ein blutiger Massakerfeldzug sein, den nur eine Fraktion überleben wird, oder ein nuklearer Deathmatch, der den Untergang für die ganze Welt bedeutet ..."
+
+Description ITA "Dieci enormi fazioni regionali si contendono la supremazia globale all'alba dell'era atomica e si ritrovano bloccate in un'inarrestabile corsa agli armamenti con nemici implacabili. Ciò che seguirà sarà una sanguinosa campagna di carneficina a cui sopravviverà solo una fazione, o uno scontro mortale nucleare che segnerà la rovina del mondo intero..."
+
+Description RUS "Десять крупных региональных группировок соперничают за глобальное господство на заре атомного века и оказываются втянутыми в неудержимую гонку вооружений с непримиримыми врагами. Дальше последует либо кровавая кампания резни, в которой выживет только одна фракция, либо ядерный смертельный бой, который станет гибелью для всего мира..."
+
+
+
+
+/*
+STEP 2 WATERMAP - Note: You can skip this if you are making an Earth map and want to use the Vanilla format. 
+To make a custom Watermap: 
+a) CREATE WATER MAP PNG (See SRC Folder for example) WaterMap is the rough indication of the water area (marked by white - 0xFF)
+b) Remove the // in front of Generate from "Maps/..." 
+c) Run map on single player. The game will load in vector format, check the water paths that you made. Close ICBM when done.
+d) The file will be generated in documents/icbm/maps/(name below in following WaterMap syntax)/watermap.vec
+e) Move files into mod folder and link the WaterMap syntax below to the location. i.e. WaterMap "Maps/MapName.virtual/watermap.vec" 
+e1) IF YOU COPY/PASTED THE GENERATED WATERMAP FILES BE SURE TO GO BACK AND DELETE THE ORIGINALS FROM DOCUMENTS/ICBM/MAPS/...  (these take priority over the Mods folder and wont be included on the workshop) 
+*/
+ 
+Restrictions MinScale 0.75 MaxScale 100.000000 CenterX 0.5 CenterY 0.5 ShiftX 2 ShiftY 2
+
+
+/*------------------------
+EditSVG points to the main file.
+Second points to the linked file. For example, it makes sense to have watermap with ice and without ice equal with the exception to the iced area. When you set the "Second" watermap, you will edit both.
+Mask points to the watermap you need to draw as a reference. For example, when editing land watermap it makes sense to see the normal watermap to avoid intersections and ambiguities.
+
+Editing is quite simple:
+ 
+left clicking on a vertex moves that vertex
+left-clicking on some edge creates new vertex you can move
+right-clicking on a vertex deletes that vertex
+holding Shift when left-clicking creates new square segment.
+Finally, pressing 'R' auto-detects segment hierarchy and saves the map.
+
+When you work on two maps in the same time (like ice + no_ice), holding Alt when clicking will ignore the main watermap, holding Ctrl will ignore the secondary watermap.
+When the watermap file is saved, you actually get two files - one the normal one to be used by game and one with the .view.svg extension added - this is to open in some editor (I use Inkscape), and generate the .png file to accompany the .svg
+
+It differs in that is adds the black background + modifies some points to correctly cover Arctic and Antarctic.
+
+The .png file is still required when generating the watermap from svg, as the land type information is taken from it.
+-----------------------------*/
+
+//EditSVG "Maps/EarthRRUltraV3.virtual/Src/test_16K.svg" Save "Maps/EarthRRUltraV3.virtual/Src/test_16K.svg"
+//        Second "Maps/EarthRRUltraV3.virtual/Src/test_16K_ice.svg" Save "Maps/EarthRRUltraV3.virtual/Src/test_16K_ice.svg"
+//        Mask WaterMapLand
+
+//EditSVG "Maps/EarthRRUltraV3.virtual/Src/test_16K_land.svg" Save "Maps/EarthRRUltraV3.virtual/Src/test_16K_land.svg"
+//        Mask WaterMap
+
+
+// WaterMap is the rough indication of the water area (marked by white - 0xFF)
+WaterMap "Maps/EarthRRUltraV3.virtual/watermap_16K.vec"
+//           Generate from "Maps/EarthRRUltraV3.virtual/Src/test_16K_ice.svg.view.png" SVG "Maps/EarthRRUltraV3.virtual/Src/test_16K_ice.svg" smooth 36000 filter 25000 water black
+//          pfcache "Maps/EarthRRUltraV3.virtual/watermap_16K.phcache"  generate
+
+WaterMapNoIce "Maps/EarthRRUltraV3.virtual/watermap_no_ice_16K.vec"
+//           Generate from "Maps/EarthRRUltraV3.virtual/Src/test_16K.svg.view.png" SVG "Maps/EarthRRUltraV3.virtual/Src/test_16K.svg"  smooth 360000 filter 250000 water black
+
+
+WaterMapLand "Maps/EarthRRUltraV3.virtual/watermap_land_16K.vec" //"Maps/EarthRRUltraV3.virtual/watermap_land.vec"
+//           Generate from "Maps/EarthRRUltraV3.virtual/Src/test_16K_land.svg.view.png" SVG "Maps/EarthRRUltraV3.virtual/Src/test_16K_land.svg"  smooth 36000 filter 25000 water black
+
+ConditionalWaterMap "Maps/EarthRRUltraV3.virtual/Conditional.bin" //  generate
+
+LandingPairs "Maps/EarthRRUltraV3.virtual/landing_pairs.bin" // generate
+
+TerrainTypeMap "Maps/EarthRRUltraV3.virtual/terrain_type.vec"
+  Terrain "Water" Color	#8CC8FA
+  Terrain "Forest" Color	#53CA4C
+  Terrain "Grassland" Color	#9FD549
+  Terrain "Woodland" Color	#84B84B
+  Terrain "Rainforest" Color	#178935
+  Terrain "Tropical Rainforest" Color	#389E54 Group "Rainforest"
+  Terrain "Savanna" Color	#C6CF5D Group "Grassland"
+  Terrain "Tropical Woodland" Color	#9BBC64 Group "Woodland"
+  Terrain "Semi-Arid" Color	#E9CF70 Group "Grassland"
+  Terrain "Montane Forest" Color	#33784A Group "Forest"
+  Terrain "Montane Grassland" Color	#80A770 Group "Grassland"
+  Terrain "Subtropical Forest" Color	#47A547 Group "Forest"
+  Terrain "Taiga" Color	#389E61 
+  Terrain "Tundra" Color	#CCCABF 
+  Terrain "Desert" Color	#E3B34F
+  Terrain "Swamp" Color	#07f9b2
+  Terrain "Ice sheet" Color	#E6EFE7
+
+//    Generate From "Maps/BIG_EARTH/Src/earth_terrain_smooth.png"
+
+HeightMap "Maps/EARTH256K/HeightMap.cmap" // generate 4096
+
+// This is the high-level texture map
+TextureMap "Maps/EARTH256K" // LightBlendAlpha 1 LightBlendPower 1.0
+
+MapShader "water_effect_v_mod" "water_effect_f"
+TerrainShader "water_effect_v_mod" "water_effect_f"
+
+
+/* This is the default selection of available units, missiles and technologies. The AI uses this as their default Loadout. For general maps, leave this alone.  If you are making a scenerio, you can make changes here. */
+
+//Default AvailableMissiles
+//  mt "Low-power nuclear bomb" 10
+
+//Default AvailableTechnologies
+//  tech "Cruise_missiles"
+//  tech "MRBM"
+  
+AvailablePoints -1 // Points are calculated based on the available units, missiles and technologies. For Default leave this at -1 
+
+PeaceTimer 36000
+NoNukesTimer 54000
+CeasefireTimeout 43200
+PeaceTreatyTimeout 90000
+OccupationThreshold 1.00
+AutoSurrenderThreshold 0.15
+MinKilledToReport 5000
+
+/*
+STEP 3 OWNERSHIP MAP - Use the same process from STEP 2 by removing // in front of Generate and running the game in Single Player with the map loaded. See below about creating your Ownership Map PNG: (i.e. mapname_owner.png) - See SRC Folder for example - 
+
+TIPS FOR CREATING OWNERSHIP MAP PNG
+You must use the color code defined below. You can change the color code as long as you define it. It is very important that you DO NOT USE Anti-Aliasing brush, Use a solid pixel brush/pencil tool. Do not have any trapped/free/missing/rouge pixels. 
+Pixels are 4 sided and the edges will be converted to vector. Be sure that the outside edge has a face of the pixel touching the border, not a corner only, otherwise it will crash. 
+This process may take a few tries to get it right, but if you have any crashes when generating the Ownership map, you can always // out all the nations and try adding 1 at a time to find which color is causing the crash, then go check that section. Be sure to delete the generated files in Documents/icbm/maps/... if you need to use this method.
+
+NOTE: You can change the names of the nations on this step, however, if you do so this will impact your next steps in generating the AICACHE.
+
+DONT FORGET TO REPLACE // IN FRONT OF GENERATE WHEN FINISHED BEFORE MOVING ON.
+*/
+
+
+// This map outlines the regions in different colors. It must be followed by the information on available sides
+//OwnershipMap MULTI_COUNTRY "Maps/BIG_EARTH/V7_split.vec" NAMES "V7_segment_names.txt" SEGMENTS "V7_split.bin"
+
+OwnershipMap "Maps/EarthRRUltraV3.Virtual/V7_default.vec"
+  MultiCountry "Maps/EarthRRUltraV3.Virtual/V7_segment_names.txt" // the list of segments and their link to countries
+  Borders "Maps/EarthRRUltraV3.Virtual/V7_split.bin" // segments themselves
+  Ownership "Maps/EarthRRUltraV3.Virtual/V7_split.vec" // territories of each country
+  Default "Maps/EarthRRUltraV3.Virtual/V7_default.txt" // default assignment of countries to regions, as saved in the OwnershipMap file
+
+  Player "North America" Color "1188FF" Name "Blue" Portrait Index 15 Achievement ACH_AMERICAN_PSYCHO 
+    ModelPrefix "NA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/North America.txt"
+  Player "Central America" Color "FF9911" Name "Orange" Portrait Index 24 Achievement ACH_DAY_OF_THE_DEAD 
+    ModelPrefix "CA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Central America.txt"
+  Player "South America" Color "77DD00" Name "Lime" Portrait Index 16 Achievement ACH_WELCOME_TO_THE_JUNGLE 
+    ModelPrefix "SA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/South America.txt"
+  Player "Europe" Color "118002" Name "Green" Portrait Index 23 Achievement ACH_CRUSADER 
+    ModelPrefix "EU"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Europe.txt"
+  Player "Russia" Color "FF0011" Name "Red" Portrait Index 17 Achievement ACH_RUSSIAN_ROULETTE 
+    ModelPrefix "RU"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Russia.txt"
+  Player "East Asia" Color "FFFF0AA0" Name "Yellow" Portrait Index 20 Achievement ACH_GENGHIS_KHAN 
+    ModelPrefix "EA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/East Asia.txt"
+  Player "Asia Pacific" Color "55FFCC" Name "Turquoise" Portrait Index 21 Achievement ACH_DEVILS_ISLAND 
+    ModelPrefix "AP"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Asia Pacific.txt"
+  Player "Middle East-North Africa" Color "772200" Name "Brown" Portrait Index 18 Achievement ACH_FACE_IN_THE_SAND 
+    ModelPrefix "MENA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Middle East-North Africa.txt"
+  Player "Central/South Asia" Color "993399" Name "Magenta" Portrait Index 19 Achievement ACH_EYE_OF_THE_TIGER 
+    ModelPrefix "CSA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Central-South Asia.txt"
+  Player "Sub-Saharan Africa" Color "3D2DE5" Name "Indigo" Portrait Index 22 Achievement ACH_ELEPHANT_MAN 
+    ModelPrefix "SSA"
+    Events FromFile "Maps/EarthRRUltraV3.Virtual/Events/Sub-Saharan Africa.txt"
+
+/*
+STEP 4 CITIES CSV - 
+a) Choose the number of cities per faction. 
+If you want to add custom cities, you can do so in the CSV file. Follow the same format. 
+You can also rename cities without changing the CSV using the method defined below
+b) Generate using same method and move files and define below 
+*/
+
+Cities
+  ModelsPath "Maps/EarthRRUltraV3.Virtual/CityModels" // generate
+  MaxPerPlayer 500    FromFile "Maps/EarthRRUltraV3.Virtual/earth_cities.csv"
+	  //Generate From "Maps/EarthRRUltraV3.Virtual/SRC/earth_cities.csv"
+
+relocate "Maps/EarthRRUltraV3.Virtual/earth_cities.reloc.txt" // generate
+
+rename "North Kansas City" "Kansas City"
+rename "Changwat Nong Khai" "Vientiane"
+rename "Gabouk" "Tabuk"
+rename "Dagon" "Yangon"
+rename "Ceara" "Fortaleza"
+rename "Camayenne" "Conakry"
+rename "Bombay" "Mumbai"
+rename "Beijing Shi" "Beijing"
+rename "Calcutta" "Kolkata"
+rename "Al Qahirah" "Cairo"
+rename "Umm Durman" "Omdurman"
+rename "Wien" "Vienna"
+rename "Mexico" "Mexico City"
+rename "Guatemala" "Guatemala City"
+rename "Panama" "Panama City"
+rename "Napoli" "Naples"
+rename "Nay Pyi Taw" "Naypyidaw"
+rename "Godthab" "Nuuk"
+rename "El Aaiun" "Laayoune"
+rename "Kuwait City" "Al Kuwait"
+rename "Brussel" "Brussels"
+rename "Frankfurt Am Main" "Frankfurt"
+rename "Washington" "Washington D.C."
+rename "Kiev" "Kyiv"
+rename "Lvov" "Lviv"
+rename "Bucuresti" "Bucharest"
+rename "Ouagadouga" "Ouagadougou"
+rename "Chittagong" "Chattogram"
+rename "Makasar" "Makassar"
+rename "Nur-Sultan" "Astana" 
+rename "Rostov-na-donu" "Rostov-on-Don" 
+rename "Ha Noi" "Hanoi" 
+rename "Jiddah" "Jeddah" 
+
+
+
+/*
+STEP 5 AICONFIG
+a) Open AIConfig.txt file in SRC folder. Make changes if necessary.
+b) Follow same method from above to generate the ai_cache.bin file and move it to the correct folder in your map mod. 
+NOTE: IF YOU CHANGED NAMES OF THE FACTIONS/NATIONS: In the folder for this mod open maps/mapname.virtual/SRC/AIConfig.txt to remove any Named nations that no longer exist.
+Change the names below for DefaultEnemy or just delete the entire DefaultEnemy section.
+*/ 
+
+AICache "Maps/EarthRRUltraV3.Virtual/ai_cache_new.bin" 
+// generate from "Maps/EarthRRUltraV3.Virtual/SRC/AIConfig.txt"
+
+
+DefaultEnemy "North America" "Central America" 
+DefaultEnemy "North America" "Europe" 
+DefaultEnemy "North America" "Russia" 
+
+DefaultEnemy "Central America" "North America" 
+DefaultEnemy "Central America" "South America" 
+DefaultEnemy "Central America" "Sub-Saharan Africa"  
+
+DefaultEnemy "South America" "Central America" 
+DefaultEnemy "South America" "Sub-Saharan Africa" 
+DefaultEnemy "South America" "Asia Pacific" 
+
+DefaultEnemy "Europe" "North America" 
+DefaultEnemy "Europe" "Russia"  
+DefaultEnemy "Europe" "Middle East-North Africa" 
+
+DefaultEnemy "Russia" "Europe" 
+DefaultEnemy "Russia" "North America" 
+DefaultEnemy "Russia" "East Asia" 
+
+DefaultEnemy "Middle East-North Africa" "Central/South Asia" 
+DefaultEnemy "Middle East-North Africa" "Sub-Saharan Africa" 
+DefaultEnemy "Middle East-North Africa" "Europe"  
+
+DefaultEnemy "Central/South Asia" "East Asia" 
+DefaultEnemy "Central/South Asia" "Middle East-North Africa" 
+DefaultEnemy "Central/South Asia" "Asia Pacific" 
+
+DefaultEnemy "East Asia" "Asia Pacific" 
+DefaultEnemy "East Asia" "Central/South Asia" 
+DefaultEnemy "East Asia" "Russia" 
+
+DefaultEnemy "Asia Pacific" "East Asia" 
+DefaultEnemy "Asia Pacific" "Central/South Asia" 
+DefaultEnemy "Asia Pacific" "South America" 
+
+DefaultEnemy "Sub-Saharan Africa" "South America" 
+DefaultEnemy "Sub-Saharan Africa" "Middle East-North Africa" 
+DefaultEnemy "Sub-Saharan Africa" "Central America" 
+
+
+
+UIToUse "UI/UI.txt"
+SpecularHighlight true
+OwnershipOverlayAlpha 55
+MapContrastAdjustment 0
+DrawInternalBorders 1.2 // faint border
+
+MinDiscolorZoom 3.0  MaxDiscolorZoom 10.0
+
+UnitScaling 0.45000
+CityScaling 1.000000
+ExplosionScaling 0.600000
+StartHelperZoom 5.0
+MinUnitZoom 3.5
+//MaxUnitZoom 10.0
+//MinExplosionZoom 1.0
+//MaxExplosionZoom 10.0
+ZoomFadeLimit 15.0
+ZoomFadePower 0.5
+ZoomFadePowerExtra 0.75
+MinHelperTransparency 0.2
+FullHelperZoomTime 90
+
+OrdersScaling 0.600000
+
+MIN_POSITIONING_DISTANCE 50
+BOARD_TOLERANCE 120
+HOST_TOLERANCE 20
+MIN_SHORE_DIST 2
+SHORE_VERTICAL_SHIFT 2
+MIN_BORDER_DIST 3
+BORDER_VERTICAL_SHIFT 2
+
+ProcessBorders 
+//  ReadSVG "Maps/EarthRRUltraV3.Virtual/SRC/V7.svg" Generate "Maps/EarthRRUltraV3.Virtual/SRC/V7_split.txt" SaveEdited "Maps/EarthRRUltraV3.Virtual/SRC/V7_split_mod.txt"
+
+//EditPoints "Maps/EarthRRUltraV3.Virtual/SRC/V7_split.txt" SaveEdited "Maps/EarthRRUltraV3.Virtual/SRC/V7_split_mod.txt"
+  
+//GenerateSplit Load "Maps/EarthRRUltraV3.Virtual/SRC/V7_split.txt" Generate "Maps/EarthRRUltraV3.Virtual/SRC/V7_split.bin" Names "Maps/EarthRRUltraV3.Virtual/SRC/V7_segment_names.txt"
+
+//GenerateOwnership LoadBin "Maps/EarthRRUltraV3.Virtual/SRC/V7_split.bin" GenerateDimmable LoadNames "Maps/EarthRRUltraV3.Virtual/SRC/V7_segment_names.txt" SaveDefaults "Maps/EarthRRUltraV3.Virtual/SRC/V7_default" Generate "Maps/EarthRRUltraV3.Virtual/SRC/V7_split.vec"
+
+//GenerateDefaults Names "Maps/EarthRRUltraV3.Virtual/V7_default.txt" Vec "Maps/EarthRRUltraV3.Virtual/V7_default.vec"
+
+
+END

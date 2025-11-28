@@ -1,0 +1,152 @@
+"Alaska" Production 0.04286 Science 0.02190 Espionage 0.08403 0
+"Hawaii" Production 0.04286 Science 0.04380 Espionage 0.07563 1
+"Canadian Arctic" Production 0.02143 Science 0.01460 Espionage 0.05882 2
+"Western Canada" Production 0.09286 Science 0.05109 Espionage 0.05042 3
+"Ontario" Production 0.07143 Science 0.08029 Espionage 0.05882 4
+"Quebec" Production 0.07857 Science 0.05839 Espionage 0.06723 5
+"Atlantic Canada" Production 0.03571 Science 0.02190 Espionage 0.06723 6
+"American Pacific" Production 0.08571 Science 0.11679 Espionage 0.05882 7
+"Rocky Mountains" Production 0.05714 Science 0.07299 Espionage 0.06723 8
+"The Great Plains" Production 0.07143 Science 0.05109 Espionage 0.04202 9
+"The Great Lakes" Production 0.09286 Science 0.08759 Espionage 0.06723 10
+"American Northeast" Production 0.06429 Science 0.14599 Espionage 0.09244 11
+"South Central States" Production 0.10714 Science 0.09489 Espionage 0.04202 12
+"American Southeast" Production 0.07857 Science 0.07299 Espionage 0.05882 13
+"American Mideast" Production 0.05714 Science 0.06569 Espionage 0.10924 14
+"Northwest Mexico" Production 0.034843 Science 0.057692 Espionage 0.128788 15
+"West Mexico" Production 0.083624 Science 0.038462 Espionage 0.037879 16
+"Northeast Mexico" Production 0.034843 Science 0.076923 Espionage 0.075758 17
+"Central Mexico" Production 0.069686 Science 0.115385 Espionage 0.037879 18
+"Yucatan Peninsula" Production 0.069686 Science 0.038462 Espionage 0.037879 19
+"South Isthmo-Colombia" Production 0.069686 Science 0.038462 Espionage 0.075758 20
+"North Isthmo-Colombia" Production 0.069686 Science 0.038462 Espionage 0.075758 21
+"West Caribbean" Production 0.034843 Science 0.076923 Espionage 0.189393 22
+"East Caribbean" Production 0.034843 Science 0.038462 Espionage 0.075758 23
+"Colombia" Production 0.153310 Science 0.076923 Espionage 0.037879 24
+"The Guianas" Production 0.034843 Science 0.057692 Espionage 0.094697 25
+"Venezuela" Production 0.139373 Science 0.076923 Espionage 0.037879 26
+"Ecuador" Production 0.083624 Science 0.115385 Espionage 0.037879 27 28
+"North Peru" Production 0.052265 Science 0.057692 Espionage 0.037879 29
+"South Peru" Production 0.034843 Science 0.096154 Espionage 0.018939 30
+"Amazonas" Production 0.032258 Science 0.034602 Espionage 0.111821 31
+"Para and Amapa" Production 0.048387 Science 0.034602 Espionage 0.095847 32
+"North Brazil" Production 0.064516 Science 0.051903 Espionage 0.063898 33
+"Northeast Brazil" Production 0.064516 Science 0.051903 Espionage 0.031949 34
+"Mato Grosso" Production 0.064516 Science 0.034602 Espionage 0.063898 35
+"Goias" Production 0.048387 Science 0.103806 Espionage 0.031949 36
+"Southeast Brazil" Production 0.064516 Science 0.069204 Espionage 0.127796 37
+"South Brazil" Production 0.096774 Science 0.069204 Espionage 0.063898 38
+"Bolivia" Production 0.032258 Science 0.034602 Espionage 0.095847 39
+"Paraguay" Production 0.032258 Science 0.051903 Espionage 0.063898 40
+"Chile" Production 0.161290 Science 0.069204 Espionage 0.012780 41
+"North Argentina" Production 0.032258 Science 0.048443 Espionage 0.095847 42
+"Central Argentina" Production 0.096774 Science 0.138408 Espionage 0.063898 43
+"South Argentina" Production 0.096774 Science 0.138408 Espionage 0.012780 44
+"Uruguay" Production 0.064516 Science 0.069204 Espionage 0.063898 45
+"Greenland and Iceland" Production 0.015924 Science 0.015480 Espionage 0.100334 46
+"British Isles" Production 0.063694 Science 0.154799 Espionage 0.133779 47
+"Iberian Peninsula" Production 0.063694 Science 0.061920 Espionage 0.033445 48
+"France" Production 0.095541 Science 0.092879 Espionage 0.033445 49
+"Germany" Production 0.159236 Science 0.092879 Espionage 0.066890 50
+"Italy" Production 0.095541 Science 0.061920 Espionage 0.066890 51
+"Poland" Production 0.063694 Science 0.061920 Espionage 0.033445 52
+"Ukraine" Production 0.076433 Science 0.074303 Espionage 0.080268 53
+"North Balkans" Production 0.031847 Science 0.030960 Espionage 0.066890 54
+"South Balkans" Production 0.031847 Science 0.030960 Espionage 0.066890 55
+"Central Europe" Production 0.050955 Science 0.074303 Espionage 0.016722 56
+"Southeast Europe" Production 0.079618 Science 0.061920 Espionage 0.066890 57
+"Baltic States" Production 0.044586 Science 0.061920 Espionage 0.100334 58
+"West Scandinavia" Production 0.063694 Science 0.030960 Espionage 0.066890 59 60
+"East Scandinavia" Production 0.063694 Science 0.092879 Espionage 0.066890 61
+"Kaliningrad" Production 0.005764 Science 0.013841 Espionage 0.151515 62
+"Northwest Russia" Production 0.057637 Science 0.173010 Espionage 0.060606 63
+"Central Russia" Production 0.086455 Science 0.173010 Espionage 0.121212 64
+"South Russia" Production 0.028818 Science 0.034602 Espionage 0.090909 65
+"Lower Volga" Production 0.086455 Science 0.034602 Espionage 0.030303 66
+"Upper Volga" Production 0.086455 Science 0.034602 Espionage 0.030303 67
+"North Urals" Production 0.115274 Science 0.069204 Espionage 0.030303 68
+"South Urals" Production 0.086455 Science 0.034602 Espionage 0.060606 69
+"Southwest Siberia" Production 0.086455 Science 0.173010 Espionage 0.060606 70
+"Tyumen Oblast" Production 0.086455 Science 0.034602 Espionage 0.030303 71
+"Krasnoyarsk Krai" Production 0.057637 Science 0.069204 Espionage 0.030303 72
+"Southeast Siberia" Production 0.043228 Science 0.051903 Espionage 0.090909 73
+"Sakha Republic" Production 0.057637 Science 0.034602 Espionage 0.030303 74
+"Amur Oblasts" Production 0.086455 Science 0.034602 Espionage 0.121212 75
+"Russian Far East Arctic" Production 0.028818 Science 0.034602 Espionage 0.060606 76
+"Morocco/West Sahara" Production 0.063291 Science 0.072993 Espionage 0.042770 77
+"Algeria" Production 0.044304 Science 0.036496 Espionage 0.091650 78
+"Mauritania" Production 0.031646 Science 0.036496 Espionage 0.091650 79
+"Libya" Production 0.063291 Science 0.036496 Espionage 0.048880 80
+"Egypt" Production 0.075949 Science 0.072993 Espionage 0.030550 81
+"Sudan" Production 0.050633 Science 0.036496 Espionage 0.091650 82
+"Ethiopia/Eritrea" Production 0.075949 Science 0.051095 Espionage 0.061100 83
+"Somalia/Djibouti" Production 0.044304 Science 0.051095 Espionage 0.091650 84
+"The Levant" Production 0.094937 Science 0.182482 Espionage 0.122200 85
+"Turkey" Production 0.126582 Science 0.087591 Espionage 0.030550 86
+"South Caucasus" Production 0.063291 Science 0.087591 Espionage 0.091650 87
+"Iraq" Production 0.063291 Science 0.051095 Espionage 0.061100 88
+"Saudi Arabia" Production 0.075949 Science 0.072993 Espionage 0.012220 89
+"Yemen/Oman" Production 0.031646 Science 0.051095 Espionage 0.091650 90
+"Arab Gulf States" Production 0.094937 Science 0.072993 Espionage 0.040733 91
+"Far West Africa" Production 0.070671 Science 0.081967 Espionage 0.070423 92
+"West Africa" Production 0.053004 Science 0.040984 Espionage 0.070423 93
+"The Sahel" Production 0.049470 Science 0.040984 Espionage 0.105634 94
+"Nigeria" Production 0.141343 Science 0.081967 Espionage 0.035211 95
+"Cameroon/Gabon" Production 0.120141 Science 0.081967 Espionage 0.035211 96
+"South Sudan" Production 0.035336 Science 0.040984 Espionage 0.105634 97
+"The Congo" Production 0.035336 Science 0.057377 Espionage 0.070423 98
+"North Lake Victoria" Production 0.070671 Science 0.081967 Espionage 0.070423 99
+"Angola" Production 0.028269 Science 0.040984 Espionage 0.070423 100
+"Tanzania" Production 0.106007 Science 0.081967 Espionage 0.035211 101
+"Zambia/Zimbabwe" Production 0.070671 Science 0.057377 Espionage 0.035211 102
+"Mozambique" Production 0.056537 Science 0.073770 Espionage 0.070423 103
+"Namibia" Production 0.021201 Science 0.032787 Espionage 0.070423 104
+"South Africa" Production 0.106007 Science 0.163934 Espionage 0.014085 105
+"Madagascar" Production 0.035336 Science 0.040984 Espionage 0.140845 106
+"West Iran" Production 0.032450 Science 0.068110 Espionage 0.037879 107
+"Central Iran" Production 0.073113 Science 0.039370 Espionage 0.053030 108
+"Afghanistan" Production 0.046358 Science 0.039370 Espionage 0.075758 109
+"Pakistan" Production 0.079470 Science 0.062992 Espionage 0.037879 110
+"East Iran" Production 0.093113 Science 0.078740 Espionage 0.075758 111
+"Central Asia" Production 0.033113 Science 0.089370 Espionage 0.075758 112
+"West Kazakhstan" Production 0.033113 Science 0.039370 Espionage 0.113636 113
+"East Kazakhstan" Production 0.033113 Science 0.055118 Espionage 0.075758 114
+"North India" Production 0.132450 Science 0.078740 Espionage 0.037879 115
+"West India" Production 0.132450 Science 0.078740 Espionage 0.037879 116
+"East India" Production 0.112583 Science 0.055118 Espionage 0.037879 117
+"South India" Production 0.066225 Science 0.196850 Espionage 0.037879 118
+"Sri Lanka" Production 0.033113 Science 0.039370 Espionage 0.113636 119
+"Bangladesh/NE India" Production 0.066225 Science 0.039370 Espionage 0.113636 120
+"Himalayas" Production 0.033113 Science 0.039370 Espionage 0.075758 121
+"Xinjiang" Production 0.028818 Science 0.030864 Espionage 0.090726 122
+"Tibet" Production 0.028818 Science 0.030864 Espionage 0.090726 123
+"Xibei" Production 0.028818 Science 0.046296 Espionage 0.090726 124
+"Xinan" Production 0.043228 Science 0.046296 Espionage 0.060484 125
+"Liangguang" Production 0.144092 Science 0.061728 Espionage 0.040323 126
+"Huabei" Production 0.057637 Science 0.092593 Espionage 0.090726 127
+"Zhongnan" Production 0.057637 Science 0.046296 Espionage 0.060484 128
+"South Huadong" Production 0.115274 Science 0.061728 Espionage 0.040323 129
+"North Huadong" Production 0.086455 Science 0.061728 Espionage 0.060484 130
+"Dongbei" Production 0.057637 Science 0.046296 Espionage 0.090726 131
+"Mongolia" Production 0.023055 Science 0.024691 Espionage 0.102823 132
+"Korea" Production 0.069164 Science 0.111111 Espionage 0.060484 133
+"North Japan" Production 0.097983 Science 0.123457 Espionage 0.030242 134
+"South Japan" Production 0.103746 Science 0.092593 Espionage 0.030242 135
+"Taiwan" Production 0.057637 Science 0.123457 Espionage 0.060484 136
+"Burma" Production 0.033898 Science 0.037313 Espionage 0.114796 137
+"Thailand" Production 0.067797 Science 0.037313 Espionage 0.114796 138
+"Cambodia/Laos" Production 0.027119 Science 0.037313 Espionage 0.051021 139
+"Vietnam" Production 0.115254 Science 0.052239 Espionage 0.076531 140
+"Malay Peninsula" Production 0.101695 Science 0.149254 Espionage 0.051021 141
+"Sumatra" Production 0.047458 Science 0.037313 Espionage 0.076531 142
+"Java" Production 0.081356 Science 0.052239 Espionage 0.051021 143
+"Borneo" Production 0.033898 Science 0.037313 Espionage 0.053571 144
+"The Philippines" Production 0.101695 Science 0.074627 Espionage 0.051021 145
+"Sulawesi" Production 0.033898 Science 0.037313 Espionage 0.076531 146
+"New Guinea" Production 0.033898 Science 0.037313 Espionage 0.114796 147
+"West Australia" Production 0.067797 Science 0.074627 Espionage 0.015306 148
+"Queensland/NT" Production 0.084746 Science 0.074627 Espionage 0.038265 149
+"Southeast Australia" Production 0.101695 Science 0.149254 Espionage 0.076531 150
+"New Zealand" Production 0.067797 Science 0.111940 Espionage 0.038265 151
+
+END
