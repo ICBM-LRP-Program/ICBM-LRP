@@ -143,6 +143,30 @@ DRAWING DISTANCE 0.75
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TECHNOLOGY] "U_City"
   Name "U_CITY_NAME"
   Description "U_CITY_DESC"
@@ -155,9 +179,94 @@ DRAWING DISTANCE 0.75
  Name "U_TestArmy_NAME"
  Description "U_TestArmy_DESC"  
 
+
+
+
+
+
+
+[TECHNOLOGY] "U_TestUnit"
+ Name "U_TestArmy_NAME"
+ Description "U_TestArmy_DESC"  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TECHNOLOGY] "R_TestRadar"
   Name "R_TestRadar_NAME"
   Description "R_TestRadar_DESC"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "M_TestWeapon"
  Name "M_TestWeapon_NAME"

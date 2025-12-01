@@ -9,6 +9,198 @@ PollutionMultiplier 0.35
   TimeGrowing 0.0
   TimeTotal 0.0
 
+[EXPLOSION] "Cyber_Attack_Hit"
+  //Movie "Images/Explosion/small_1.midx"
+  Damage 0
+  Range 1.0
+  FullEffectRange 1.0
+  DrawSize 0
+  TimeGrowing 0.0
+  TimeTotal 0.0
+  LastingEffect 1800 StringID 1908
+  TriggerResponse No
+  ForcedInstantFlash 500
+  InstantFlashColor RGB 40 195 255 
+  InstantFlashDuration 1.5
+  InstantFlashGrowth 0.5
+  
+[EXPLOSION] "std_bomb"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 1
+  Range 0.05
+  FullEffectRange 0.01
+  DrawSize 4
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  RandomAngle true
+
+[EXPLOSION] "std_bomb_small"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 1
+  Range 0.05
+  FullEffectRange 0.01
+  DrawSize 1.75
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  RandomAngle true
+  
+  
+[EXPLOSION] "std_bomb_ABM_nuke"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 10
+  Kilotons 1
+  Range 0.05
+  FullEffectRange 0.01
+  DrawSize 6
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  PollutionSize 10
+  ScorchSize 0
+  RandomAngle true
+  
+[EXPLOSION] "rocket_explosion"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 0.8
+  Range 0.05
+  FullEffectRange 0.05
+  DrawSize 3
+  TimeGrowing 0.4
+  TimeTotal 0.4
+  RandomAngle true
+  
+[EXPLOSION] "std_torpedo"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+  Damage 3
+  Range 0.2
+  FullEffectRange 0.05
+  DrawSize 5
+  TimeGrowing 0.5
+  TimeTotal 0.5  
+RandomAngle true
+  
+[EXPLOSION] "big_bomb_old"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 2
+  Range 0.1
+  FullEffectRange 0.02
+  DrawSize 7
+  TimeGrowing 0.5
+  TimeTotal 0.75
+  RandomAngle true
+  
+[EXPLOSION] "big_bomb"
+  Movie "Images/Explosion/Nuke1.midx"
+//  Video "Images/Explosion/Nuke1.oidx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 2
+  Range 0.1
+  FullEffectRange 0.02
+  DrawSize 5
+  TimeGrowing 2.1
+  TimeTotal 2.1
+  DrawYShift 0.4
+
+
+[EXPLOSION] "Antiship2"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 3.0
+  Range 0.1
+  FullEffectRange 0.02
+  DrawSize 7
+  TimeGrowing 0.5
+  TimeTotal 0.75
+  RandomAngle true
+  
+
+[EXPLOSION] "Big_Conventional"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 5.0
+  Range 1.2
+  FullEffectRange 0.15
+  DrawSize 8
+  TimeGrowing 0.8
+  TimeTotal 0.8
+  RandomAngle true
+  
+
+[EXPLOSION] "Railgun_Hit"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70 or 217 or 218 or 219
+    MuteLength 0.25
+  Damage 3.0
+  Range 0.3
+  FullEffectRange 0.05
+  DrawSize 3
+  TimeGrowing 0.4
+  TimeTotal 0.4
+  RandomAngle true
+  
+
+[EXPLOSION] "Kinetic_Hit"
+  Movie "Images/Explosion/Nuke1.midx"
+//  Video "Images/Explosion/Nuke1.oidx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Damage 100
+  Range 10
+  FullEffectRange 1
+  DrawSize 12
+  TimeGrowing 2.1
+  TimeTotal 2.1
+  DrawYShift 0.4
+  TriggerResponse Yes
+  
+[EXPLOSION] "Gunfire_AA"
+  Movie "Images/Explosion/big_1.midx"
+  Damage 0.07
+  Range 5
+  FullEffectRange 0.2
+  DrawSize 1
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  RandomAngle true
+  
+  
+[EXPLOSION] "Gunfire_Plane"
+  Movie "Images/Explosion/big_1.midx"
+  Damage 0.25
+  Range 5
+  FullEffectRange 0.2
+  DrawSize 1
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  RandomAngle true
+  
+
+[EXPLOSION] "Laser_Plane"
+  Movie "Images/Explosion/big_1.midx"
+  Damage 0.25
+  Range 1
+  FullEffectRange .2
+  DrawSize 1
+  TimeGrowing 0.5
+  TimeTotal 0.5    
+  RandomAngle true
+  
+  
 [EXPLOSION] "Gunfire_Army"
   Movie "Images/Explosion/big_1.midx"
   Damage 0.50
@@ -36,4 +228,1175 @@ PollutionMultiplier 0.35
   RandomAngle true
   AchievementProperty "ACH_THE_EVIL_THAT_MEN_DO"
   
+  
+[EXPLOSION] "Gunfire_Spec_Ops"
+  Movie "Images/Explosion/big_1.midx"
+  Damage 0.055
+  Range 2
+  FullEffectRange 1
+  DrawSize 0.2
+  TimeGrowing 0.5
+  TimeTotal 0.5  
+  RandomAngle true
+  
+
+[EXPLOSION] "nuke_10"
+  Movie "Images/Explosion/NukeV2.midx"
+  Sound 71 or 106
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 10
+  Damage 80
+  Range 20
+  FullEffectRange 0.5
+  DrawSize 10
+  TimeGrowing 2.25
+  TimeTotal 2.25
+  DrawYShift 0.5
+  PollutionSize 30
+  ScorchSize 15
+  LightmapWashoutRadius 0  
+
+  Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 20
+    TimeGrowing 2.25
+    TimeTotal 2.25
+    DrawYShift 0.55
+	  PollutionSize 30
+	  
+[EXPLOSION] "nuke_10_fusion"
+  Movie "Images/Explosion/NukeV2.midx"
+  Sound 71 or 106
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 10
+  Damage 80
+  Range 20
+  FullEffectRange 0.5
+  DrawSize 10
+  TimeGrowing 2.25
+  TimeTotal 2.25
+  DrawYShift 0.5
+  PollutionSize 5
+  ScorchSize 15
+  LightmapWashoutRadius 0  
+
+  Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 20
+    TimeGrowing 2.25
+    TimeTotal 2.25
+    DrawYShift 0.55
+	  PollutionSize 5
+
+[EXPLOSION] "Tac_Nuke_Army"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2
+  Damage 6
+  Range 20
+  FullEffectRange 0.5
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 25
+  ScorchSize 12.5
+  RandomAngle true
+    
+  TriggerResponse Yes
+  
+[EXPLOSION] "Tac_Nuke_Army_Fusion"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2
+  Damage 6
+  Range 20
+  FullEffectRange 0.5
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 5
+  ScorchSize 12.5
+  RandomAngle true
+    
+  TriggerResponse Yes  
+
+[EXPLOSION] "Tac_Nuke_2"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2		
+  Damage 50
+  Range 150
+  FullEffectRange 50
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 25
+  ScorchSize 12.5
+  RandomAngle true
+  
+
+   /* Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 18
+    TimeGrowing 0.4
+    TimeTotal 0.4
+    DrawYShift 0.4
+	PollutionSize 25 */
+	
+[EXPLOSION] "Tac_Nuke_2_Fusion"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2		
+  Damage 50
+  Range 150
+  FullEffectRange 50
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 5
+  ScorchSize 12.5
+  RandomAngle true
+  
+
+   /* Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 18
+    TimeGrowing 0.4
+    TimeTotal 0.4
+    DrawYShift 0.4
+	PollutionSize 5 */	
+  
+[EXPLOSION] "Tac_Nuke_2_Wet"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2		
+  Damage 50
+  Range 100
+  FullEffectRange 25
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 25
+  ScorchSize 12.5
+  RandomAngle true
+  
+
+    Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 18
+    TimeGrowing 0.4
+    TimeTotal 0.4
+    DrawYShift 0.4
+	PollutionSize 25
+
+[EXPLOSION] "Tac_Nuke_2_Wet_Fusion"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2		
+  Damage 50
+  Range 100
+  FullEffectRange 25
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 5
+  ScorchSize 12.5
+  RandomAngle true
+  
+
+    Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 18
+    TimeGrowing 0.4
+    TimeTotal 0.4
+    DrawYShift 0.4
+	PollutionSize 5  	
+
+///Heavy ABM
+[EXPLOSION] "Tac_Nuke_ABM"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2		
+  Damage 50
+  Range 30
+  FullEffectRange 25
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 30
+  ScorchSize 12.5
+  RandomAngle true
+  
+
+  ///////Water variant messes with ABMs exploding over water
+   /* Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 18
+    TimeGrowing 0.4
+    TimeTotal 0.4
+    DrawYShift 0.4
+	PollutionSize 30 */
+
+///Heavy ABM
+[EXPLOSION] "Tac_Nuke_ABM_Fusion"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 1.5
+        MuteLength 0.05
+  Kilotons 2		
+  Damage 50
+  Range 30
+  FullEffectRange 25
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  PollutionSize 2 //Always high airburst, extra clean
+  ScorchSize 12.5
+  RandomAngle true
+  
+
+  ///////Water variant messes with ABMs exploding over water
+   /* Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 1.5
+        MuteLength 0.05
+    DrawSize 18
+    TimeGrowing 0.4
+    TimeTotal 0.4
+    DrawYShift 0.4
+	PollutionSize 2 */
+
+
+[EXPLOSION] "nuke_100"
+  Emulated "Units/Emulated/100K.txt"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 100
+  Damage 225
+  Range 60
+  FullEffectRange 10
+  DrawSize 9
+  TimeGrowing 3.0
+  TimeTotal 3.0
+  DrawYShift 0.55
+  PollutionSize 80
+  ScorchSize 40
+
+  Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 2
+        MuteLength 0.05
+    DrawSize 27
+    TimeGrowing 3.0
+    TimeTotal 3.0
+    DrawYShift 0.55
+	  PollutionSize 80
+	  
+	  
+[EXPLOSION] "nuke_250"
+  Emulated "Units/Emulated/100K.txt"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 250
+  Damage 300
+  Range 75
+  FullEffectRange 15
+  DrawSize 11
+  TimeGrowing 3.5
+  TimeTotal 3.5
+  DrawYShift 0.55
+  PollutionSize 100
+  ScorchSize 50
+
+  Variant Water
+    Emulated "Units/Emulated/Water_100K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 2
+        MuteLength 0.05
+    DrawSize 30
+    TimeGrowing 3.0
+    TimeTotal 3.0
+    DrawYShift 0.55
+	  PollutionSize 80	    
+
+[EXPLOSION] "nuke_500"
+//  Movie "Images/Explosion/nuke_2_f.midx"
+  Emulated "Units/Emulated/500K.txt"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 500
+  Damage 450
+  Range 100
+  FullEffectRange 20
+  DrawSize 13
+  TimeGrowing 3.8
+  TimeTotal 3.8
+  DrawYShift 0.55
+  PollutionSize 120
+  ScorchSize 60
+
+  Variant Water
+    Emulated "Units/Emulated/Water_500K.txt"
+	Sound 197 or 198 or 199
+	    Priority 1
+        Volume 2
+        MuteLength 0.05
+    DrawSize 38
+    TimeGrowing 3.25
+    TimeTotal 3.25
+    DrawYShift 0.55
+  PollutionSize 120
+
+[EXPLOSION] "nuke_1000"
+  Emulated "Units/Emulated/1M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+  Kilotons 1000
+  Damage 850 // to equalize the damage, we need to take into account the FullEffectRange
+  Range 150
+  FullEffectRange 30
+  DrawSize 14
+  TimeGrowing 3.5
+  TimeTotal 3.5
+  DrawYShift 0.55
+  PollutionSize 220
+  ScorchSize 80
+
+  Variant Water
+    Emulated "Units/Emulated/Water_1M.txt"
+	Sound 197 or 198 or 199
+	    Priority 2
+        SoundSize 1.25
+        Volume 2
+		MuteLength 0.05
+    DrawSize 42
+    TimeGrowing 3.5
+    TimeTotal 3.5
+    DrawYShift 0.55
+  PollutionSize 220
+
+[EXPLOSION] "nuke_1000_Fusion"
+  Emulated "Units/Emulated/1M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+  Kilotons 1000
+  Damage 850 // to equalize the damage, we need to take into account the FullEffectRange
+  Range 150
+  FullEffectRange 30
+  DrawSize 14
+  TimeGrowing 3.5
+  TimeTotal 3.5
+  DrawYShift 0.55
+  PollutionSize 80
+  ScorchSize 80
+  
+  Variant Water
+    Emulated "Units/Emulated/Water_1M.txt"
+	Sound 197 or 198 or 199
+	    Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+    DrawSize 42
+    TimeGrowing 3.5
+    TimeTotal 3.5
+    DrawYShift 0.55
+	  PollutionSize 80
+
+
+[EXPLOSION] "nuke_5000"
+  Emulated "Units/Emulated/1M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+  Kilotons 5000
+  Damage 1600 // to equalize the damage, we need to take into account the FullEffectRange
+  Range 175
+  FullEffectRange 37.5
+  DrawSize 18
+  TimeGrowing 3.5
+  TimeTotal 3.5
+  DrawYShift 0.55
+  PollutionSize 230
+    ScorchSize 100
+
+  Variant Water
+    Emulated "Units/Emulated/Water_1M.txt"
+	Sound 197 or 198 or 199
+	    Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+    DrawSize 42
+    TimeGrowing 3.5
+    TimeTotal 3.5
+    DrawYShift 0.55
+	PollutionSize 230
+
+[EXPLOSION] "nuke_5000_Fusion"
+  Emulated "Units/Emulated/1M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+  Kilotons 5000
+  Damage 1600 // to equalize the damage, we need to take into account the FullEffectRange
+  Range 175
+  FullEffectRange 37.5
+  DrawSize 18
+  TimeGrowing 3.5
+  TimeTotal 3.5
+  DrawYShift 0.55
+  PollutionSize 90
+    ScorchSize 100  
+
+  Variant Water
+    Emulated "Units/Emulated/Water_1M.txt"
+	Sound 197 or 198 or 199
+	    Priority 2
+        SoundSize 1.25
+        Volume 2
+        MuteLength 0.05
+    DrawSize 42
+    TimeGrowing 3.5
+    TimeTotal 3.5
+    DrawYShift 0.55
+	PollutionSize 90
+
+[EXPLOSION] "nuke_10000"
+  Emulated "Units/Emulated/10M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 3
+        SoundSize 1.5
+        Volume 2.5
+        MuteLength 0.05
+  Kilotons 10000
+  Damage 3500
+  Range 235
+  FullEffectRange 50
+  DrawSize 20
+  // TimeGrowing 6.78
+  TimeTotal 4 //7
+  DrawYShift 0.55
+  PollutionSize 280
+      ScorchSize 120
+
+  Variant Water
+    Emulated "Units/Emulated/Water_10M.txt"
+	Sound 197 or 198 or 199
+	    Priority 3
+        SoundSize 1.5
+        Volume 2.5
+        MuteLength 0.05
+    DrawSize 50
+    // TimeGrowing 6.78
+    TimeTotal 4 //7
+    DrawYShift 0.0
+	  PollutionSize 280
+
+
+[EXPLOSION] "nuke_10000_Fusion"
+  Emulated "Units/Emulated/10M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 3
+        SoundSize 1.5
+        Volume 2.5
+        MuteLength 0.05
+  Kilotons 10000
+  Damage 3500
+  Range 235
+  FullEffectRange 50
+  DrawSize 20
+  // TimeGrowing 6.78
+  TimeTotal 4 //7
+  DrawYShift 0.55
+  PollutionSize 120
+        ScorchSize 120
+  
+  Variant Water
+    Emulated "Units/Emulated/Water_10M.txt"
+	Sound 197 or 198 or 199
+	    Priority 3
+        SoundSize 1.5
+        Volume 2.5
+        MuteLength 0.05
+    DrawSize 50
+    // TimeGrowing 6.78
+    TimeTotal 4 //7
+    DrawYShift 0.0
+	  PollutionSize 120	
+
+//////////////////////////////////////////////BIG BOOM////////////////////////
+[EXPLOSION] "nuke_25000"
+  Emulated "Units/Emulated/10M.txt"
+  Sound 73 or 101 or 102 or 103
+        Priority 3
+        SoundSize 1.5
+        Volume 2.8
+        MuteLength 0.05
+  Kilotons 25000
+  Damage 6750
+  Range 270
+  FullEffectRange 65
+  DrawSize 24
+  // TimeGrowing 6.78
+  TimeTotal 4 //7
+  DrawYShift 0.55
+  PollutionSize 340
+        ScorchSize 135
+  
+  Variant Water
+    Emulated "Units/Emulated/Water_10M.txt"
+	Sound 197 or 198 or 199
+	    Priority 3
+        SoundSize 1.5
+        Volume 2.8
+        MuteLength 0.05
+    DrawSize 50
+    // TimeGrowing 6.78
+    TimeTotal 4 //7
+    DrawYShift 0.0
+    PollutionSize 340
+	
+[EXPLOSION] "nuke_50000"
+  Emulated "Units/Emulated/50M.txt"
+  Sound 214 or 215 or 216
+        Priority 4
+        SoundSize 2.0
+        Volume 2.8
+        MuteLength 0.05
+  Kilotons 50000
+  Damage 10000
+  Range 280
+  FullEffectRange 80
+  DrawSize 28
+  // TimeGrowing 6.78
+  TimeTotal 5 //7
+  DrawYShift 0.55
+  PollutionSize 380
+   ScorchSize 150
+
+  Variant Water
+    Emulated "Units/Emulated/Water_50M.txt"
+	  Sound 214 or 215 or 216
+	    Priority 4
+        SoundSize 2.0
+        Volume 2.8
+        MuteLength 0.05
+    DrawSize 56
+    // TimeGrowing 6.78
+    TimeTotal 5 //7
+    DrawYShift 0.55
+	  PollutionSize 380
+
+
+[EXPLOSION] "nuke_50000_Fusion"
+  Emulated "Units/Emulated/50M.txt"
+  Sound 214 or 215 or 216
+        Priority 4
+        SoundSize 2.0
+        Volume 2.8
+        MuteLength 0.05
+  Kilotons 50000
+  Damage 10000
+  Range 280
+  FullEffectRange 80
+  DrawSize 28
+  // TimeGrowing 6.78
+  TimeTotal 5 //7
+  DrawYShift 0.55
+  PollutionSize 160
+  ScorchSize 150
+
+  Variant Water
+    Emulated "Units/Emulated/Water_50M.txt"
+	  Sound 214 or 215 or 216
+	    Priority 4
+        SoundSize 2.0
+        Volume 2.8
+        MuteLength 0.05
+    DrawSize 56
+    // TimeGrowing 6.78
+    TimeTotal 5 //7
+    DrawYShift 0.55
+	PollutionSize 160
+
+
+[EXPLOSION] "nuke_100000_Fusion"
+  Emulated "Units/Emulated/50M.txt"
+  Sound 214 or 215 or 216
+        Priority 5
+        SoundSize 4.0
+        Volume 3.2
+        MuteLength 0.1
+  Kilotons 100000
+  Damage 12500
+  Range 300
+  FullEffectRange 90
+  DrawSize 34
+  // TimeGrowing 6.78
+  TimeTotal 6 //7
+  DrawYShift 0.55
+  PollutionSize 300
+  ScorchSize 180
+
+  Variant Water
+    Emulated "Units/Emulated/Water_50M.txt"
+	  Sound 214 or 215 or 216
+	    Priority 5
+        SoundSize 2.0
+        Volume 3.2
+        MuteLength 0.1
+    DrawSize 56
+    // TimeGrowing 6.78
+    TimeTotal 5 //7
+    DrawYShift 0.55
+  PollutionSize 300
+
+
+//Lasting Effect time units are 1/30th of a second. 1800 = 1 minute
+
+
+///////////////////////////////////Narsty Cobalt Bombs/////////////////////////
+////////////////Add extra damage + pollution on top of existing explosion. NOT the main explosion itself/////////
+[EXPLOSION] "nuke_500_Cobalt"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0
+        MuteLength 0.05
+  Damage 35
+  Range 80
+  FullEffectRange 30
+  DrawSize 0
+  TimeGrowing 5.0
+  TimeTotal 5.0
+  DrawYShift 0.55  
+  PollutionSize 240
+  ScorchSize 75
+
+[EXPLOSION] "nuke_1000_Cobalt"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0
+        MuteLength 0.05
+  Damage 45
+  Range 120
+  FullEffectRange 45
+  DrawSize 0
+  TimeGrowing 5.0
+  TimeTotal 5.0
+  DrawYShift 0.55  
+  PollutionSize 410  
+  ScorchSize 100
+
+[EXPLOSION] "nuke_10000_Cobalt"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0
+        MuteLength 0.05
+  Damage 75
+  Range 400
+  FullEffectRange 150
+  DrawSize 0
+  TimeGrowing 5.0
+  TimeTotal 5.0
+  DrawYShift 0.55  
+  PollutionSize 1400
+  ScorchSize 140
+
+///////////////////////////////////Narstier Salted Bombs/////////////////////////
+[EXPLOSION] "nuke_500_Salt"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0
+        MuteLength 0.05
+  Damage 60
+  Range 100
+  FullEffectRange 35
+  DrawSize 0
+  TimeGrowing 5.0
+  TimeTotal 5.0
+  DrawYShift 0.55  
+  PollutionSize 360
+  ScorchSize 80
+  
+[EXPLOSION] "nuke_1000_Salt"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0
+        MuteLength 0.05
+  Damage 70
+  Range 150
+  FullEffectRange 60
+  DrawSize 0
+  TimeGrowing 5.0
+  TimeTotal 5.0
+  DrawYShift 0.55  
+  PollutionSize 620  
+  ScorchSize 110
+	
+[EXPLOSION] "nuke_10000_Salt"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0
+        MuteLength 0.05
+  Damage 90
+  Range 500
+  FullEffectRange 180
+  DrawSize 0
+  TimeGrowing 5.0
+  TimeTotal 5.0
+  DrawYShift 0.55  
+  PollutionSize 2200
+  ScorchSize 150
+
+//////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////EMP WEAPONS//////////////////////
+
+[EXPLOSION] "EMP_Blast"
+ Movie "Images/Explosion/small_1.midx"
+  //Sound 70
+  //MuteLength 0.25
+
+/////kt and pollutionsize both linked to a secondary explosion, specific to each weapon
+  Kilotons 0
+  Damage 0.0
+  Range 1 ///Range modified by individual weapon
+  FullEffectRange 1 ///See above
+  ForcedInstantFlash 300
+//Collateral No
+  TimeGrowing 0.5
+  TimeTotal 0.5
+  
+   //PollutionSize 1 
+   
+  LastingEffect 1800 StringID 2896
+  TriggerResponse Yes 
+  DrawWave Color "76D6FF64"
+
+
+////////////DO NOT REMOVE, THIS ACTUALLY DOES STUFF//////////////
+/////EMP Cosmetic + kilotons + pollution + Sound
+[EXPLOSION] "Nuke_ASAT_EMP"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70
+  MuteLength 0.25
+  Kilotons 0
+  Damage 0.0
+  Range 0
+  FullEffectRange 0
+  ForcedInstantFlash 200
+  //Collateral No
+  TimeGrowing 0.3
+  TimeTotal 0.3
+  TriggerResponse Yes 
+  DrawWave Color "76D6FF64"
+  
+[EXPLOSION] "nuke_500_EMP"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70
+  MuteLength 0.25
+  Kilotons 500
+  Damage 0.0
+  Range 0
+  FullEffectRange 0
+  ForcedInstantFlash 300
+  TimeGrowing 0.5
+  TimeTotal 0.5
+   PollutionSize 120 
+  TriggerResponse Yes 
+  DrawWave Color "76D6FF64"
+  
+[EXPLOSION] "nuke_500_EMP_Super"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70
+    MuteLength 0.25
+  Kilotons 500
+  Damage 0.0
+  Range 0
+  FullEffectRange 0
+  ForcedInstantFlash 400
+  //Collateral No
+  TimeGrowing 0.5
+  TimeTotal 0.5
+   PollutionSize 120 
+   TriggerResponse Yes 
+  DrawWave Color "76D6FF64" 
+  
+
+[EXPLOSION] "nuke_1000_EMP"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70
+  MuteLength 0.25
+  Kilotons 1000
+  Damage 0.0
+  Range 0
+  FullEffectRange 0
+  ForcedInstantFlash 400
+  TimeGrowing 0.6
+  TimeTotal 0.6
+   PollutionSize 170 
+  TriggerResponse Yes 
+  DrawWave Color "76D6FF64"
+
+  
+[EXPLOSION] "nuke_1000_EMP_Super"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70
+  MuteLength 0.25
+  Kilotons 1000
+  Damage 0.0
+  Range 0
+  FullEffectRange 0
+  ForcedInstantFlash 400
+  TimeGrowing 0.6
+  TimeTotal 0.6
+   PollutionSize 170 
+   TriggerResponse Yes 
+  DrawWave Color "76D6FF64"  
+
+  
+[EXPLOSION] "nuke_10000_EMP_Super"
+  Movie "Images/Explosion/small_1.midx"
+  Sound 70
+  MuteLength 0.25
+  Kilotons 10000
+  Damage 0.0
+  Range 0
+  FullEffectRange 0
+  ForcedInstantFlash 2000
+  //Collateral No
+  TimeGrowing 0.8
+  TimeTotal 0.8
+   PollutionSize 280 
+   TriggerResponse Yes 
+  DrawWave Color "76D6FF64"
+
+
+/////Guaranteed casualties - Always ensures a direct nuke hit kills at least X number of people, kills 'stragglers'
+[EXPLOSION] "Guaranteed_Casualties_4750"
+  Movie "Images/Explosion/small_1.midx"
+  Kilotons 0
+  Damage 0
+  Range 5
+  FullEffectRange 5
+  DrawSize 0
+  TimeGrowing 0
+  TimeTotal 0
+  MinCasualties 4750
+  Type Other
+
+///For tactical weapons, etc
+[EXPLOSION] "Guaranteed_Casualties_300"
+  Movie "Images/Explosion/small_1.midx"
+  Kilotons 0
+  Damage 0
+  Range 5
+  FullEffectRange 5
+  DrawSize 0
+  TimeGrowing 0
+  TimeTotal 0
+  MinCasualties 300
+  Type Other
+
+///////////////////////////////////LASERS////////////////////////////
+
+////////////Fun City-Melter Version///////
+/*[EXPLOSION] "DEW_Sat_Laser"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 0.0
+        MuteLength 0.05
+ // Kilotons 2
+  Damage 10000
+  Range 50
+  FullEffectRange 10.0
+  DrawSize 12
+  RandomAngle true
+  
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4*/
+
+
+//////////Actual version////////////////
+[EXPLOSION] "DEW_Sat_Laser"
+  Movie "Images/Explosion/big_1.midx"
+  Sound 72 or 104 or 105
+        Priority 1
+        Volume 0.0
+        MuteLength 0.05
+ // Kilotons 2
+  Damage 5
+  Range 10
+  FullEffectRange 3.0
+  DrawSize 12
+  TimeGrowing 0.4
+  TimeTotal 0.8
+  DrawYShift 0.4
+  RandomAngle true
+  
+
+
+////Mustard Gas
+[EXPLOSION] "Chemical_1"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0.2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 2.5
+  Range 200
+  FullEffectRange 75
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 1800 StringID 1900
+  TriggerResponse Yes 
+  AchievementProperty "ACH_A_GRUESOME_TIME"
+
+
+///Sarin   
+[EXPLOSION] "Chemical_2"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0.2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 3.2
+  Range 200
+  FullEffectRange 68 //FER shrinks with upgrades, reduces self-damage so upgrades are actually helpful
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 2400 StringID 1901
+   TriggerResponse Yes    
+  AchievementProperty "ACH_A_GRUESOME_TIME"
+
+///VX Gas
+[EXPLOSION] "Chemical_3"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0.2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 4.5
+  Range 200
+  FullEffectRange 65
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 3000 StringID 1902
+   TriggerResponse Yes 
+  AchievementProperty "ACH_A_GRUESOME_TIME"
+  
+///Novichok-2000  
+[EXPLOSION] "Chemical_4"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 0.2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 6
+  Range 200
+  FullEffectRange 60
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 3600 StringID 1907
+   TriggerResponse Yes    
+  AchievementProperty "ACH_A_GRUESOME_TIME"
+	
+  
+  //////////////////////////////////////////////////////BIOLOGICAL WEAPONS START HERE//////////////////////////////////////////////////////
+  
+  //Tularemia, AKA Rabbit fever
+  [EXPLOSION] "Biological"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 0.25
+  Range 350
+  FullEffectRange 300
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 3600 StringID 1903
+  LastingDamage 0.000350
+  LastingDamageType FadingPercent
+    TriggerResponse Yes
+  
+  
+  //Smallpox
+    [EXPLOSION] "Biological2"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 0.30
+  Range 500
+  FullEffectRange 450
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 4200 StringID 1904
+  LastingDamage 0.000400
+  LastingDamageType FadingPercent
+    TriggerResponse Yes
+
+//Ebola
+  [EXPLOSION] "Biological3"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 0.40
+  Range 700
+  FullEffectRange 650
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 4800 StringID 1905
+  LastingDamage 0.000500
+  LastingDamageType FadingPercent
+    TriggerResponse Yes
+  
+  //EMeVHF-24, AKA Medusa Fever
+[EXPLOSION] "BiologicalX"
+  Emulated "Units/Emulated/Water_chem.txt"
+  Sound 70
+        Priority 1
+        Volume 2
+        MuteLength 0.05
+  Kilotons 0
+  Damage 0.75
+  Range 1000
+  FullEffectRange 900
+  DrawSize 20
+  TimeGrowing 10.0
+  TimeTotal 10.0
+  DrawYShift 0.55
+  PollutionSize 0
+  LastingEffect 7200 StringID 1906
+  LastingDamage 0.000750
+  LastingDamageType FadingPercent
+  TriggerResponse Yes
+  
+  AchievementProperty "ACH_DOWN_WITH_THE_SICKNESS"
+
 [END]
