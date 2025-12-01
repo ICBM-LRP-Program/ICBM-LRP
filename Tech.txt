@@ -1,5 +1,14 @@
 DRAWING DISTANCE 0.75
 
+
+
+
+
+
+
+
+////////// 科技树页面 Technology Page //////////
+
 // TP = Technology Page
 [TYPE] "TP_Page1"
   Name "TP_Page1_NAME"
@@ -7,6 +16,19 @@ DRAWING DISTANCE 0.75
  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+////////// 科技等级 Technology Level //////////
 
 [LEVEL] "L_1"
   Name "L_1_NAME"
@@ -59,6 +81,23 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 468x468.png"
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////// 单位级别 Unit Classes //////////
+
 [UNIT_CLASS] "UC_Page1"
   Name "UC_Page1_NAME"
   Description "UC_Page1_DESC"
@@ -68,6 +107,29 @@ DRAWING DISTANCE 0.75
   Description "UC_Page2_DESC"
   //AutoAssignTo Ground
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////// 国防戒备状态 DEFOCN //////////
 
 [DEFCON] "DEFCON_5"
   Name "M_DEFCON_5_NAME"
@@ -96,6 +158,23 @@ DRAWING DISTANCE 0.75
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////// 测试用科技 TechTest //////////
 
 [TECHNOLOGY] "TestTech1" 
   Name "TestTech1_NAME"
@@ -152,6 +231,513 @@ DRAWING DISTANCE 0.75
 
 
 
+////////// 实际单位 Units //////////
+
+[TECHNOLOGY] "U_VLFSAFB"
+  Name "U_VLFSAFB_NAME"
+  Description "U_VLFSAFB_DESC"
+
+[TECHNOLOGY] "U_VLFSEAB"
+  Name "U_VLFSEAB_NAME"
+  Description "U_VLFSEAB_DESC"
+
+[TECHNOLOGY] "U_FloatingAFB"
+  Name "U_FloatingAFB_NAME"
+  Description "U_FloatingAFB_DESC"
+
+[TECHNOLOGY] "U_NavalAFB"
+  Name "U_NavalAFB_NAME"
+  Description "U_NavalAFB_DESC"
+
+[TECHNOLOGY] "U_MaritimeReconStation"
+  Name "U_MaritimeReconStation_NAME"
+  Description "U_MaritimeReconStation_DESC"
+
+[TECHNOLOGY] "U_UnderwaterMissileLauncher"
+  Name "U_UnderwaterMissileLauncher_NAME"
+  Description "U_UnderwaterMissileLauncher_DESC"
+
+[TECHNOLOGY] "U_ArmyHQ"
+  Name "U_ArmyHQ_NAME"
+  Description "U_ArmyHQ_DESC"
+
+[TECHNOLOGY] "U_ArmyBase"
+  Name "U_ArmyBase_NAME"
+  Description "U_ArmyBase_DESC"
+
+[TECHNOLOGY] "U_MissileSilo"
+  Name "U_MissileSilo_NAME"
+  Description "U_MissileSilo_DESC"
+
+[TECHNOLOGY] "U_HardenedSilo"
+  Name "U_HardenedSilo_NAME"
+  Description "U_HardenedSilo_DESC"
+
+[TECHNOLOGY] "U_MissileLaunchPad"
+  Name "U_MissileLaunchPad_NAME"
+  Description "U_MissileLaunchPad_DESC"
+
+[TECHNOLOGY] "U_StrategicAFB"
+  Name "U_StrategicAFB_NAME"
+  Description "U_StrategicAFB_DESC"
+
+[TECHNOLOGY] "U_TacticalAFB"
+  Name "U_TacticalAFB_NAME"
+  Description "U_TacticalAFB_DESC"
+
+[TECHNOLOGY] "U_SpecialAFB"
+  Name "U_SpecialAFB_NAME"
+  Description "U_SpecialAFB_DESC"
+
+[TECHNOLOGY] "U_NormalAFB"
+  Name "U_NormalAFB_NAME"
+  Description "U_NormalAFB_DESC"
+
+[TECHNOLOGY] "U_CommandCenter"
+  Name "U_CommandCenter_NAME"
+  Description "U_CommandCenter_DESC"
+
+[TECHNOLOGY] "U_IntelCenter"
+  Name "U_IntelCenter_NAME"
+  Description "U_IntelCenter_DESC"
+
+[TECHNOLOGY] "U_ResearchCenter"
+  Name "U_ResearchCenter_NAME"
+  Description "U_ResearchCenter_DESC"
+
+[TECHNOLOGY] "U_CyberWarfareCenter"
+  Name "U_CyberWarfareCenter_NAME"
+  Description "U_CyberWarfareCenter_DESC"
+
+[TECHNOLOGY] "U_CivilAirport"
+  Name "U_CivilAirport_NAME"
+  Description "U_CivilAirport_DESC"
+
+[TECHNOLOGY] "U_OTHRadarSite"
+  Name "U_OTHRadarSite_NAME"
+  Description "U_OTHRadarSite_DESC"
+
+[TECHNOLOGY] "U_EarlyWarningRadarSite"
+  Name "U_EarlyWarningRadarSite_NAME"
+  Description "U_EarlyWarningRadarSite_DESC"
+
+[TECHNOLOGY] "U_CRAM"
+  Name "U_CRAM_NAME"
+  Description "U_CRAM_DESC"
+
+[TECHNOLOGY] "U_SRAntiAirPosition"
+  Name "U_SRAntiAirPosition_NAME"
+  Description "U_SRAntiAirPosition_DESC"
+
+[TECHNOLOGY] "U_LRAntiAirPosition"
+  Name "U_LRAntiAirPosition_NAME"
+  Description "U_LRAntiAirPosition_DESC"
+
+[TECHNOLOGY] "U_TerminalABM"
+  Name "U_TerminalABM_NAME"
+  Description "U_TerminalABM_DESC"
+
+[TECHNOLOGY] "U_MidcourseABM"
+  Name "U_MidcourseABM_NAME"
+  Description "U_MidcourseABM_DESC"
+
+[TECHNOLOGY] "U_FrontArmyBase"
+  Name "U_FrontArmyBase_NAME"
+  Description "U_FrontArmyBase_DESC"
+
+[TECHNOLOGY] "U_FrontArmyAFB"
+  Name "U_FrontArmyAFB_NAME"
+  Description "U_FrontArmyAFB_DESC"
+
+[TECHNOLOGY] "U_ImprovisedAirbase"
+  Name "U_ImprovisedAirbase_NAME"
+  Description "U_ImprovisedAirbase_DESC"
+
+[TECHNOLOGY] "U_FrontUAVBase"
+  Name "U_FrontUAVBase_NAME"
+  Description "U_FrontUAVBase_DESC"
+
+[TECHNOLOGY] "U_RadarSite"
+  Name "U_RadarSite_NAME"
+  Description "U_RadarSite_DESC"
+
+[TECHNOLOGY] "U_ObservationPost"
+  Name "U_ObservationPost_NAME"
+  Description "U_ObservationPost_DESC"
+
+[TECHNOLOGY] "U_ContainerWeaponSystem"
+  Name "U_ContainerWeaponSystem_NAME"
+  Description "U_ContainerWeaponSystem_DESC"
+
+[TECHNOLOGY] "U_ArmorDivision"
+  Name "U_ArmorDivision_NAME"
+  Description "U_ArmorDivision_DESC"
+
+[TECHNOLOGY] "U_HeavyArmorBrigade"
+  Name "U_HeavyArmorBrigade_NAME"
+  Description "U_HeavyArmorBrigade_DESC"
+
+[TECHNOLOGY] "U_LightArmorBrigade"
+  Name "U_LightArmorBrigade_NAME"
+  Description "U_LightArmorBrigade_DESC"
+
+[TECHNOLOGY] "U_InfantryBrigade"
+  Name "U_InfantryBrigade_NAME"
+  Description "U_InfantryBrigade_DESC"
+
+[TECHNOLOGY] "U_HeavyArmorBattalion"
+  Name "U_HeavyArmorBattalion_NAME"
+  Description "U_HeavyArmorBattalion_DESC"
+
+[TECHNOLOGY] "U_LightArmorBattalion"
+  Name "U_LightArmorBattalion_NAME"
+  Description "U_LightArmorBattalion_DESC"
+
+[TECHNOLOGY] "U_MechanizedInfantryBattalion"
+  Name "U_MechanizedInfantryBattalion_NAME"
+  Description "U_MechanizedInfantryBattalion_DESC"
+
+[TECHNOLOGY] "U_MotorizedInfantryBattalion"
+  Name "U_MotorizedInfantryBattalion_NAME"
+  Description "U_MotorizedInfantryBattalion_DESC"
+
+[TECHNOLOGY] "U_ArtilleryBattalion"
+  Name "U_ArtilleryBattalion_NAME"
+  Description "U_ArtilleryBattalion_DESC"
+
+[TECHNOLOGY] "U_AntiAirBattalion"
+  Name "U_AntiAirBattalion_NAME"
+  Description "U_AntiAirBattalion_DESC"
+
+[TECHNOLOGY] "U_MissileBattalion"
+  Name "U_MissileBattalion_NAME"
+  Description "U_MissileBattalion_DESC"
+
+[TECHNOLOGY] "U_TacticalMissileBattalion"
+  Name "U_TacticalMissileBattalion_NAME"
+  Description "U_TacticalMissileBattalion_DESC"
+
+[TECHNOLOGY] "U_CombatEngineerBattalion"
+  Name "U_CombatEngineerBattalion_NAME"
+  Description "U_CombatEngineerBattalion_DESC"
+
+[TECHNOLOGY] "U_ReserveForceBattalion"
+  Name "U_ReserveForceBattalion_NAME"
+  Description "U_ReserveForceBattalion_DESC"
+
+[TECHNOLOGY] "U_RadarCompany"
+  Name "U_RadarCompany_NAME"
+  Description "U_RadarCompany_DESC"
+
+[TECHNOLOGY] "U_SpecOpsCompany"
+  Name "U_SpecOpsCompany_NAME"
+  Description "U_SpecOpsCompany_DESC"
+
+[TECHNOLOGY] "U_ArmedPoliceCompany_CN"
+  Name "U_ArmedPoliceCompany_CN_NAME"
+  Description "U_ArmedPoliceCompany_CN_DESC"
+
+[TECHNOLOGY] "U_ElectronicWarfareCompany"
+  Name "U_ElectronicWarfareCompany_NAME"
+  Description "U_ElectronicWarfareCompany_DESC"
+
+[TECHNOLOGY] "U_ICBMTEL"
+  Name "U_ICBMTEL_NAME"
+  Description "U_ICBMTEL_DESC"
+
+[TECHNOLOGY] "U_MRBMTEL"
+  Name "U_MRBMTEL_NAME"
+  Description "U_MRBMTEL_DESC"
+
+[TECHNOLOGY] "U_SRBMTEL"
+  Name "U_SRBMTEL_NAME"
+  Description "U_SRBMTEL_DESC"
+
+[TECHNOLOGY] "U_Carrier"
+  Name "U_Carrier_NAME"
+  Description "U_Carrier_DESC"
+
+[TECHNOLOGY] "U_Battelship"
+  Name "U_Battelship_NAME"
+  Description "U_Battelship_DESC"
+
+[TECHNOLOGY] "U_Cruiser"
+  Name "U_Cruiser_NAME"
+  Description "U_Cruiser_DESC"
+
+[TECHNOLOGY] "U_Destroyer"
+  Name "U_Destroyer_NAME"
+  Description "U_Destroyer_DESC"
+
+[TECHNOLOGY] "U_Frigate"
+  Name "U_Frigate_NAME"
+  Description "U_Frigate_DESC"
+
+[TECHNOLOGY] "U_Corvette"
+  Name "U_Corvette_NAME"
+  Description "U_Corvette_DESC"
+
+[TECHNOLOGY] "U_MissileBoat"
+  Name "U_MissileBoat_NAME"
+  Description "U_MissileBoat_DESC"
+
+[TECHNOLOGY] "U_UUV"
+  Name "U_UUV_NAME"
+  Description "U_UUV_DESC"
+
+[TECHNOLOGY] "U_LHA"
+  Name "U_LHA_NAME"
+  Description "U_LHA_DESC"
+
+[TECHNOLOGY] "U_LHA_US"
+  Name "U_LHA_US_NAME"
+  Description "U_LHA_US_DESC"
+
+[TECHNOLOGY] "U_LHA_CN"
+  Name "U_LHA_CN_NAME"
+  Description "U_LHA_CN_DESC"
+
+[TECHNOLOGY] "U_DroneCarrier_CN"
+  Name "U_DroneCarrier_CN_NAME"
+  Description "U_DroneCarrier_CN_DESC"
+
+[TECHNOLOGY] "U_LSD"
+  Name "U_LSD_NAME"
+  Description "U_LSD_DESC"
+
+[TECHNOLOGY] "U_LightLandingShip"
+  Name "U_LightLandingShip_NAME"
+  Description "U_LightLandingShip_DESC"
+
+[TECHNOLOGY] "U_LCAC"
+  Name "U_LCAC_NAME"
+  Description "U_LCAC_DESC"
+
+[TECHNOLOGY] "U_SupportShip"
+  Name "U_SupportShip_NAME"
+  Description "U_SupportShip_DESC"
+
+[TECHNOLOGY] "U_SSBN"
+  Name "U_SSBN_NAME"
+  Description "U_SSBN_DESC"
+
+[TECHNOLOGY] "U_SSGN"
+  Name "U_SSGN_NAME"
+  Description "U_SSGN_DESC"
+
+[TECHNOLOGY] "U_SSN"
+  Name "U_SSN_NAME"
+  Description "U_SSN_DESC"
+
+[TECHNOLOGY] "U_MarineEngineeringShip"
+  Name "U_MarineEngineeringShip_NAME"
+  Description "U_MarineEngineeringShip_DESC"
+
+[TECHNOLOGY] "U_RoroShip"
+  Name "U_RoroShip_NAME"
+  Description "U_RoroShip_DESC"
+
+[TECHNOLOGY] "U_HeavyFighter"
+  Name "U_HeavyFighter_NAME"
+  Description "U_HeavyFighter_DESC"
+
+[TECHNOLOGY] "U_Fighter"
+  Name "U_Fighter_NAME"
+  Description "U_Fighter_DESC"
+
+[TECHNOLOGY] "U_Intercepter"
+  Name "U_Intercepter_NAME"
+  Description "U_Intercepter_DESC"
+
+[TECHNOLOGY] "U_EWAircraft"
+  Name "U_EWAircraft_NAME"
+  Description "U_EWAircraft_DESC"
+
+[TECHNOLOGY] "U_LargeAWACS"
+  Name "U_LargeAWACS_NAME"
+  Description "U_LargeAWACS_DESC"
+
+[TECHNOLOGY] "U_AWACS"
+  Name "U_AWACS_NAME"
+  Description "U_AWACS_DESC"
+
+[TECHNOLOGY] "U_CarrierFighter"
+  Name "U_CarrierFighter_NAME"
+  Description "U_CarrierFighter_DESC"
+
+[TECHNOLOGY] "U_CarrierAWACS"
+  Name "U_CarrierAWACS_NAME"
+  Description "U_CarrierAWACS_DESC"
+
+[TECHNOLOGY] "U_StrategicBomber"
+  Name "U_StrategicBomber_NAME"
+  Description "U_StrategicBomber_DESC"
+
+[TECHNOLOGY] "U_StealthBomber_US"
+  Name "U_StealthBomber_US_NAME"
+  Description "U_StealthBomber_US_DESC"
+
+[TECHNOLOGY] "U_StealthBomber"
+  Name "U_StealthBomber_NAME"
+  Description "U_StealthBomber_DESC"
+
+[TECHNOLOGY] "U_FighterBomber"
+  Name "U_FighterBomber_NAME"
+  Description "U_FighterBomber_DESC"
+
+[TECHNOLOGY] "U_MPA"
+  Name "U_MPA_NAME"
+  Description "U_MPA_DESC"
+
+[TECHNOLOGY] "U_STOL"
+  Name "U_STOL_NAME"
+  Description "U_STOL_DESC"
+
+[TECHNOLOGY] "U_LargeHeli"
+  Name "U_LargeHeli_NAME"
+  Description "U_LargeHeli_DESC"
+
+[TECHNOLOGY] "U_UtilityHeli"
+  Name "U_UtilityHeli_NAME"
+  Description "U_UtilityHeli_DESC"
+
+[TECHNOLOGY] "U_ASWHeli"
+  Name "U_ASWHeli_NAME"
+  Description "U_ASWHeli_DESC"
+
+[TECHNOLOGY] "U_AttackHeli"
+  Name "U_AttackHeli_NAME"
+  Description "U_AttackHeli_DESC"
+
+[TECHNOLOGY] "U_HeavyAirlift"
+  Name "U_HeavyAirlift_NAME"
+  Description "U_HeavyAirlift_DESC"
+
+[TECHNOLOGY] "U_StrategicAirlift"
+  Name "U_StrategicAirlift_NAME"
+  Description "U_StrategicAirlift_DESC"
+
+[TECHNOLOGY] "U_TacticalAirlift"
+  Name "U_TacticalAirlift_NAME"
+  Description "U_TacticalAirlift_DESC"
+
+[TECHNOLOGY] "U_Airway"
+  Name "U_Airway_NAME"
+  Description "U_Airway_DESC"
+
+[TECHNOLOGY] "U_ReconUAV"
+  Name "U_ReconUAV_NAME"
+  Description "U_ReconUAV_DESC"
+
+[TECHNOLOGY] "U_AttackUAV"
+  Name "U_AttackUAV_NAME"
+  Description "U_AttackUAV_DESC"
+
+[TECHNOLOGY] "U_UCAV"
+  Name "U_UCAV_NAME"
+  Description "U_UCAV_DESC"
+
+[TECHNOLOGY] "U_FPVDroneSwarm"
+  Name "U_FPVDroneSwarm_NAME"
+  Description "U_FPVDroneSwarm_DESC"
+
+[TECHNOLOGY] "U_AirbasedLaserAntiBallistic"
+  Name "U_AirbasedLaserAntiBallistic_NAME"
+  Description "U_AirbasedLaserAntiBallistic_DESC"
+
+[TECHNOLOGY] "U_SpaceRadar"
+  Name "U_SpaceRadar_NAME"
+  Description "U_SpaceRadar_DESC"
+
+[TECHNOLOGY] "U_SatelliteRelayStation"
+  Name "U_SatelliteRelayStation_NAME"
+  Description "U_SatelliteRelayStation_DESC"
+
+[TECHNOLOGY] "U_SpaceCenter"
+  Name "U_SpaceCenter_NAME"
+  Description "U_SpaceCenter_DESC"
+
+[TECHNOLOGY] "U_Satellite"
+  Name "U_Satellite_NAME"
+  Description "U_Satellite_DESC"
+
+[TECHNOLOGY] "U_SyncOrbitSatel"
+  Name "U_SyncOrbitSatel_NAME"
+  Description "U_SyncOrbitSatel_DESC"
+
+[TECHNOLOGY] "U_EarlyWarningSatel"
+  Name "U_EarlyWarningSatel_NAME"
+  Description "U_EarlyWarningSatel_DESC"
+
+[TECHNOLOGY] "U_AntiBallisticSatel"
+  Name "U_AntiBallisticSatel_NAME"
+  Description "U_AntiBallisticSatel_DESC"
+
+[TECHNOLOGY] "U_SpacebasedMissileSatel"
+  Name "U_SpacebasedMissileSatel_NAME"
+  Description "U_SpacebasedMissileSatel_DESC"
+
+[TECHNOLOGY] "U_HunterSate"
+  Name "U_HunterSate_NAME"
+  Description "U_HunterSate_DESC"
+
+[TECHNOLOGY] "U_SpaceShuttle"
+  Name "U_SpaceShuttle_NAME"
+  Description "U_SpaceShuttle_DESC"
+
+[TECHNOLOGY] "U_BombTrack"
+  Name "U_BombTrack_NAME"
+  Description "U_BombTrack_DESC"
+
+[TECHNOLOGY] "U_MarineMine"
+  Name "U_MarineMine_NAME"
+  Description "U_MarineMine_DESC"
+
+[TECHNOLOGY] "U_LandmineLaying"
+  Name "U_LandmineLaying_NAME"
+  Description "U_LandmineLaying_DESC"
+
+[TECHNOLOGY] "U_Landmine"
+  Name "U_Landmine_NAME"
+  Description "U_Landmine_DESC"
+
+[TECHNOLOGY] "U_SubRadarUAV"
+  Name "U_SubRadarUAV_NAME"
+  Description "U_SubRadarUAV_DESC"
+
+[TECHNOLOGY] "U_SonarArray"
+  Name "U_SonarArray_NAME"
+  Description "U_SonarArray_DESC"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,94 +765,9 @@ DRAWING DISTANCE 0.75
  Name "U_TestArmy_NAME"
  Description "U_TestArmy_DESC"  
 
-
-
-
-
-
-
-[TECHNOLOGY] "U_TestUnit"
- Name "U_TestArmy_NAME"
- Description "U_TestArmy_DESC"  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [TECHNOLOGY] "R_TestRadar"
   Name "R_TestRadar_NAME"
   Description "R_TestRadar_DESC"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [TECHNOLOGY] "M_TestWeapon"
  Name "M_TestWeapon_NAME"
