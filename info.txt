@@ -1,7 +1,7 @@
-ICBM MOD "Empty Mod"
+ICBM MOD "LRP Dev mod"
 
-Version "0"
+Version "0.0.0"
 
-Description "Empty Mod"
+Description "Empty Description"
 
 ChangeLog "None"

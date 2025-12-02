@@ -332,9 +332,7 @@ DRAWING DISTANCE 0.75
   Description "T_SurvivalPlan_1_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-
   LeadsTo "T_SurvivalPlan_2"
-
   TechLevel 1
   Type "TP_Page1"
 
@@ -343,9 +341,7 @@ DRAWING DISTANCE 0.75
   Description "T_SurvivalPlan_2_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-
   LeadsTo "T_SurvivalPlan_3"
-
   TechLevel 4
   Type "TP_Page1"
 
@@ -353,9 +349,7 @@ DRAWING DISTANCE 0.75
   Name "T_SurvivalPlan_3_NAME"
   Description "T_SurvivalPlan_3_DESC"
   Image "Testing Images/Missing 512x512.png"
-
   LeadsTo "T_SurvivalPlan_4"
-
   Points 0.25
   TechLevel 6
   Type "TP_Page1"
@@ -373,10 +367,8 @@ DRAWING DISTANCE 0.75
   Description "T_Computer_1_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-
   LeadsTo "T_Computer_2"
   LeadsTo "T_EWTech_1"
-
   TechLevel 2
   Type "TP_Page1"
 
@@ -385,11 +377,9 @@ DRAWING DISTANCE 0.75
   Description "T_Computer_2_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-
   LeadsTo "T_Computer_3"
   LeadsTo "T_AI_1"
   LeadsTo "T_EWTech_2"
-
   TechLevel 4
   Type "TP_Page1"
 
@@ -398,11 +388,9 @@ DRAWING DISTANCE 0.75
   Description "T_Computer_3_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-
   LeadsTo "T_Computer_4"
   LeadsTo "T_AI_2"
   LeadsTo "T_EWTech_3"
-
   TechLevel 6
   Type "TP_Page1"
 
