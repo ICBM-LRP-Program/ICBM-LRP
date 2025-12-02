@@ -333,8 +333,14 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SurvivalPlan_2"
+  LeadsTo "T_SurvivalPlan_1_Buffer"
   TechLevel 1
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_SurvivalPlan_1_Buffer"
+  Name "T_SurvivalPlan_1_Buffer_NAME"
+  Description "T_SurvivalPlan_1_Buffer_DESC"
+  
 
 [TECHNOLOGY] "T_SurvivalPlan_2"
   Name "T_SurvivalPlan_2_NAME"
@@ -342,25 +348,40 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SurvivalPlan_3"
+  LeadsTo "T_SurvivalPlan_2_Buffer"
   TechLevel 4
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_SurvivalPlan_2_Buffer"
+  Name "T_SurvivalPlan_2_Buffer_NAME"
+  Description "T_SurvivalPlan_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_SurvivalPlan_3"
   Name "T_SurvivalPlan_3_NAME"
   Description "T_SurvivalPlan_3_DESC"
   Image "Testing Images/Missing 512x512.png"
   LeadsTo "T_SurvivalPlan_4"
+  LeadsTo "T_SurvivalPlan_3_Buffer"
   Points 0.25
   TechLevel 6
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_SurvivalPlan_3_Buffer"
+  Name "T_SurvivalPlan_3_Buffer_NAME"
+  Description "T_SurvivalPlan_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_SurvivalPlan_4"
   Name "T_SurvivalPlan_4_NAME"
   Description "T_SurvivalPlan_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SurvivalPlan_4_Buffer"
   TechLevel 7
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_SurvivalPlan_4_Buffer"
+  Name "T_SurvivalPlan_4_Buffer_NAME"
+  Description "T_SurvivalPlan_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_Computer_1"
   Name "T_Computer_1_NAME"
