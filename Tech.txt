@@ -9,11 +9,112 @@ DRAWING DISTANCE 0.75
 
 ////////// 科技树页面 Technology Page //////////
 
-// TP = Technology Page
+// TP = Technology Page //
+
+
+// 民用科技 //
 [TYPE] "TP_Page1"
   Name "TP_Page1_NAME"
   Description "TP_Page1_DESC"
  
+
+// 工程科技 //
+[TYPE] "TP_Page2"
+  Name "TP_Page2_NAME"
+  Description "TP_Page2_DESC"
+
+
+// 陆军科技 //
+[TYPE] "TP_Page3"
+  Name "TP_Page3_NAME"
+  Description "TP_Page3_DESC"
+
+
+// 海军科技 //
+[TYPE] "TP_Page4"
+  Name "TP_Page4_NAME"
+  Description "TP_Page4_DESC"
+
+
+// 空军科技 //
+[TYPE] "TP_Page5"
+  Name "TP_Page5_NAME"
+  Description "TP_Page5_DESC"
+
+
+// 大规模杀伤性武器 //
+[TYPE] "TP_Page6"
+  Name "TP_Page6_NAME"
+  Description "TP_Page6_DESC"
+
+
+// 弹道导弹 //
+[TYPE] "TP_Page7"
+  Name "TP_Page7_NAME"
+  Description "TP_Page7_DESC"
+
+
+// 空间科技 //
+[TYPE] "TP_Page8"
+  Name "TP_Page8_NAME"
+  Description "TP_Page8_DESC"
+
+
+// 导弹科技 //
+[TYPE] "TP_Page9"
+  Name "TP_Page9_NAME"
+  Description "TP_Page9_DESC"
+
+
+// 防御科技 //
+[TYPE] "TP_Page10"
+  Name "TP_Page10_NAME"
+  Description "TP_Page10_DESC"
+
+
+// 雷达科技 //
+[TYPE] "TP_Page11"
+  Name "TP_Page11_NAME"
+  Description "TP_Page11_DESC"
+
+
+// 电子战与非常规作战 //
+[TYPE] "TP_Page12"
+  Name "TP_Page12_NAME"
+  Description "TP_Page12_DESC"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -210,6 +311,123 @@ DRAWING DISTANCE 0.75
   Points 1
   TechLevel 8
   Type "TP_Page1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////// 实际科技树 Technology Tree //////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
