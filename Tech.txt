@@ -390,8 +390,13 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_Computer_2"
   LeadsTo "T_EWTech_1"
+  LeadsTo "T_Computer_1_Buffer"
   TechLevel 2
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_Computer_1_Buffer"
+  Name "T_Computer_1_Buffer_NAME"
+  Description "T_Computer_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_Computer_2"
   Name "T_Computer_2_NAME"
@@ -401,8 +406,13 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Computer_3"
   LeadsTo "T_AI_1"
   LeadsTo "T_EWTech_2"
+  LeadsTo "T_Computer_2_Buffer"
   TechLevel 4
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_Computer_2_Buffer"
+  Name "T_Computer_2_Buffer_NAME"
+  Description "T_Computer_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_Computer_3"
   Name "T_Computer_3_NAME"
@@ -412,8 +422,13 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Computer_4"
   LeadsTo "T_AI_2"
   LeadsTo "T_EWTech_3"
+  LeadsTo "T_Computer_3_Buffer"
   TechLevel 6
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_Computer_3_Buffer"
+  Name "T_Computer_3_Buffer_NAME"
+  Description "T_Computer_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_Computer_4"
   Name "T_Computer_4_NAME"
@@ -423,16 +438,26 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Computer_5"
   LeadsTo "T_AI_3"
   LeadsTo "T_EWTech_4"
+  LeadsTo "T_Computer_4_Buffer"
   TechLevel 8
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_Computer_4_Buffer"
+  Name "T_Computer_4_Buffer_NAME"
+  Description "T_Computer_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_Computer_5"
   Name "T_Computer_5_NAME"
   Description "T_Computer_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_Computer_5_Buffer"
   TechLevel 10
   Type "TP_Page1"
+
+[TECHNOLOGY] "T_Computer_5_Buffer"
+  Name "T_Computer_5_Buffer_NAME"
+  Description "T_Computer_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_AI_1"
   Name "T_AI_1_NAME"
@@ -567,6 +592,32 @@ DRAWING DISTANCE 0.75
   Points 0.25
   TechLevel 9
   Type "TP_Page1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_Engineering_1"
   Name "T_Engineering_1_NAME"
@@ -778,6 +829,36 @@ DRAWING DISTANCE 0.75
   TechLevel 9
   Type "TP_Page2"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TECHNOLOGY] "T_CBRN_1"
   Name "T_CBRN_1_NAME"
   Description "T_CBRN_1_DESC"
@@ -987,6 +1068,31 @@ DRAWING DISTANCE 0.75
   Points 0.25
   TechLevel 5
   Type "TP_Page3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_NuclearSubmarine"
   Name "T_NuclearSubmarine_NAME"
@@ -1238,6 +1344,42 @@ DRAWING DISTANCE 0.75
   TechLevel 9
   Type "TP_Page4"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TECHNOLOGY] "T_Gen3Fighter"
   Name "T_Gen3Fighter_NAME"
   Description "T_Gen3Fighter_DESC"
@@ -1484,6 +1626,37 @@ DRAWING DISTANCE 0.75
   TechLevel 8
   Type "TP_Page5"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TECHNOLOGY] "T_NuclearTech_1"
   Name "T_NuclearTech_1_NAME"
   Description "T_NuclearTech_1_DESC"
@@ -1693,6 +1866,26 @@ DRAWING DISTANCE 0.75
   Points 0.25
   TechLevel 9
   Type "TP_Page6"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_RocketTech_1"
   Name "T_RocketTech_1_NAME"
@@ -1917,6 +2110,20 @@ DRAWING DISTANCE 0.75
   TechLevel 9
   Type "TP_Page7"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TECHNOLOGY] "T_SyncOrbitSatel"
   Name "T_SyncOrbitSatel_NAME"
   Description "T_SyncOrbitSatel_DESC"
@@ -2102,6 +2309,20 @@ DRAWING DISTANCE 0.75
   Points 0.25
   TechLevel 10
   Type "TP_Page8"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_CruiseMissile_1"
   Name "T_CruiseMissile_1_NAME"
@@ -2330,6 +2551,25 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_BattleShip_3"
   TechLevel 8
   Type "TP_Page9"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_SAM_1"
   Name "T_SAM_1_NAME"
@@ -2567,6 +2807,32 @@ DRAWING DISTANCE 0.75
   Points 0.25
   TechLevel 9
   Type "TP_Page10"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_Radar_1"
   Name "T_Radar_1_NAME"
@@ -2851,6 +3117,29 @@ DRAWING DISTANCE 0.75
   Points 0.25
   TechLevel 10
   Type "TP_Page11"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [TECHNOLOGY] "T_EWAircraft"
   Name "T_EWAircraft_NAME"

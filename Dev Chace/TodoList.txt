@@ -1,0 +1,35 @@
+# 科技Buffer添加任务清单
+
+## 阶段一：单科技测试（T_Computer_1）
+- [x] 读取当前Tech.txt文件内容
+- [x] 找到T_Computer_1科技的原始定义
+- [x] 在T_Computer_1下方添加Buffer科技
+- [x] 修改T_Computer_1的LeadsTo，添加Buffer引用
+- [x] 验证修改结果
+
+## 阶段二：批量处理（按TP_Page分组）
+- [x] 按Type "TP_Page{数字}"分组遍历所有科技
+- [ ] TP_Page1: 民用科技 - 为科技添加Buffer
+- [ ] TP_Page2: 工程科技 - 为科技添加Buffer
+- [ ] TP_Page3: 陆军科技 - 为科技添加Buffer
+- [ ] TP_Page4: 海军科技 - 为科技添加Buffer
+- [ ] TP_Page5: 空军科技 - 为科技添加Buffer
+- [ ] TP_Page6: 大规模杀伤性武器 - 为科技添加Buffer
+- [ ] TP_Page7: 弹道导弹 - 为科技添加Buffer
+- [ ] TP_Page8: 空间科技 - 为科技添加Buffer
+- [ ] TP_Page9: 导弹科技 - 为科技添加Buffer
+- [ ] TP_Page10: 防御科技 - 为科技添加Buffer
+- [ ] TP_Page11: 雷达科技 - 为科技添加Buffer
+- [ ] TP_Page12: 电子战与非常规作战 - 为科技添加Buffer
+- [ ] 验证所有修改结果
+
+## 技术要求
+- Buffer命名：{母科技名称}_Buffer
+- Buffer格式：仅包含[TECHNOLOGY]、Name、Description三行
+- 禁止添加其他属性
+- 确保格式严格一致
+
+## 安全操作
+- 每次操作前备份
+- 单次修改不超过200行
+- 确认用户批准后再执行
