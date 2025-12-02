@@ -1,35 +1,159 @@
-# 科技Buffer添加任务清单
+# ICBM-LRP 科技Buffer添加任务清单
 
-## 阶段一：单科技测试（T_Computer_1）
-- [x] 读取当前Tech.txt文件内容
-- [x] 找到T_Computer_1科技的原始定义
-- [x] 在T_Computer_1下方添加Buffer科技
-- [x] 修改T_Computer_1的LeadsTo，添加Buffer引用
-- [x] 验证修改结果
+## 已完成工作 ✅
 
-## 阶段二：批量处理（按TP_Page分组）
-- [x] 按Type "TP_Page{数字}"分组遍历所有科技
-- [ ] TP_Page1: 民用科技 - 为科技添加Buffer
-- [ ] TP_Page2: 工程科技 - 为科技添加Buffer
-- [ ] TP_Page3: 陆军科技 - 为科技添加Buffer
-- [ ] TP_Page4: 海军科技 - 为科技添加Buffer
-- [ ] TP_Page5: 空军科技 - 为科技添加Buffer
-- [ ] TP_Page6: 大规模杀伤性武器 - 为科技添加Buffer
-- [ ] TP_Page7: 弹道导弹 - 为科技添加Buffer
-- [ ] TP_Page8: 空间科技 - 为科技添加Buffer
-- [ ] TP_Page9: 导弹科技 - 为科技添加Buffer
-- [ ] TP_Page10: 防御科技 - 为科技添加Buffer
-- [ ] TP_Page11: 雷达科技 - 为科技添加Buffer
-- [ ] TP_Page12: 电子战与非常规作战 - 为科技添加Buffer
-- [ ] 验证所有修改结果
+### TP_Page1 (民用科技) - 已完成
+- [x] T_SurvivalPlan系列 (1-4)
+- [x] T_Computer系列 (1-5) 
+- [x] T_AI系列 (1-3)
+- [x] T_Logistics系列 (1-4)
+- [x] T_UnmannedVehicle系列 (1-3)
+- [x] T_AviationTech系列 (1-5)
 
-## 技术要求
-- Buffer命名：{母科技名称}_Buffer
-- Buffer格式：仅包含[TECHNOLOGY]、Name、Description三行
-- 禁止添加其他属性
-- 确保格式严格一致
+### TP_Page2 (工程科技) - 已完成
+- [x] T_Engineering系列 (1-3)
+- [x] T_MilitaryEngineering系列 (1-3)
+- [x] T_EMPDefense系列 (1-5)
+- [x] T_CityBioCheDefense系列 (1-5)
+- [x] T_CivilDefense系列 (1-4)
+- [x] T_Industry系列 (1-4)
 
-## 安全操作
-- 每次操作前备份
-- 单次修改不超过200行
-- 确认用户批准后再执行
+### TP_Page9 (导弹科技) - 已完成
+- [x] T_CruiseMissile系列 (1-5)
+- [x] T_AAM系列 (1-4)
+- [x] T_AGM系列 (1-4)
+- [x] T_GuidedTech系列 (1-4)
+- [x] T_ExplosiveTech系列 (1-5)
+- [x] T_HypersonicMissile系列 (1-2)
+- [x] T_RailGun
+
+## 剩余工作 🚧
+
+### TP_Page3 (陆军科技) - 已完成 ✅
+- [x] T_CBRN系列 (1-5)
+- [x] T_LightArmor系列 (1-4)
+- [x] T_HeavyArmor系列 (1-3)
+- [x] T_IndividualEquipment系列 (1-5)
+- [x] T_TEL系列 (1-4)
+- [x] T_CruiseMissileLauncher
+- [x] T_TacticalMissileLauncher
+- [x] T_CWS
+
+### TP_Page4 (海军科技) - 待处理
+- [ ] T_NuclearSubmarine
+- [ ] T_SSN系列 (1-4)
+- [ ] T_SSBN系列 (1-4)
+- [ ] T_NavalHull系列 (1-4)
+- [ ] T_LHA系列 (1-3)
+- [ ] T_UAVCarrier
+- [ ] T_BattleShip系列 (1-3)
+- [ ] T_AWS系列 (1-4)
+- [ ] T_MissileBoat系列 (1-2)
+- [ ] T_UUV系列 (1-2)
+
+### TP_Page5 (空军科技) - 待处理
+- [ ] T_Gen3Fighter
+- [ ] T_Gen4Fighter
+- [ ] T_Gen4.5Fighter
+- [ ] T_Gen5Fighter_US
+- [ ] T_Gen5Fighter
+- [ ] T_Gen6Fighter
+- [ ] T_STOL
+- [ ] T_MilitaryUAV系列 (1-4)
+- [ ] T_Interceptor
+- [ ] T_Helicopter_1_US
+- [ ] T_Helicopter_1
+- [ ] T_Helicopter_2_US
+- [ ] T_Helicopter_2
+- [ ] T_Helicopter_3
+- [ ] T_StrategicBomber系列 (1-4)
+- [ ] T_ABLAB
+- [ ] T_Airlift系列 (1-3)
+- [ ] T_AWACS系列 (1-3)
+
+### TP_Page6 (大规模杀伤性武器) - 待处理
+- [ ] T_NuclearTech系列 (1-5)
+- [ ] T_NuclearWeapon系列 (1-5)
+- [ ] T_SaltedNuke系列 (1-2)
+- [ ] T_EMPNuke系列 (1-3)
+- [ ] T_TacticalNuke系列 (1-2)
+- [ ] T_ChemicalWeapon系列 (1-3)
+- [ ] T_BiologicalWeapon系列 (1-3)
+- [ ] T_BioChelWeapon
+
+### TP_Page7 (弹道导弹) - 待处理
+- [ ] T_RocketTech系列 (1-3)
+- [ ] T_SLBM
+- [ ] T_RocketFuel系列 (1-4)
+- [ ] T_MissileNavigate系列 (1-4)
+- [ ] T_ICBM
+- [ ] T_MIRV系列 (1-3)
+- [ ] T_PenetrationAid系列 (1-3)
+- [ ] T_SpecialMissileLauncher
+- [ ] T_HGVMissile系列 (1-2)
+- [ ] T_LightICBM
+- [ ] T_ALBM
+- [ ] T_ALIRBM
+- [ ] T_ALICBM
+
+### TP_Page8 (空间科技) - 待处理
+- [ ] T_SyncOrbitSatel
+- [ ] T_SpySatel系列 (1-4)
+- [ ] T_EarlyWarningSatel系列 (1-3)
+- [ ] T_StealthSatel
+- [ ] T_OrbitAirdrop
+- [ ] T_LargeSatel
+- [ ] T_SpacebasedWeapon
+- [ ] T_SpaceSituationalSatel
+- [ ] T_SpacebasedAntiBallistic
+- [ ] T_SpacebasedMissile
+- [ ] T_ASAT系列 (1-4)
+- [ ] T_SpacebasedASAT
+- [ ] T_LaserSpaceWeapon
+
+### TP_Page10 (防御科技) - 待处理
+- [ ] T_SAM系列 (1-5)
+- [ ] T_CIWS系列 (1-3)
+- [ ] T_LaserCIWS
+- [ ] T_LaserAA
+- [ ] T_TerminalABM系列 (1-4)
+- [ ] T_LaserAntiBallistic
+- [ ] T_ABM系列 (1-6)
+- [ ] T_ALABM
+- [ ] T_SLAA系列 (1-2)
+- [ ] T_AntiTropedo
+- [ ] T_ATT系列 (1-2)
+
+### TP_Page11 (雷达科技) - 待处理
+- [ ] T_Radar系列 (1-5)
+- [ ] T_FireCtrlRadar系列 (1-4)
+- [ ] T_SearchRadar系列 (1-4)
+- [ ] T_OTHRadar系列 (1-5)
+- [ ] T_SpaceRadar系列 (1-4)
+- [ ] T_EarlyWarningRadar系列 (1-4)
+- [ ] T_SonarTech系列 (1-5)
+
+### TP_Page12 (电子战与非常规作战) - 待处理
+- [ ] T_EWAircraft
+- [ ] T_EWTech系列 (1-4)
+- [ ] T_EWProtection系列 (1-5)
+- [ ] T_Stealth系列 (1-5)
+- [ ] T_ECM系列 (1-5)
+- [ ] T_SuicideFPV
+- [ ] T_UnconventionalWarfare系列 (1-4)
+- [ ] T_AUW系列 (1-4)
+
+## 进度统计
+
+- **已完成页面**: 4/12 (33.3%)
+- **已完成科技系列**: 27个
+- **添加Buffer数量**: 约85个
+- **剩余页面**: 8个
+- **预计剩余Buffer**: 约130个
+
+## 下一步计划
+
+1. 按页面顺序继续处理 TP_Page3 (陆军科技)
+2. 每次处理一个页面的所有科技系列
+3. 确保Buffer格式和LeadsTo连接正确
+4. 实时更新进度清单
