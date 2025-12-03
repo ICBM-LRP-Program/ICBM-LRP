@@ -313,10 +313,33 @@ DRAWING DISTANCE 0.75
   Type "TP_Page1"
 
 
+[TECHNOLOGY] "U_City"
+  Name "U_CITY_NAME"
+  Description "U_CITY_DESC"
 
+[TECHNOLOGY] "U_TestBuiding"
+  Name "U_TestBuiding_NAME"
+  Description "U_TestBuiding_DESC"
 
+[TECHNOLOGY] "U_TestArmy"
+ Name "U_TestArmy_NAME"
+ Description "U_TestArmy_DESC"  
 
+[TECHNOLOGY] "U_TestUnit"
+ Name "U_TestUnit_NAME"
+ Description "U_TestUnit_DESC"  
 
+[TECHNOLOGY] "R_TestRadar"
+  Name "R_TestRadar_NAME"
+  Description "R_TestRadar_DESC"
+
+[TECHNOLOGY] "M_TestWeapon"
+ Name "M_TestWeapon_NAME"
+ Description "M_TestWeapon_DESC"
+ 
+[TECHNOLOGY] "M_Massacre" 
+ Name "M_Massacre_NAME"
+ Description "M_Massacre_DESC"
 
 
 
@@ -389,7 +412,6 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_Computer_2"
-  LeadsTo "T_EWTech_1"
   LeadsTo "T_Computer_1_Buffer"
   TechLevel 2
   Type "TP_Page1"
@@ -397,6 +419,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Computer_1_Buffer"
   Name "T_Computer_1_Buffer_NAME"
   Description "T_Computer_1_Buffer_DESC"
+  LeadsTo "T_EWTech_1"
 
 [TECHNOLOGY] "T_Computer_2"
   Name "T_Computer_2_NAME"
@@ -405,7 +428,6 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_Computer_3"
   LeadsTo "T_AI_1"
-  LeadsTo "T_EWTech_2"
   LeadsTo "T_Computer_2_Buffer"
   TechLevel 4
   Type "TP_Page1"
@@ -413,6 +435,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Computer_2_Buffer"
   Name "T_Computer_2_Buffer_NAME"
   Description "T_Computer_2_Buffer_DESC"
+  LeadsTo "T_EWTech_2"
 
 [TECHNOLOGY] "T_Computer_3"
   Name "T_Computer_3_NAME"
@@ -421,7 +444,6 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_Computer_4"
   LeadsTo "T_AI_2"
-  LeadsTo "T_EWTech_3"
   LeadsTo "T_Computer_3_Buffer"
   TechLevel 6
   Type "TP_Page1"
@@ -429,6 +451,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Computer_3_Buffer"
   Name "T_Computer_3_Buffer_NAME"
   Description "T_Computer_3_Buffer_DESC"
+  LeadsTo "T_EWTech_3"
 
 [TECHNOLOGY] "T_Computer_4"
   Name "T_Computer_4_NAME"
@@ -437,7 +460,6 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_Computer_5"
   LeadsTo "T_AI_3"
-  LeadsTo "T_EWTech_4"
   LeadsTo "T_Computer_4_Buffer"
   TechLevel 8
   Type "TP_Page1"
@@ -445,6 +467,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Computer_4_Buffer"
   Name "T_Computer_4_Buffer_NAME"
   Description "T_Computer_4_Buffer_DESC"
+  LeadsTo "T_EWTech_4"
 
 [TECHNOLOGY] "T_Computer_5"
   Name "T_Computer_5_NAME"
@@ -479,8 +502,6 @@ DRAWING DISTANCE 0.75
   Description "T_AI_2_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-  LeadsTo "T_Logistics_4"
-  LeadsTo "T_UnmannedVehicle_3"
   LeadsTo "T_AI_2_Buffer"
   TechLevel 7
   Type "TP_Page1"
@@ -488,6 +509,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_AI_2_Buffer"
   Name "T_AI_2_Buffer_NAME"
   Description "T_AI_2_Buffer_DESC"
+  LeadsTo "T_UnmannedVehicle_3"
 
 [TECHNOLOGY] "T_AI_3"
   Name "T_AI_3_NAME"
@@ -495,12 +517,14 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_AI_3_Buffer"
+  LeadsTo "T_Logistics_4"
   TechLevel 9
   Type "TP_Page1"
 
 [TECHNOLOGY] "T_AI_3_Buffer"
   Name "T_AI_3_Buffer_NAME"
   Description "T_AI_3_Buffer_DESC"
+  LeadsTo "T_UnmannedVehicle_3"
 
 [TECHNOLOGY] "T_Logistics_1"
   Name "T_Logistics_1_NAME"
@@ -604,7 +628,6 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_AviationTech_2"
-  LeadsTo "T_Airlift_1"
   LeadsTo "T_AviationTech_1_Buffer"
   TechLevel 1
   Type "TP_Page1"
@@ -612,6 +635,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_AviationTech_1_Buffer"
   Name "T_AviationTech_1_Buffer_NAME"
   Description "T_AviationTech_1_Buffer_DESC"
+  LeadsTo "T_Airlift_1"
 
 [TECHNOLOGY] "T_AviationTech_2"
   Name "T_AviationTech_2_NAME"
@@ -648,7 +672,7 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_AviationTech_5"
   LeadsTo "T_AviationTech_4_Buffer"
-  TechLevel 5
+  TechLevel 7
   Type "TP_Page1"
 
 [TECHNOLOGY] "T_AviationTech_4_Buffer"
@@ -1557,7 +1581,6 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_NavalHull_3"
   LeadsTo "T_LHA_2"
-  LeadsTo "T_BattleShip_2"
   LeadsTo "T_NavalHull_2_Buffer"
   TechLevel 3
   Type "TP_Page4"
@@ -1565,6 +1588,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_NavalHull_2_Buffer"
   Name "T_NavalHull_2_Buffer_NAME"
   Description "T_NavalHull_2_Buffer_DESC"
+  LeadsTo "T_BattleShip_2"
 
 [TECHNOLOGY] "T_NavalHull_3"
   Name "T_NavalHull_3_NAME"
@@ -1586,7 +1610,6 @@ DRAWING DISTANCE 0.75
   Description "T_NavalHull_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-  LeadsTo "T_BattleShip_3"
   LeadsTo "T_NavalHull_4_Buffer"
   TechLevel 8
   Type "TP_Page4"
@@ -1594,6 +1617,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_NavalHull_4_Buffer"
   Name "T_NavalHull_4_Buffer_NAME"
   Description "T_NavalHull_4_Buffer_DESC"
+  LeadsTo "T_BattleShip_3"
 
 [TECHNOLOGY] "T_LHA_1"
   Name "T_LHA_1_NAME"
@@ -1671,7 +1695,7 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_BattleShip_3"
   LeadsTo "T_BattleShip_2_Buffer"
-  TechLevel 5
+  TechLevel 4
   Type "TP_Page4"
 
 [TECHNOLOGY] "T_BattleShip_2_Buffer"
@@ -1773,6 +1797,8 @@ DRAWING DISTANCE 0.75
   Name "T_MissileBoat_2_Buffer_NAME"
   Description "T_MissileBoat_2_Buffer_DESC"
 
+
+/*
 [TECHNOLOGY] "T_UUV_1"
   Name "T_UUV_1_NAME"
   Description "T_UUV_1_DESC"
@@ -1799,7 +1825,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_UUV_2_Buffer"
   Name "T_UUV_2_Buffer_NAME"
   Description "T_UUV_2_Buffer_DESC"
-
+*/
 
 
 
@@ -1883,9 +1909,9 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Gen5Fighter_US"
   Name "T_Gen5Fighter_US_NAME"
   Description "T_Gen5Fighter_US_DESC"
+  Parent "NA"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-  LeadsTo "T_Gen6Fighter"
   LeadsTo "T_Gen5Fighter_US_Buffer"
   TechLevel 4
   Type "TP_Page5"
@@ -1893,6 +1919,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Gen5Fighter_US_Buffer"
   Name "T_Gen5Fighter_US_Buffer_NAME"
   Description "T_Gen5Fighter_US_Buffer_DESC"
+  LeadsTo "T_Gen6Fighter"
 
 [TECHNOLOGY] "T_Gen5Fighter"
   Name "T_Gen5Fighter_NAME"
@@ -1913,7 +1940,6 @@ DRAWING DISTANCE 0.75
   Description "T_Gen6Fighter_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-  LeadsTo "T_MilitaryUAV_4"
   LeadsTo "T_Gen6Fighter_Buffer"
   TechLevel 8
   Type "TP_Page5"
@@ -1921,6 +1947,7 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_Gen6Fighter_Buffer"
   Name "T_Gen6Fighter_Buffer_NAME"
   Description "T_Gen6Fighter_Buffer_DESC"
+  LeadsTo "T_MilitaryUAV_4"
 
 [TECHNOLOGY] "T_STOL"
   Name "T_STOL_NAME"
@@ -2126,19 +2153,6 @@ DRAWING DISTANCE 0.75
   Name "T_StrategicBomber_4_Buffer_NAME"
   Description "T_StrategicBomber_4_Buffer_DESC"
 
-[TECHNOLOGY] "T_ABLAB"
-  Name "T_ABLAB_NAME"
-  Description "T_ABLAB_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_ABLAB_Buffer"
-  TechLevel 9
-  Type "TP_Page5"
-
-[TECHNOLOGY] "T_ABLAB_Buffer"
-  Name "T_ABLAB_Buffer_NAME"
-  Description "T_ABLAB_Buffer_DESC"
-
 [TECHNOLOGY] "T_Airlift_1"
   Name "T_Airlift_1_NAME"
   Description "T_Airlift_1_DESC"
@@ -2252,6 +2266,10 @@ DRAWING DISTANCE 0.75
 
 
 
+
+
+
+
 [TECHNOLOGY] "T_NuclearTech_1"
   Name "T_NuclearTech_1_NAME"
   Description "T_NuclearTech_1_DESC"
@@ -2332,7 +2350,7 @@ DRAWING DISTANCE 0.75
 
 [TECHNOLOGY] "T_NuclearWeapon_1_Buffer"
   Name "T_NuclearWeapon_1_Buffer_NAME"
-  Description "T_NuclearWeapon_1_Buffer_DESC
+  Description "T_NuclearWeapon_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_NuclearWeapon_2"
   Name "T_NuclearWeapon_2_NAME"
@@ -3017,6 +3035,7 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SpySatel_4"
+  LeadsTo "T_SpaceSituationalSatel"
   LeadsTo "T_SpySatel_3_Buffer"
   TechLevel 6
   Type "TP_Page8"
@@ -3031,12 +3050,83 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SpySatel_4_Buffer"
+  LeadsTo "T_StealthSatel"
   TechLevel 8
   Type "TP_Page8"
 
 [TECHNOLOGY] "T_SpySatel_4_Buffer"
   Name "T_SpySatel_4_Buffer_NAME"
   Description "T_SpySatel_4_Buffer_DESC"
+
+[TECHNOLOGY] "T_SpaceSituationalSatel"
+  Name "T_SpaceSituationalSatel_NAME"
+  Description "T_SpaceSituationalSatel_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_SpaceSituationalSatel_Buffer"
+  TechLevel 7
+  Type "TP_Page8"
+
+[TECHNOLOGY] "T_SpaceSituationalSatel_Buffer"
+  Name "T_SpaceSituationalSatel_Buffer_NAME"
+  Description "T_SpaceSituationalSatel_Buffer_DESC"
+
+[TECHNOLOGY] "T_StealthSatel"
+  Name "T_StealthSatel_NAME"
+  Description "T_StealthSatel_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_SpacebasedWeapon"
+  LeadsTo "T_StealthSatel_Buffer"
+  TechLevel 8
+  Type "TP_Page8"
+
+[TECHNOLOGY] "T_StealthSatel_Buffer"
+  Name "T_StealthSatel_Buffer_NAME"
+  Description "T_StealthSatel_Buffer_DESC"
+
+[TECHNOLOGY] "T_SpacebasedWeapon"
+  Name "T_SpacebasedWeapon_NAME"
+  Description "T_SpacebasedWeapon_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_SpacebasedAntiBallistic"
+  LeadsTo "T_SpacebasedMissile"
+  LeadsTo "T_SpacebasedASAT"
+  LeadsTo "T_SpacebasedWeapon_Buffer"
+  TechLevel 9
+  Type "TP_Page8"
+
+[TECHNOLOGY] "T_SpacebasedWeapon_Buffer"
+  Name "T_SpacebasedWeapon_Buffer_NAME"
+  Description "T_SpacebasedWeapon_Buffer_DESC"
+
+[TECHNOLOGY] "T_SpacebasedMissile"
+  Name "T_SpacebasedMissile_NAME"
+  Description "T_SpacebasedMissile_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_SpacebasedMissile_Buffer"
+  TechLevel 10
+  Type "TP_Page8"
+
+[TECHNOLOGY] "T_SpacebasedMissile_Buffer"
+  Name "T_SpacebasedMissile_Buffer_NAME"
+  Description "T_SpacebasedMissile_Buffer_DESC"
+
+[TECHNOLOGY] "T_SpacebasedAntiBallistic"
+  Name "T_SpacebasedAntiBallistic_NAME"
+  Description "T_SpacebasedAntiBallistic_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_SpacebasedAntiBallistic_Buffer"
+  TechLevel 10
+  Type "TP_Page8"
+
+[TECHNOLOGY] "T_SpacebasedAntiBallistic_Buffer"
+  Name "T_SpacebasedAntiBallistic_Buffer_NAME"
+  Description "T_SpacebasedAntiBallistic_Buffer_DESC"
+  LeadsTo "T_LaserSpaceWeapon"
 
 [TECHNOLOGY] "T_EarlyWarningSatel_1"
   Name "T_EarlyWarningSatel_1_NAME"
@@ -3078,104 +3168,6 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_EarlyWarningSatel_3_Buffer"
   Name "T_EarlyWarningSatel_3_Buffer_NAME"
   Description "T_EarlyWarningSatel_3_Buffer_DESC"
-
-[TECHNOLOGY] "T_StealthSatel"
-  Name "T_StealthSatel_NAME"
-  Description "T_StealthSatel_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_SpacebasedWeapon"
-  LeadsTo "T_StealthSatel_Buffer"
-  TechLevel 8
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_StealthSatel_Buffer"
-  Name "T_StealthSatel_Buffer_NAME"
-  Description "T_StealthSatel_Buffer_DESC"
-
-[TECHNOLOGY] "T_OrbitAirdrop"
-  Name "T_OrbitAirdrop_NAME"
-  Description "T_OrbitAirdrop_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_OrbitAirdrop_Buffer"
-  TechLevel 10
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_OrbitAirdrop_Buffer"
-  Name "T_OrbitAirdrop_Buffer_NAME"
-  Description "T_OrbitAirdrop_Buffer_DESC"
-
-[TECHNOLOGY] "T_LargeSatel"
-  Name "T_LargeSatel_NAME"
-  Description "T_LargeSatel_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_SpacebasedWeapon"
-  LeadsTo "T_SpaceSituationalSatel"
-  LeadsTo "T_LargeSatel_Buffer"
-  TechLevel 2
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_LargeSatel_Buffer"
-  Name "T_LargeSatel_Buffer_NAME"
-  Description "T_LargeSatel_Buffer_DESC"
-
-[TECHNOLOGY] "T_SpacebasedWeapon"
-  Name "T_SpacebasedWeapon_NAME"
-  Description "T_SpacebasedWeapon_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_SpacebasedAntiBallistic"
-  LeadsTo "T_SpacebasedMissile"
-  LeadsTo "T_SpacebasedASAT"
-  LeadsTo "T_SpacebasedWeapon_Buffer"
-  TechLevel 9
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_SpacebasedWeapon_Buffer"
-  Name "T_SpacebasedWeapon_Buffer_NAME"
-  Description "T_SpacebasedWeapon_Buffer_DESC"
-
-[TECHNOLOGY] "T_SpaceSituationalSatel"
-  Name "T_SpaceSituationalSatel_NAME"
-  Description "T_SpaceSituationalSatel_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_SpaceSituationalSatel_Buffer"
-  TechLevel 7
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_SpaceSituationalSatel_Buffer"
-  Name "T_SpaceSituationalSatel_Buffer_NAME"
-  Description "T_SpaceSituationalSatel_Buffer_DESC"
-
-[TECHNOLOGY] "T_SpacebasedAntiBallistic"
-  Name "T_SpacebasedAntiBallistic_NAME"
-  Description "T_SpacebasedAntiBallistic_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_LaserSpaceWeapon"
-  LeadsTo "T_SpacebasedAntiBallistic_Buffer"
-  TechLevel 10
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_SpacebasedAntiBallistic_Buffer"
-  Name "T_SpacebasedAntiBallistic_Buffer_NAME"
-  Description "T_SpacebasedAntiBallistic_Buffer_DESC"
-
-[TECHNOLOGY] "T_SpacebasedMissile"
-  Name "T_SpacebasedMissile_NAME"
-  Description "T_SpacebasedMissile_DESC"
-  Image "Testing Images/Missing 512x512.png"
-  Points 0.25
-  LeadsTo "T_SpacebasedMissile_Buffer"
-  TechLevel 9
-  Type "TP_Page8"
-
-[TECHNOLOGY] "T_SpacebasedMissile_Buffer"
-  Name "T_SpacebasedMissile_Buffer_NAME"
-  Description "T_SpacebasedMissile_Buffer_DESC"
 
 [TECHNOLOGY] "T_ASAT_1"
   Name "T_ASAT_1_NAME"
@@ -3260,6 +3252,18 @@ DRAWING DISTANCE 0.75
   Name "T_LaserSpaceWeapon_Buffer_NAME"
   Description "T_LaserSpaceWeapon_Buffer_DESC"
 
+[TECHNOLOGY] "T_OrbitAirdrop"
+  Name "T_OrbitAirdrop_NAME"
+  Description "T_OrbitAirdrop_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_OrbitAirdrop_Buffer"
+  TechLevel 10
+  Type "TP_Page8"
+
+[TECHNOLOGY] "T_OrbitAirdrop_Buffer"
+  Name "T_OrbitAirdrop_Buffer_NAME"
+  Description "T_OrbitAirdrop_Buffer_DESC"
 
 
 
@@ -3478,7 +3482,6 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_GuidedTech_3"
   LeadsTo "T_CruiseMissile_3"
-  LeadsTo "T_AAM_3"
   LeadsTo "T_GuidedTech_2_Buffer"
   TechLevel 5
   Type "TP_Page9"
@@ -3486,6 +3489,8 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_GuidedTech_2_Buffer"
   Name "T_GuidedTech_2_Buffer_NAME"
   Description "T_GuidedTech_2_Buffer_DESC"
+  LeadsTo "T_AAM_3"
+  LeadsTo "T_AGM_3"
 
 [TECHNOLOGY] "T_GuidedTech_3"
   Name "T_GuidedTech_3_NAME"
@@ -3501,6 +3506,8 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_GuidedTech_3_Buffer"
   Name "T_GuidedTech_3_Buffer_NAME"
   Description "T_GuidedTech_3_Buffer_DESC"
+  LeadsTo "T_AAM_4"
+  LeadsTo "T_AGM_4"
 
 [TECHNOLOGY] "T_GuidedTech_4"
   Name "T_GuidedTech_4_NAME"
@@ -3565,7 +3572,7 @@ DRAWING DISTANCE 0.75
   Points 0.25
   LeadsTo "T_ExplosiveTech_5"
   LeadsTo "T_ExplosiveTech_4_Buffer"
-  TechLevel 5
+  TechLevel 7
   Type "TP_Page9"
 
 [TECHNOLOGY] "T_ExplosiveTech_4_Buffer"
@@ -3591,7 +3598,6 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_HypersonicMissile_2"
-  LeadsTo "T_HGVMissile_1"
   LeadsTo "T_HypersonicMissile_1_Buffer"
   TechLevel 7
   Type "TP_Page9"
@@ -3599,13 +3605,13 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_HypersonicMissile_1_Buffer"
   Name "T_HypersonicMissile_1_Buffer_NAME"
   Description "T_HypersonicMissile_1_Buffer_DESC"
+  LeadsTo "T_HGVMissile_1"
 
 [TECHNOLOGY] "T_HypersonicMissile_2"
   Name "T_HypersonicMissile_2_NAME"
   Description "T_HypersonicMissile_2_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-  LeadsTo "T_HGVMissile_2"
   LeadsTo "T_HypersonicMissile_2_Buffer"
   TechLevel 9
   Type "TP_Page9"
@@ -3613,13 +3619,13 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_HypersonicMissile_2_Buffer"
   Name "T_HypersonicMissile_2_Buffer_NAME"
   Description "T_HypersonicMissile_2_Buffer_DESC"
+  LeadsTo "T_HGVMissile_2"
 
-[TECHNOLOGY] "T_RailGun"
+/*[TECHNOLOGY] "T_RailGun"
   Name "T_RailGun_NAME"
   Description "T_RailGun_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
-  LeadsTo "T_BattleShip_3"
   LeadsTo "T_RailGun_Buffer"
   TechLevel 8
   Type "TP_Page9"
@@ -3627,6 +3633,8 @@ DRAWING DISTANCE 0.75
 [TECHNOLOGY] "T_RailGun_Buffer"
   Name "T_RailGun_Buffer_NAME"
   Description "T_RailGun_Buffer_DESC"
+  LeadsTo "T_BattleShip_3"
+*/
 
 
 
@@ -3652,6 +3660,7 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SAM_2"
+  LeadsTo "T_SAM_1_Buffer"
   TechLevel 2
   Type "TP_Page10"
 
@@ -3665,8 +3674,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SAM_3"
+  LeadsTo "T_SAM_2_Buffer"
   TechLevel 4
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_SAM_2_Buffer"
+  Name "T_SAM_2_Buffer_NAME"
+  Description "T_SAM_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_SAM_3"
   Name "T_SAM_3_NAME"
@@ -3674,8 +3688,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SAM_4"
+  LeadsTo "T_SAM_3_Buffer"
   TechLevel 6
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_SAM_3_Buffer"
+  Name "T_SAM_3_Buffer_NAME"
+  Description "T_SAM_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_SAM_4"
   Name "T_SAM_4_NAME"
@@ -3683,16 +3702,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SAM_5"
+  LeadsTo "T_SAM_4_Buffer"
   TechLevel 8
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_SAM_4_Buffer"
+  Name "T_SAM_4_Buffer_NAME"
+  Description "T_SAM_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_SAM_5"
   Name "T_SAM_5_NAME"
   Description "T_SAM_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SAM_5_Buffer"
   TechLevel 10
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_SAM_5_Buffer"
+  Name "T_SAM_5_Buffer_NAME"
+  Description "T_SAM_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_CIWS_1"
   Name "T_CIWS_1_NAME"
@@ -3700,8 +3729,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_CIWS_2"
+  LeadsTo "T_CIWS_1_Buffer"
   TechLevel 1
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_CIWS_1_Buffer"
+  Name "T_CIWS_1_Buffer_NAME"
+  Description "T_CIWS_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_CIWS_2"
   Name "T_CIWS_2_NAME"
@@ -3709,8 +3743,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_CIWS_3"
+  LeadsTo "T_CIWS_2_Buffer"
   TechLevel 3
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_CIWS_2_Buffer"
+  Name "T_CIWS_2_Buffer_NAME"
+  Description "T_CIWS_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_CIWS_3"
   Name "T_CIWS_3_NAME"
@@ -3718,8 +3757,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_LaserCIWS"
+  LeadsTo "T_CIWS_3_Buffer"
   TechLevel 5
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_CIWS_3_Buffer"
+  Name "T_CIWS_3_Buffer_NAME"
+  Description "T_CIWS_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_LaserCIWS"
   Name "T_LaserCIWS_NAME"
@@ -3727,8 +3771,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_LaserAA"
+  LeadsTo "T_LaserCIWS_Buffer"
   TechLevel 7
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_LaserCIWS_Buffer"
+  Name "T_LaserCIWS_Buffer_NAME"
+  Description "T_LaserCIWS_Buffer_DESC"
 
 [TECHNOLOGY] "T_LaserAA"
   Name "T_LaserAA_NAME"
@@ -3736,8 +3785,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_LaserAntiBallistic"
+  LeadsTo "T_LaserAA_Buffer"
   TechLevel 9
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_LaserAA_Buffer"
+  Name "T_LaserAA_Buffer_NAME"
+  Description "T_LaserAA_Buffer_DESC"
 
 [TECHNOLOGY] "T_TerminalABM_1"
   Name "T_TerminalABM_1_NAME"
@@ -3745,8 +3799,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_TerminalABM_2"
+  LeadsTo "T_TerminalABM_1_Buffer"
   TechLevel 2
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_TerminalABM_1_Buffer"
+  Name "T_TerminalABM_1_Buffer_NAME"
+  Description "T_TerminalABM_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_TerminalABM_2"
   Name "T_TerminalABM_2_NAME"
@@ -3754,8 +3813,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_TerminalABM_3"
+  LeadsTo "T_TerminalABM_2_Buffer"
   TechLevel 4
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_TerminalABM_2_Buffer"
+  Name "T_TerminalABM_2_Buffer_NAME"
+  Description "T_TerminalABM_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_TerminalABM_3"
   Name "T_TerminalABM_3_NAME"
@@ -3763,8 +3827,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_TerminalABM_4"
+  LeadsTo "T_TerminalABM_3_Buffer"
   TechLevel 6
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_TerminalABM_3_Buffer"
+  Name "T_TerminalABM_3_Buffer_NAME"
+  Description "T_TerminalABM_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_TerminalABM_4"
   Name "T_TerminalABM_4_NAME"
@@ -3772,16 +3841,40 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_LaserAntiBallistic"
+  LeadsTo "T_TerminalABM_4_Buffer"
   TechLevel 8
   Type "TP_Page10"
 
+[TECHNOLOGY] "T_TerminalABM_4_Buffer"
+  Name "T_TerminalABM_4_Buffer_NAME"
+  Description "T_TerminalABM_4_Buffer_DESC"
+
 [TECHNOLOGY] "T_LaserAntiBallistic"
   Name "T_LaserAntiBallistic_NAME"
-  Description "T_LaserAntiBallistic_DESC"
+  Description "T_LaserAntiBallistic_DES C"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_LaserAntiBallistic_Buffer"
+  LeadsTo "T_ABLAB"
   TechLevel 9
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_LaserAntiBallistic_Buffer"
+  Name "T_LaserAntiBallistic_Buffer_NAME"
+  Description "T_LaserAntiBallistic_Buffer_DESC"
+
+[TECHNOLOGY] "T_ABLAB"
+  Name "T_ABLAB_NAME"
+  Description "T_ABLAB_DESC"
+  Image "Testing Images/Missing 512x512.png"
+  Points 0.25
+  LeadsTo "T_ABLAB_Buffer"
+  TechLevel 10
+  Type "TP_Page5"
+
+[TECHNOLOGY] "T_ABLAB_Buffer"
+  Name "T_ABLAB_Buffer_NAME"
+  Description "T_ABLAB_Buffer_DESC"
 
 [TECHNOLOGY] "T_ABM_1"
   Name "T_ABM_1_NAME"
@@ -3789,8 +3882,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ABM_2"
+  LeadsTo "T_ABM_1_Buffer"
   TechLevel 1
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ABM_1_Buffer"
+  Name "T_ABM_1_Buffer_NAME"
+  Description "T_ABM_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_ABM_2"
   Name "T_ABM_2_NAME"
@@ -3798,8 +3896,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ABM_3"
+  LeadsTo "T_ABM_2_Buffer"
   TechLevel 2
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ABM_2_Buffer"
+  Name "T_ABM_2_Buffer_NAME"
+  Description "T_ABM_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_ABM_3"
   Name "T_ABM_3_NAME"
@@ -3807,8 +3910,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ABM_4"
+  LeadsTo "T_ABM_3_Buffer"
   TechLevel 4
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ABM_3_Buffer"
+  Name "T_ABM_3_Buffer_NAME"
+  Description "T_ABM_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_ABM_4"
   Name "T_ABM_4_NAME"
@@ -3816,8 +3924,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ABM_5"
+  LeadsTo "T_ABM_4_Buffer"
   TechLevel 6
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ABM_4_Buffer"
+  Name "T_ABM_4_Buffer_NAME"
+  Description "T_ABM_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_ABM_5"
   Name "T_ABM_5_NAME"
@@ -3825,24 +3938,39 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ABM_6"
+  LeadsTo "T_ABM_5_Buffer"
   TechLevel 8
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ABM_5_Buffer"
+  Name "T_ABM_5_Buffer_NAME"
+  Description "T_ABM_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_ABM_6"
   Name "T_ABM_6_NAME"
   Description "T_ABM_6_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_ABM_6_Buffer"
   TechLevel 10
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ABM_6_Buffer"
+  Name "T_ABM_6_Buffer_NAME"
+  Description "T_ABM_6_Buffer_DESC"
 
 [TECHNOLOGY] "T_ALABM"
   Name "T_ALABM_NAME"
   Description "T_ALABM_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_ALABM_Buffer"
   TechLevel 8
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ALABM_Buffer"
+  Name "T_ALABM_Buffer_NAME"
+  Description "T_ALABM_Buffer_DESC"
 
 [TECHNOLOGY] "T_SLAA_1"
   Name "T_SLAA_1_NAME"
@@ -3850,25 +3978,40 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SLAA_2"
+  LeadsTo "T_SLAA_1_Buffer"
   TechLevel 7
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_SLAA_1_Buffer"
+  Name "T_SLAA_1_Buffer_NAME"
+  Description "T_SLAA_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_SLAA_2"
   Name "T_SLAA_2_NAME"
   Description "T_SLAA_2_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SLAA_2_Buffer"
   TechLevel 9
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_SLAA_2_Buffer"
+  Name "T_SLAA_2_Buffer_NAME"
+  Description "T_SLAA_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_AntiTropedo"
   Name "T_AntiTropedo_NAME"
   Description "T_AntiTropedo_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_AntiTropedo_Buffer"
   LeadsTo "T_ATT_1"
   TechLevel 4
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_AntiTropedo_Buffer"
+  Name "T_AntiTropedo_Buffer_NAME"
+  Description "T_AntiTropedo_Buffer_DESC"
 
 [TECHNOLOGY] "T_ATT_1"
   Name "T_ATT_1_NAME"
@@ -3876,16 +4019,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ATT_2"
+  LeadsTo "T_ATT_1_Buffer"
   TechLevel 7
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ATT_1_Buffer"
+  Name "T_ATT_1_Buffer_NAME"
+  Description "T_ATT_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_ATT_2"
   Name "T_ATT_2_NAME"
   Description "T_ATT_2_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_ATT_2_Buffer"
   TechLevel 9
   Type "TP_Page10"
+
+[TECHNOLOGY] "T_ATT_2_Buffer"
+  Name "T_ATT_2_Buffer_NAME"
+  Description "T_ATT_2_Buffer_DESC"
 
 
 
@@ -3921,8 +4074,13 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Radar_2"
   LeadsTo "T_FireCtrlRadar_1"
   LeadsTo "T_SearchRadar_1"
+  LeadsTo "T_Radar_1_Buffer"
   TechLevel 1
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_Radar_1_Buffer"
+  Name "T_Radar_1_Buffer_NAME"
+  Description "T_Radar_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_Radar_2"
   Name "T_Radar_2_NAME"
@@ -3932,8 +4090,13 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Radar_3"
   LeadsTo "T_FireCtrlRadar_2"
   LeadsTo "T_SearchRadar_2"
+  LeadsTo "T_Radar_2_Buffer"
   TechLevel 4
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_Radar_2_Buffer"
+  Name "T_Radar_2_Buffer_NAME"
+  Description "T_Radar_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_Radar_3"
   Name "T_Radar_3_NAME"
@@ -3943,8 +4106,13 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Radar_4"
   LeadsTo "T_FireCtrlRadar_3"
   LeadsTo "T_SearchRadar_3"
+  LeadsTo "T_Radar_3_Buffer"
   TechLevel 6
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_Radar_3_Buffer"
+  Name "T_Radar_3_Buffer_NAME"
+  Description "T_Radar_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_Radar_4"
   Name "T_Radar_4_NAME"
@@ -3954,16 +4122,26 @@ DRAWING DISTANCE 0.75
   LeadsTo "T_Radar_5"
   LeadsTo "T_FireCtrlRadar_4"
   LeadsTo "T_SearchRadar_4"
+  LeadsTo "T_Radar_4_Buffer"
   TechLevel 8
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_Radar_4_Buffer"
+  Name "T_Radar_4_Buffer_NAME"
+  Description "T_Radar_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_Radar_5"
   Name "T_Radar_5_NAME"
   Description "T_Radar_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_Radar_5_Buffer"
   TechLevel 10
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_Radar_5_Buffer"
+  Name "T_Radar_5_Buffer_NAME"
+  Description "T_Radar_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_FireCtrlRadar_1"
   Name "T_FireCtrlRadar_1_NAME"
@@ -3971,8 +4149,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_FireCtrlRadar_2"
+  LeadsTo "T_FireCtrlRadar_1_Buffer"
   TechLevel 1
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_FireCtrlRadar_1_Buffer"
+  Name "T_FireCtrlRadar_1_Buffer_NAME"
+  Description "T_FireCtrlRadar_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_FireCtrlRadar_2"
   Name "T_FireCtrlRadar_2_NAME"
@@ -3980,10 +4163,15 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_FireCtrlRadar_3"
-  LeadsTo "T_Gen4.5Fighter"
-  LeadsTo "T_Gen5Fighter_US"
+  LeadsTo "T_FireCtrlRadar_2_Buffer"
   TechLevel 4
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_FireCtrlRadar_2_Buffer"
+  Name "T_FireCtrlRadar_2_Buffer_NAME"
+  Description "T_FireCtrlRadar_2_Buffer_DESC"
+  LeadsTo "T_Gen4.5Fighter"
+  LeadsTo "T_Gen5Fighter_US"
 
 [TECHNOLOGY] "T_FireCtrlRadar_3"
   Name "T_FireCtrlRadar_3_NAME"
@@ -3991,16 +4179,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_FireCtrlRadar_4"
+  LeadsTo "T_FireCtrlRadar_3_Buffer"
   TechLevel 6
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_FireCtrlRadar_3_Buffer"
+  Name "T_FireCtrlRadar_3_Buffer_NAME"
+  Description "T_FireCtrlRadar_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_FireCtrlRadar_4"
   Name "T_FireCtrlRadar_4_NAME"
   Description "T_FireCtrlRadar_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_FireCtrlRadar_4_Buffer"
   TechLevel 8
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_FireCtrlRadar_4_Buffer"
+  Name "T_FireCtrlRadar_4_Buffer_NAME"
+  Description "T_FireCtrlRadar_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_SearchRadar_1"
   Name "T_SearchRadar_1_NAME"
@@ -4008,8 +4206,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SearchRadar_2"
+  LeadsTo "T_SearchRadar_1_Buffer"
   TechLevel 1
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SearchRadar_1_Buffer"
+  Name "T_SearchRadar_1_Buffer_NAME"
+  Description "T_SearchRadar_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_SearchRadar_2"
   Name "T_SearchRadar_2_NAME"
@@ -4017,10 +4220,15 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SearchRadar_3"
-  LeadsTo "T_Gen4.5Fighter"
-  LeadsTo "T_Gen5Fighter_US"
+  LeadsTo "T_SearchRadar_2_Buffer"
   TechLevel 4
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SearchRadar_2_Buffer"
+  Name "T_SearchRadar_2_Buffer_NAME"
+  Description "T_SearchRadar_2_Buffer_DESC"
+  LeadsTo "T_Gen4.5Fighter"
+  LeadsTo "T_Gen5Fighter_US"
 
 [TECHNOLOGY] "T_SearchRadar_3"
   Name "T_SearchRadar_3_NAME"
@@ -4028,16 +4236,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SearchRadar_4"
+  LeadsTo "T_SearchRadar_3_Buffer"
   TechLevel 6
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SearchRadar_3_Buffer"
+  Name "T_SearchRadar_3_Buffer_NAME"
+  Description "T_SearchRadar_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_SearchRadar_4"
   Name "T_SearchRadar_4_NAME"
   Description "T_SearchRadar_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SearchRadar_4_Buffer"
   TechLevel 8
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SearchRadar_4_Buffer"
+  Name "T_SearchRadar_4_Buffer_NAME"
+  Description "T_SearchRadar_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_OTHRadar_1"
   Name "T_OTHRadar_1_NAME"
@@ -4045,8 +4263,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_OTHRadar_2"
+  LeadsTo "T_OTHRadar_1_Buffer"
   TechLevel 1
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_OTHRadar_1_Buffer"
+  Name "T_OTHRadar_1_Buffer_NAME"
+  Description "T_OTHRadar_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_OTHRadar_2"
   Name "T_OTHRadar_2_NAME"
@@ -4054,8 +4277,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_OTHRadar_3"
+  LeadsTo "T_OTHRadar_2_Buffer"
   TechLevel 3
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_OTHRadar_2_Buffer"
+  Name "T_OTHRadar_2_Buffer_NAME"
+  Description "T_OTHRadar_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_OTHRadar_3"
   Name "T_OTHRadar_3_NAME"
@@ -4063,8 +4291,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_OTHRadar_4"
+  LeadsTo "T_OTHRadar_3_Buffer"
   TechLevel 5
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_OTHRadar_3_Buffer"
+  Name "T_OTHRadar_3_Buffer_NAME"
+  Description "T_OTHRadar_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_OTHRadar_4"
   Name "T_OTHRadar_4_NAME"
@@ -4072,16 +4305,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_OTHRadar_5"
+  LeadsTo "T_OTHRadar_4_Buffer"
   TechLevel 7
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_OTHRadar_4_Buffer"
+  Name "T_OTHRadar_4_Buffer_NAME"
+  Description "T_OTHRadar_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_OTHRadar_5"
   Name "T_OTHRadar_5_NAME"
   Description "T_OTHRadar_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_OTHRadar_5_Buffer"
   TechLevel 9
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_OTHRadar_5_Buffer"
+  Name "T_OTHRadar_5_Buffer_NAME"
+  Description "T_OTHRadar_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_SpaceRadar_1"
   Name "T_SpaceRadar_1_NAME"
@@ -4089,8 +4332,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SpaceRadar_2"
+  LeadsTo "T_SpaceRadar_1_Buffer"
   TechLevel 1
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SpaceRadar_1_Buffer"
+  Name "T_SpaceRadar_1_Buffer_NAME"
+  Description "T_SpaceRadar_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_SpaceRadar_2"
   Name "T_SpaceRadar_2_NAME"
@@ -4098,8 +4346,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SpaceRadar_3"
+  LeadsTo "T_SpaceRadar_2_Buffer"
   TechLevel 2
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SpaceRadar_2_Buffer"
+  Name "T_SpaceRadar_2_Buffer_NAME"
+  Description "T_SpaceRadar_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_SpaceRadar_3"
   Name "T_SpaceRadar_3_NAME"
@@ -4107,16 +4360,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SpaceRadar_4"
+  LeadsTo "T_SpaceRadar_3_Buffer"
   TechLevel 4
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SpaceRadar_3_Buffer"
+  Name "T_SpaceRadar_3_Buffer_NAME"
+  Description "T_SpaceRadar_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_SpaceRadar_4"
   Name "T_SpaceRadar_4_NAME"
   Description "T_SpaceRadar_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SpaceRadar_4_Buffer"
   TechLevel 8
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SpaceRadar_4_Buffer"
+  Name "T_SpaceRadar_4_Buffer_NAME"
+  Description "T_SpaceRadar_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_EarlyWarningRadar_1"
   Name "T_EarlyWarningRadar_1_NAME"
@@ -4124,8 +4387,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EarlyWarningRadar_2"
+  LeadsTo "T_EarlyWarningRadar_1_Buffer"
   TechLevel 1
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_EarlyWarningRadar_1_Buffer"
+  Name "T_EarlyWarningRadar_1_Buffer_NAME"
+  Description "T_EarlyWarningRadar_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_EarlyWarningRadar_2"
   Name "T_EarlyWarningRadar_2_NAME"
@@ -4133,8 +4401,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EarlyWarningRadar_3"
+  LeadsTo "T_EarlyWarningRadar_2_Buffer"
   TechLevel 4
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_EarlyWarningRadar_2_Buffer"
+  Name "T_EarlyWarningRadar_2_Buffer_NAME"
+  Description "T_EarlyWarningRadar_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_EarlyWarningRadar_3"
   Name "T_EarlyWarningRadar_3_NAME"
@@ -4142,16 +4415,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EarlyWarningRadar_4"
+  LeadsTo "T_EarlyWarningRadar_3_Buffer"
   TechLevel 6
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_EarlyWarningRadar_3_Buffer"
+  Name "T_EarlyWarningRadar_3_Buffer_NAME"
+  Description "T_EarlyWarningRadar_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_EarlyWarningRadar_4"
   Name "T_EarlyWarningRadar_4_NAME"
   Description "T_EarlyWarningRadar_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_EarlyWarningRadar_4_Buffer"
   TechLevel 8
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_EarlyWarningRadar_4_Buffer"
+  Name "T_EarlyWarningRadar_4_Buffer_NAME"
+  Description "T_EarlyWarningRadar_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_SonarTech_1"
   Name "T_SonarTech_1_NAME"
@@ -4159,8 +4442,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SonarTech_2"
+  LeadsTo "T_SonarTech_1_Buffer"
   TechLevel 2
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SonarTech_1_Buffer"
+  Name "T_SonarTech_1_Buffer_NAME"
+  Description "T_SonarTech_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_SonarTech_2"
   Name "T_SonarTech_2_NAME"
@@ -4168,8 +4456,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SonarTech_3"
+  LeadsTo "T_SonarTech_2_Buffer"
   TechLevel 4
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SonarTech_2_Buffer"
+  Name "T_SonarTech_2_Buffer_NAME"
+  Description "T_SonarTech_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_SonarTech_3"
   Name "T_SonarTech_3_NAME"
@@ -4177,8 +4470,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SonarTech_4"
+  LeadsTo "T_SonarTech_3_Buffer"
   TechLevel 6
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SonarTech_3_Buffer"
+  Name "T_SonarTech_3_Buffer_NAME"
+  Description "T_SonarTech_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_SonarTech_4"
   Name "T_SonarTech_4_NAME"
@@ -4186,16 +4484,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_SonarTech_5"
+  LeadsTo "T_SonarTech_4_Buffer"
   TechLevel 8
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SonarTech_4_Buffer"
+  Name "T_SonarTech_4_Buffer_NAME"
+  Description "T_SonarTech_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_SonarTech_5"
   Name "T_SonarTech_5_NAME"
   Description "T_SonarTech_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SonarTech_5_Buffer"
   TechLevel 10
   Type "TP_Page11"
+
+[TECHNOLOGY] "T_SonarTech_5_Buffer"
+  Name "T_SonarTech_5_Buffer_NAME"
+  Description "T_SonarTech_5_Buffer_DESC"
 
 
 
@@ -4226,8 +4534,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWTech_1"
+  LeadsTo "T_EWAircraft_Buffer"
   TechLevel 1
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWAircraft_Buffer"
+  Name "T_EWAircraft_Buffer_NAME"
+  Description "T_EWAircraft_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWTech_1"
   Name "T_EWTech_1_NAME"
@@ -4235,8 +4548,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWTech_2"
+  LeadsTo "T_EWTech_1_Buffer"
   TechLevel 3
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWTech_1_Buffer"
+  Name "T_EWTech_1_Buffer_NAME"
+  Description "T_EWTech_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWTech_2"
   Name "T_EWTech_2_NAME"
@@ -4244,8 +4562,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWTech_3"
+  LeadsTo "T_EWTech_2_Buffer"
   TechLevel 5
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWTech_2_Buffer"
+  Name "T_EWTech_2_Buffer_NAME"
+  Description "T_EWTech_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWTech_3"
   Name "T_EWTech_3_NAME"
@@ -4253,16 +4576,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWTech_4"
+  LeadsTo "T_EWTech_3_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWTech_3_Buffer"
+  Name "T_EWTech_3_Buffer_NAME"
+  Description "T_EWTech_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWTech_4"
   Name "T_EWTech_4_NAME"
   Description "T_EWTech_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_EWTech_4_Buffer"
   TechLevel 9
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWTech_4_Buffer"
+  Name "T_EWTech_4_Buffer_NAME"
+  Description "T_EWTech_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWProtection_1"
   Name "T_EWProtection_1_NAME"
@@ -4270,8 +4603,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWProtection_2"
+  LeadsTo "T_EWProtection_1_Buffer"
   TechLevel 1
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWProtection_1_Buffer"
+  Name "T_EWProtection_1_Buffer_NAME"
+  Description "T_EWProtection_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWProtection_2"
   Name "T_EWProtection_2_NAME"
@@ -4279,8 +4617,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWProtection_3"
+  LeadsTo "T_EWProtection_2_Buffer"
   TechLevel 3
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWProtection_2_Buffer"
+  Name "T_EWProtection_2_Buffer_NAME"
+  Description "T_EWProtection_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWProtection_3"
   Name "T_EWProtection_3_NAME"
@@ -4288,8 +4631,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWProtection_4"
+  LeadsTo "T_EWProtection_3_Buffer"
   TechLevel 5
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWProtection_3_Buffer"
+  Name "T_EWProtection_3_Buffer_NAME"
+  Description "T_EWProtection_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWProtection_4"
   Name "T_EWProtection_4_NAME"
@@ -4297,16 +4645,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_EWProtection_5"
+  LeadsTo "T_EWProtection_4_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWProtection_4_Buffer"
+  Name "T_EWProtection_4_Buffer_NAME"
+  Description "T_EWProtection_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_EWProtection_5"
   Name "T_EWProtection_5_NAME"
   Description "T_EWProtection_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_EWProtection_5_Buffer"
   TechLevel 9
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_EWProtection_5_Buffer"
+  Name "T_EWProtection_5_Buffer_NAME"
+  Description "T_EWProtection_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_Stealth_1"
   Name "T_Stealth_1_NAME"
@@ -4314,8 +4672,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_Stealth_2"
+  LeadsTo "T_Stealth_1_Buffer"
   TechLevel 3
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_Stealth_1_Buffer"
+  Name "T_Stealth_1_Buffer_NAME"
+  Description "T_Stealth_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_Stealth_2"
   Name "T_Stealth_2_NAME"
@@ -4323,8 +4686,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_Stealth_3"
-  TechLevel 6
+  LeadsTo "T_Stealth_2_Buffer"
+  TechLevel 4
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_Stealth_2_Buffer"
+  Name "T_Stealth_2_Buffer_NAME"
+  Description "T_Stealth_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_Stealth_3"
   Name "T_Stealth_3_NAME"
@@ -4332,8 +4700,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_Stealth_4"
-  TechLevel 4
+  LeadsTo "T_Stealth_3_Buffer"
+  TechLevel 6
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_Stealth_3_Buffer"
+  Name "T_Stealth_3_Buffer_NAME"
+  Description "T_Stealth_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_Stealth_4"
   Name "T_Stealth_4_NAME"
@@ -4341,16 +4714,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_Stealth_5"
+  LeadsTo "T_Stealth_4_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_Stealth_4_Buffer"
+  Name "T_Stealth_4_Buffer_NAME"
+  Description "T_Stealth_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_Stealth_5"
   Name "T_Stealth_5_NAME"
   Description "T_Stealth_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_Stealth_5_Buffer"
   TechLevel 10
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_Stealth_5_Buffer"
+  Name "T_Stealth_5_Buffer_NAME"
+  Description "T_Stealth_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_ECM_1"
   Name "T_ECM_1_NAME"
@@ -4358,8 +4741,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ECM_2"
+  LeadsTo "T_ECM_1_Buffer"
   TechLevel 1
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_ECM_1_Buffer"
+  Name "T_ECM_1_Buffer_NAME"
+  Description "T_ECM_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_ECM_2"
   Name "T_ECM_2_NAME"
@@ -4367,8 +4755,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ECM_3"
+  LeadsTo "T_ECM_2_Buffer"
   TechLevel 3
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_ECM_2_Buffer"
+  Name "T_ECM_2_Buffer_NAME"
+  Description "T_ECM_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_ECM_3"
   Name "T_ECM_3_NAME"
@@ -4376,8 +4769,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ECM_4"
+  LeadsTo "T_ECM_3_Buffer"
   TechLevel 5
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_ECM_3_Buffer"
+  Name "T_ECM_3_Buffer_NAME"
+  Description "T_ECM_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_ECM_4"
   Name "T_ECM_4_NAME"
@@ -4385,24 +4783,39 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_ECM_5"
+  LeadsTo "T_ECM_4_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_ECM_4_Buffer"
+  Name "T_ECM_4_Buffer_NAME"
+  Description "T_ECM_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_ECM_5"
   Name "T_ECM_5_NAME"
   Description "T_ECM_5_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_ECM_5_Buffer"
   TechLevel 9
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_ECM_5_Buffer"
+  Name "T_ECM_5_Buffer_NAME"
+  Description "T_ECM_5_Buffer_DESC"
 
 [TECHNOLOGY] "T_SuicideFPV"
   Name "T_SuicideFPV_NAME"
   Description "T_SuicideFPV_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_SuicideFPV_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_SuicideFPV_Buffer"
+  Name "T_SuicideFPV_Buffer_NAME"
+  Description "T_SuicideFPV_Buffer_DESC"
 
 [TECHNOLOGY] "T_UnconventionalWarfare_1"
   Name "T_UnconventionalWarfare_1_NAME"
@@ -4410,8 +4823,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_UnconventionalWarfare_2"
+  LeadsTo "T_UnconventionalWarfare_1_Buffer"
   TechLevel 3
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_UnconventionalWarfare_1_Buffer"
+  Name "T_UnconventionalWarfare_1_Buffer_NAME"
+  Description "T_UnconventionalWarfare_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_UnconventionalWarfare_2"
   Name "T_UnconventionalWarfare_2_NAME"
@@ -4419,8 +4837,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_UnconventionalWarfare_3"
+  LeadsTo "T_UnconventionalWarfare_2_Buffer"
   TechLevel 5
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_UnconventionalWarfare_2_Buffer"
+  Name "T_UnconventionalWarfare_2_Buffer_NAME"
+  Description "T_UnconventionalWarfare_2_Buffer_DESC"
 
 [TECHNOLOGY] "T_UnconventionalWarfare_3"
   Name "T_UnconventionalWarfare_3_NAME"
@@ -4428,16 +4851,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_UnconventionalWarfare_4"
+  LeadsTo "T_UnconventionalWarfare_3_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_UnconventionalWarfare_3_Buffer"
+  Name "T_UnconventionalWarfare_3_Buffer_NAME"
+  Description "T_UnconventionalWarfare_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_UnconventionalWarfare_4"
   Name "T_UnconventionalWarfare_4_NAME"
   Description "T_UnconventionalWarfare_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_UnconventionalWarfare_4_Buffer"
   TechLevel 10
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_UnconventionalWarfare_4_Buffer"
+  Name "T_UnconventionalWarfare_4_Buffer_NAME"
+  Description "T_UnconventionalWarfare_4_Buffer_DESC"
 
 [TECHNOLOGY] "T_AUW_1"
   Name "T_AUW_1_NAME"
@@ -4445,8 +4878,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_AUW_2"
+  LeadsTo "T_AUW_1_Buffer"
   TechLevel 3
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_AUW_1_Buffer"
+  Name "T_AUW_1_Buffer_NAME"
+  Description "T_AUW_1_Buffer_DESC"
 
 [TECHNOLOGY] "T_AUW_2"
   Name "T_AUW_2_NAME"
@@ -4454,8 +4892,13 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_AUW_3"
+  LeadsTo "T_AUW_2_Buffer"
   TechLevel 5
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_AUW_2_Buffer"
+  Name "T_AUW_2_Buffer_NAME"
+  Description "T_AUW_2_Buffer_DESC
 
 [TECHNOLOGY] "T_AUW_3"
   Name "T_AUW_3_NAME"
@@ -4463,55 +4906,26 @@ DRAWING DISTANCE 0.75
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
   LeadsTo "T_AUW_4"
+  LeadsTo "T_AUW_3_Buffer"
   TechLevel 7
   Type "TP_Page12"
+
+[TECHNOLOGY] "T_AUW_3_Buffer"
+  Name "T_AUW_3_Buffer_NAME"
+  Description "T_AUW_3_Buffer_DESC"
 
 [TECHNOLOGY] "T_AUW_4"
   Name "T_AUW_4_NAME"
   Description "T_AUW_4_DESC"
   Image "Testing Images/Missing 512x512.png"
   Points 0.25
+  LeadsTo "T_AUW_4_Buffer"
   TechLevel 10
   Type "TP_Page12"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[TECHNOLOGY] "T_AUW_4_Buffer"
+  Name "T_AUW_4_Buffer_NAME"
+  Description "T_AUW_4_Buffer_DESC"
 
 
 
@@ -5089,61 +5503,5 @@ DRAWING DISTANCE 0.75
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[TECHNOLOGY] "U_City"
-  Name "U_CITY_NAME"
-  Description "U_CITY_DESC"
-
-[TECHNOLOGY] "U_TestBuiding"
-  Name "U_TestBuiding_NAME"
-  Description "U_TestBuiding_DESC"
-
-[TECHNOLOGY] "U_TestArmy"
- Name "U_TestArmy_NAME"
- Description "U_TestArmy_DESC"  
-
-[TECHNOLOGY] "U_TestUnit"
- Name "U_TestUnit_NAME"
- Description "U_TestUnit_DESC"  
-
-[TECHNOLOGY] "R_TestRadar"
-  Name "R_TestRadar_NAME"
-  Description "R_TestRadar_DESC"
-
-[TECHNOLOGY] "M_TestWeapon"
- Name "M_TestWeapon_NAME"
- Description "M_TestWeapon_DESC"
- 
-[TECHNOLOGY] "M_Massacre" 
- Name "M_Massacre_NAME"
- Description "M_Massacre_DESC"
 
 [END]
