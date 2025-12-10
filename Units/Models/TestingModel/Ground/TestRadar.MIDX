@@ -1,0 +1,2 @@
+Model "Units/Models/TestingModel/Ground/TestRadarTruck.fbx"
+ELEMENT "Radar" Axis z Speed 0.3

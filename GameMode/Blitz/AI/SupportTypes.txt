@@ -1,4 +1,4 @@
-MainForce // occupies cities
-  default "TestArmy"  
+//MainForce // occupies cities
+//  default "TestArmy"  
   
 END

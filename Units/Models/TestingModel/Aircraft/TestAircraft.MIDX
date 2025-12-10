@@ -1,1 +1,4 @@
 Model "Units\Models\TestingModel\Aircraft\TestAircraft.fbx"
+
+Exhaust "Exhaust0" Axis z
+Exhaust "Exhaust1" Axis z
